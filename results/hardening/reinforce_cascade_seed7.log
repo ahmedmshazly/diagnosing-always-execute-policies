@@ -1,0 +1,18 @@
+Phase-5 full-training run: results/hardening/reinforce_cascade_seed7
+  init_seed=7  batch_size=16
+  curriculum: [(100, 300, 150)]
+  validation pool: 20 seeds (every 25 updates)
+  [update    0] stage=0 mean_return=+25.395  loss= -0.0299  entropy=1.7812  steps=3515
+    [val @ update   25] mean=+158.844 (std 33.100, n=20) best-so-far=+158.844 *
+  [update   25] stage=0 mean_return=+67.271  loss= -0.1415  entropy=1.7152  steps=121451
+    [val @ update   50] mean= +20.965 (std 18.711, n=20) best-so-far=+158.844  
+  [update   50] stage=0 mean_return=+81.291  loss= +0.0632  entropy=1.5273  steps=235251
+    [val @ update   75] mean= +20.965 (std 18.711, n=20) best-so-far=+158.844  
+  [update   75] stage=0 mean_return=+61.065  loss= -0.1429  entropy=1.2147  steps=357840
+    [val @ update  100] mean= +20.965 (std 18.711, n=20) best-so-far=+158.844  
+  [update  100] stage=0 mean_return=+63.299  loss= -0.0886  entropy=1.0955  steps=474683
+    [val @ update  125] mean= +20.965 (std 18.711, n=20) best-so-far=+158.844  
+  [update  125] stage=0 mean_return=+85.626  loss= -0.0104  entropy=1.0631  steps=593862
+    [val @ update  150] mean= +20.965 (std 18.711, n=20) best-so-far=+158.844  
+---
+Done. 150 updates, 719964 env steps, best val=+158.844 @ update 25  (1516.1 s wall-clock)
