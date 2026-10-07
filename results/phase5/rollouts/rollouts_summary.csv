@@ -1,0 +1,6 @@
+seed,steps,cumulative_reward,completed_jobs,failed_jobs,terminated,truncated
+200,300,145.9256,55,23,False,True
+203,300,151.0652,64,16,False,True
+210,300,126.7912,68,13,False,True
+225,300,98.9446,64,18,False,True
+240,300,116.1986,64,13,False,True

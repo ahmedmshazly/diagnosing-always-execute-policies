@@ -1,0 +1,58 @@
+{
+  "action_histograms": [
+    {
+      "Defer_Job": 0,
+      "Execute_Ready_Job": 300,
+      "Pause_LowPriority_Job": 0,
+      "Reprioritize_Queue": 0,
+      "Scale_Down": 0,
+      "Scale_Up": 0,
+      "seed": 200
+    },
+    {
+      "Defer_Job": 0,
+      "Execute_Ready_Job": 300,
+      "Pause_LowPriority_Job": 0,
+      "Reprioritize_Queue": 0,
+      "Scale_Down": 0,
+      "Scale_Up": 0,
+      "seed": 203
+    },
+    {
+      "Defer_Job": 0,
+      "Execute_Ready_Job": 300,
+      "Pause_LowPriority_Job": 0,
+      "Reprioritize_Queue": 0,
+      "Scale_Down": 0,
+      "Scale_Up": 0,
+      "seed": 210
+    },
+    {
+      "Defer_Job": 0,
+      "Execute_Ready_Job": 300,
+      "Pause_LowPriority_Job": 0,
+      "Reprioritize_Queue": 0,
+      "Scale_Down": 0,
+      "Scale_Up": 0,
+      "seed": 225
+    },
+    {
+      "Defer_Job": 0,
+      "Execute_Ready_Job": 300,
+      "Pause_LowPriority_Job": 0,
+      "Reprioritize_Queue": 0,
+      "Scale_Down": 0,
+      "Scale_Up": 0,
+      "seed": 240
+    }
+  ],
+  "checkpoint": "results/phase5/rl_seed11/policy_best_by_val.pt",
+  "num_steps_total": 1500,
+  "seeds": [
+    200,
+    203,
+    210,
+    225,
+    240
+  ]
+}

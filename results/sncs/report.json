@@ -1,0 +1,96 @@
+{
+  "inputs": {
+    "n50": "results/sncs/rechecked_n50.csv",
+    "n50_reevaluation_differences": [],
+    "n250": "results/sncs/rechecked_n250.csv",
+    "n250_reevaluation_differences": []
+  },
+  "paired_comparison": {
+    "n": 250,
+    "mean_rl": 125.4685608,
+    "mean_reflex": 128.5251416,
+    "difference": -3.0565808,
+    "difference_ci95": [
+      -4.94453236,
+      -1.1904298800000002
+    ],
+    "wilcoxon_p": 0.002302139039270992,
+    "t_p": 0.0015799527054961317,
+    "iqm_rl": 124.94481587301586,
+    "iqm_reflex": 129.42403174603177,
+    "iqm_rl_ci95": [
+      120.54123777777777,
+      129.42810285714287
+    ],
+    "iqm_reflex_ci95": [
+      124.98052496031748,
+      133.73848325396824
+    ],
+    "wins": 78,
+    "losses": 100,
+    "ties": 72,
+    "strict_win_fraction": 0.312,
+    "paired_win_score": 0.456,
+    "paired_win_score_ci95": [
+      0.404,
+      0.508
+    ],
+    "mean_difference_ci90": [
+      -4.636159848972337,
+      -1.4770017510276627
+    ],
+    "exploratory_tost_3": false,
+    "exploratory_tost_5": true,
+    "observed_dz": 0.2020554516492445,
+    "paired_t_sensitivity_n50": 0.28841369782853704,
+    "paired_t_sensitivity_n250": 0.8892346324096764
+  },
+  "probe": [
+    {
+      "action": "Defer_Job",
+      "mean": -1.382516,
+      "cluster_ci_low": -2.0093959999999997,
+      "cluster_ci_high": -0.8246693333333333,
+      "source_episodes": 5,
+      "sampled_states": 75,
+      "futures_per_state": 16
+    },
+    {
+      "action": "Scale_Up",
+      "mean": -1.376028,
+      "cluster_ci_low": -1.992241333333333,
+      "cluster_ci_high": -0.8246693333333333,
+      "source_episodes": 5,
+      "sampled_states": 75,
+      "futures_per_state": 16
+    },
+    {
+      "action": "Scale_Down",
+      "mean": -7.184682666666667,
+      "cluster_ci_low": -8.340391999999998,
+      "cluster_ci_high": -6.272153333333334,
+      "source_episodes": 5,
+      "sampled_states": 75,
+      "futures_per_state": 16
+    },
+    {
+      "action": "Reprioritize_Queue",
+      "mean": -0.644632,
+      "cluster_ci_low": -1.235868,
+      "cluster_ci_high": -0.053396,
+      "source_episodes": 5,
+      "sampled_states": 75,
+      "futures_per_state": 16
+    },
+    {
+      "action": "Pause_LowPriority_Job",
+      "mean": -2.6250253333333338,
+      "cluster_ci_low": -4.440512,
+      "cluster_ci_high": -0.9927266666666666,
+      "source_episodes": 5,
+      "sampled_states": 75,
+      "futures_per_state": 16
+    }
+  ],
+  "inference": "Workload-level uncertainty conditional on saved policies; not training-seed inference."
+}

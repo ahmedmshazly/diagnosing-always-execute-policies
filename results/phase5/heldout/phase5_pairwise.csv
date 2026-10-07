@@ -1,0 +1,57 @@
+lhs,rhs,metric,n_pairs,n_nonzero,mean_delta,median_delta,statistic,p_value
+rl_seed7,Reflex Agent,total_utility,50,29,-3.962088000000001,0.0,136.0,0.07975950092077255
+rl_seed7,Reflex Agent,completion_rate,50,23,-0.0042000000000000015,0.0,80.0,0.07418660859336451
+rl_seed7,Reflex Agent,value_weighted_completion_rate,50,28,-0.004704000000000002,0.0,126.5,0.08149613521812979
+rl_seed7,Reflex Agent,uncapped_completion_rate,50,25,-0.005199999999999994,0.0,120.0,0.2511763958272849
+rl_seed7,Reflex Agent,failure_rate,50,22,0.006000000000000002,0.0,71.5,0.07381927871052388
+rl_seed7,Reflex Agent,total_completed_value,50,28,-1.3726000000000023,0.0,127.5,0.08556008981895051
+rl_seed7,Reflex Agent,total_compute_cost,50,29,19.894879999999997,0.0,169.0,0.30419324710965157
+rl_seed7,Reflex Agent,avg_compute_cost_per_step,50,29,0.06631000000000001,0.0,169.0,0.30419324710965157
+rl_seed7,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",total_utility,50,50,26.057708000000005,94.44800000000001,520.0,0.26120880915335754
+rl_seed7,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",completion_rate,50,45,0.08100000000000002,0.065,87.5,1.202454880012327e-06
+rl_seed7,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",value_weighted_completion_rate,50,50,0.06801600000000001,0.050000000000000044,159.0,7.239255257474042e-07
+rl_seed7,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",uncapped_completion_rate,50,46,0.01159999999999999,0.014999999999999958,386.0,0.09103979166280214
+rl_seed7,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",failure_rate,50,46,0.022600000000000002,0.020000000000000004,259.5,0.0021262859624617816
+rl_seed7,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",total_completed_value,50,50,20.2294,15.015,159.0,7.239255257474042e-07
+rl_seed7,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",total_compute_cost,50,50,182.97616000000002,200.115,141.0,2.1499046276574063e-07
+rl_seed7,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",avg_compute_cost_per_step,50,50,0.609918,0.6670499999999999,141.0,2.1499046276574063e-07
+rl_seed11,Reflex Agent,total_utility,50,29,-3.962088000000001,0.0,136.0,0.07975950092077255
+rl_seed11,Reflex Agent,completion_rate,50,23,-0.0042000000000000015,0.0,80.0,0.07418660859336451
+rl_seed11,Reflex Agent,value_weighted_completion_rate,50,28,-0.004704000000000002,0.0,126.5,0.08149613521812979
+rl_seed11,Reflex Agent,uncapped_completion_rate,50,25,-0.005199999999999994,0.0,120.0,0.2511763958272849
+rl_seed11,Reflex Agent,failure_rate,50,22,0.006000000000000002,0.0,71.5,0.07381927871052388
+rl_seed11,Reflex Agent,total_completed_value,50,28,-1.3726000000000023,0.0,127.5,0.08556008981895051
+rl_seed11,Reflex Agent,total_compute_cost,50,29,19.894879999999997,0.0,169.0,0.30419324710965157
+rl_seed11,Reflex Agent,avg_compute_cost_per_step,50,29,0.06631000000000001,0.0,169.0,0.30419324710965157
+rl_seed11,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",total_utility,50,50,26.057708000000005,94.44800000000001,520.0,0.26120880915335754
+rl_seed11,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",completion_rate,50,45,0.08100000000000002,0.065,87.5,1.202454880012327e-06
+rl_seed11,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",value_weighted_completion_rate,50,50,0.06801600000000001,0.050000000000000044,159.0,7.239255257474042e-07
+rl_seed11,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",uncapped_completion_rate,50,46,0.01159999999999999,0.014999999999999958,386.0,0.09103979166280214
+rl_seed11,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",failure_rate,50,46,0.022600000000000002,0.020000000000000004,259.5,0.0021262859624617816
+rl_seed11,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",total_completed_value,50,50,20.2294,15.015,159.0,7.239255257474042e-07
+rl_seed11,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",total_compute_cost,50,50,182.97616000000002,200.115,141.0,2.1499046276574063e-07
+rl_seed11,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",avg_compute_cost_per_step,50,50,0.609918,0.6670499999999999,141.0,2.1499046276574063e-07
+rl_seed13,Reflex Agent,total_utility,50,29,-3.962088000000001,0.0,136.0,0.07975950092077255
+rl_seed13,Reflex Agent,completion_rate,50,23,-0.0042000000000000015,0.0,80.0,0.07418660859336451
+rl_seed13,Reflex Agent,value_weighted_completion_rate,50,28,-0.004704000000000002,0.0,126.5,0.08149613521812979
+rl_seed13,Reflex Agent,uncapped_completion_rate,50,25,-0.005199999999999994,0.0,120.0,0.2511763958272849
+rl_seed13,Reflex Agent,failure_rate,50,22,0.006000000000000002,0.0,71.5,0.07381927871052388
+rl_seed13,Reflex Agent,total_completed_value,50,28,-1.3726000000000023,0.0,127.5,0.08556008981895051
+rl_seed13,Reflex Agent,total_compute_cost,50,29,19.894879999999997,0.0,169.0,0.30419324710965157
+rl_seed13,Reflex Agent,avg_compute_cost_per_step,50,29,0.06631000000000001,0.0,169.0,0.30419324710965157
+rl_seed13,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",total_utility,50,50,26.057708000000005,94.44800000000001,520.0,0.26120880915335754
+rl_seed13,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",completion_rate,50,45,0.08100000000000002,0.065,87.5,1.202454880012327e-06
+rl_seed13,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",value_weighted_completion_rate,50,50,0.06801600000000001,0.050000000000000044,159.0,7.239255257474042e-07
+rl_seed13,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",uncapped_completion_rate,50,46,0.01159999999999999,0.014999999999999958,386.0,0.09103979166280214
+rl_seed13,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",failure_rate,50,46,0.022600000000000002,0.020000000000000004,259.5,0.0021262859624617816
+rl_seed13,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",total_completed_value,50,50,20.2294,15.015,159.0,7.239255257474042e-07
+rl_seed13,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",total_compute_cost,50,50,182.97616000000002,200.115,141.0,2.1499046276574063e-07
+rl_seed13,"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",avg_compute_cost_per_step,50,50,0.609918,0.6670499999999999,141.0,2.1499046276574063e-07
+"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",Reflex Agent,total_utility,50,50,-30.019795999999992,-96.1823,505.0,0.20447619481721802
+"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",Reflex Agent,completion_rate,50,47,-0.0852,-0.07,78.0,2.662650010812975e-07
+"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",Reflex Agent,value_weighted_completion_rate,50,50,-0.07272,-0.06059999999999999,126.0,7.235236054725647e-08
+"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",Reflex Agent,uncapped_completion_rate,50,45,-0.016799999999999985,-0.029999999999999916,292.5,0.01099237485635974
+"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",Reflex Agent,failure_rate,50,47,-0.016599999999999997,-0.01999999999999999,339.5,0.01744734551994284
+"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",Reflex Agent,total_completed_value,50,50,-21.602000000000004,-17.025000000000006,125.0,7.523676546263388e-07
+"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",Reflex Agent,total_compute_cost,50,50,-163.08128,-181.74899999999997,171.0,1.5471859846627467e-06
+"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",Reflex Agent,avg_compute_cost_per_step,50,50,-0.543608,-0.6058000000000001,171.0,1.5471859846627467e-06

@@ -1,0 +1,2001 @@
+env,policy,algo,seed,utility,failure_rate,completion_rate
+default,always_execute,baseline,200,122.92559999999997,0.23,0.55
+default,always_execute,baseline,201,116.23580000000004,0.12,0.67
+default,always_execute,baseline,202,95.84319999999998,0.11,0.67
+default,always_execute,baseline,203,135.0652,0.16,0.64
+default,always_execute,baseline,204,124.59480000000005,0.16,0.63
+default,always_execute,baseline,205,61.59020000000001,0.23,0.55
+default,always_execute,baseline,206,106.6018,0.15,0.61
+default,always_execute,baseline,207,126.11420000000004,0.13,0.63
+default,always_execute,baseline,208,64.51780000000002,0.1,0.62
+default,always_execute,baseline,209,122.33340000000001,0.19,0.62
+default,always_execute,baseline,210,113.7912,0.13,0.68
+default,always_execute,baseline,211,151.60759999999996,0.16,0.64
+default,always_execute,baseline,212,78.72480000000003,0.2,0.63
+default,always_execute,baseline,213,138.05700000000004,0.14,0.68
+default,always_execute,baseline,214,118.57960000000003,0.19,0.61
+default,always_execute,baseline,215,104.77579999999996,0.15,0.64
+default,always_execute,baseline,216,105.45699999999991,0.09,0.64
+default,always_execute,baseline,217,82.55859999999996,0.21,0.59
+default,always_execute,baseline,218,65.444,0.16,0.6
+default,always_execute,baseline,219,115.2432,0.16,0.63
+default,always_execute,baseline,220,156.72219999999996,0.11,0.67
+default,always_execute,baseline,221,108.30599999999998,0.24,0.6
+default,always_execute,baseline,222,107.41339999999998,0.17,0.63
+default,always_execute,baseline,223,99.21279999999999,0.23,0.56
+default,always_execute,baseline,224,60.26180000000004,0.16,0.6
+default,always_execute,baseline,225,80.94460000000005,0.18,0.64
+default,always_execute,baseline,226,104.18020000000006,0.12,0.63
+default,always_execute,baseline,227,120.17159999999998,0.1,0.67
+default,always_execute,baseline,228,133.89439999999996,0.08,0.71
+default,always_execute,baseline,229,124.38559999999998,0.16,0.63
+default,always_execute,baseline,230,123.71820000000002,0.2,0.62
+default,always_execute,baseline,231,104.28840000000001,0.19,0.59
+default,always_execute,baseline,232,129.29120000000006,0.15,0.62
+default,always_execute,baseline,233,130.1728,0.09,0.64
+default,always_execute,baseline,234,135.12440000000004,0.09,0.66
+default,always_execute,baseline,235,170.10979999999995,0.11,0.68
+default,always_execute,baseline,236,142.53300000000002,0.14,0.6
+default,always_execute,baseline,237,106.78680000000003,0.13,0.62
+default,always_execute,baseline,238,77.28040000000004,0.15,0.62
+default,always_execute,baseline,239,112.31740000000002,0.19,0.59
+default,always_execute,baseline,240,103.19860000000003,0.13,0.64
+default,always_execute,baseline,241,81.3612,0.22,0.58
+default,always_execute,baseline,242,96.1730000000001,0.07,0.66
+default,always_execute,baseline,243,76.27039999999994,0.13,0.66
+default,always_execute,baseline,244,144.0576,0.15,0.63
+default,always_execute,baseline,245,136.7842,0.11,0.63
+default,always_execute,baseline,246,139.3764,0.11,0.64
+default,always_execute,baseline,247,93.14699999999995,0.23,0.6
+default,always_execute,baseline,248,119.19620000000003,0.12,0.64
+default,always_execute,baseline,249,109.40699999999998,0.14,0.66
+default,scale_when_blocked (hand),hand,200,121.1654,0.21,0.55
+default,scale_when_blocked (hand),hand,201,118.83079999999995,0.1,0.68
+default,scale_when_blocked (hand),hand,202,98.96599999999998,0.1,0.68
+default,scale_when_blocked (hand),hand,203,132.20420000000001,0.18,0.61
+default,scale_when_blocked (hand),hand,204,118.06500000000003,0.17,0.62
+default,scale_when_blocked (hand),hand,205,44.327999999999975,0.24,0.56
+default,scale_when_blocked (hand),hand,206,106.6018,0.15,0.61
+default,scale_when_blocked (hand),hand,207,159.12699999999998,0.15,0.66
+default,scale_when_blocked (hand),hand,208,61.92019999999995,0.1,0.62
+default,scale_when_blocked (hand),hand,209,121.4708,0.21,0.6
+default,scale_when_blocked (hand),hand,210,93.6874,0.16,0.64
+default,scale_when_blocked (hand),hand,211,161.3214,0.1,0.66
+default,scale_when_blocked (hand),hand,212,79.64140000000006,0.16,0.63
+default,scale_when_blocked (hand),hand,213,139.41459999999995,0.12,0.66
+default,scale_when_blocked (hand),hand,214,127.50339999999997,0.19,0.62
+default,scale_when_blocked (hand),hand,215,104.77579999999996,0.15,0.64
+default,scale_when_blocked (hand),hand,216,107.32519999999997,0.11,0.64
+default,scale_when_blocked (hand),hand,217,82.55859999999996,0.21,0.59
+default,scale_when_blocked (hand),hand,218,87.49679999999995,0.17,0.58
+default,scale_when_blocked (hand),hand,219,128.55760000000004,0.14,0.64
+default,scale_when_blocked (hand),hand,220,139.6968,0.11,0.67
+default,scale_when_blocked (hand),hand,221,116.92139999999995,0.19,0.63
+default,scale_when_blocked (hand),hand,222,107.41339999999998,0.17,0.63
+default,scale_when_blocked (hand),hand,223,143.51340000000005,0.15,0.6
+default,scale_when_blocked (hand),hand,224,80.91519999999998,0.12,0.65
+default,scale_when_blocked (hand),hand,225,77.95259999999999,0.18,0.64
+default,scale_when_blocked (hand),hand,226,104.14040000000003,0.14,0.63
+default,scale_when_blocked (hand),hand,227,127.68960000000004,0.11,0.66
+default,scale_when_blocked (hand),hand,228,133.89439999999996,0.08,0.71
+default,scale_when_blocked (hand),hand,229,124.38559999999998,0.16,0.63
+default,scale_when_blocked (hand),hand,230,123.71820000000002,0.2,0.62
+default,scale_when_blocked (hand),hand,231,130.27660000000003,0.18,0.63
+default,scale_when_blocked (hand),hand,232,129.29120000000006,0.15,0.62
+default,scale_when_blocked (hand),hand,233,125.97399999999999,0.11,0.64
+default,scale_when_blocked (hand),hand,234,139.91740000000001,0.11,0.66
+default,scale_when_blocked (hand),hand,235,170.10979999999995,0.11,0.68
+default,scale_when_blocked (hand),hand,236,149.126,0.11,0.64
+default,scale_when_blocked (hand),hand,237,124.41739999999996,0.1,0.64
+default,scale_when_blocked (hand),hand,238,85.12939999999998,0.13,0.63
+default,scale_when_blocked (hand),hand,239,111.72620000000003,0.19,0.59
+default,scale_when_blocked (hand),hand,240,95.31540000000004,0.14,0.63
+default,scale_when_blocked (hand),hand,241,83.52520000000001,0.24,0.58
+default,scale_when_blocked (hand),hand,242,103.5089999999999,0.05,0.68
+default,scale_when_blocked (hand),hand,243,83.1576,0.14,0.66
+default,scale_when_blocked (hand),hand,244,141.39439999999996,0.17,0.62
+default,scale_when_blocked (hand),hand,245,141.62440000000004,0.12,0.65
+default,scale_when_blocked (hand),hand,246,100.76460000000006,0.13,0.64
+default,scale_when_blocked (hand),hand,247,95.44439999999999,0.23,0.6
+default,scale_when_blocked (hand),hand,248,124.06000000000006,0.11,0.65
+default,scale_when_blocked (hand),hand,249,105.453,0.16,0.66
+default,REINFORCE:seed11,REINFORCE,200,122.92559999999997,0.23,0.55
+default,REINFORCE:seed11,REINFORCE,201,116.23580000000004,0.12,0.67
+default,REINFORCE:seed11,REINFORCE,202,95.84319999999998,0.11,0.67
+default,REINFORCE:seed11,REINFORCE,203,135.0652,0.16,0.64
+default,REINFORCE:seed11,REINFORCE,204,124.59480000000005,0.16,0.63
+default,REINFORCE:seed11,REINFORCE,205,61.59020000000001,0.23,0.55
+default,REINFORCE:seed11,REINFORCE,206,106.6018,0.15,0.61
+default,REINFORCE:seed11,REINFORCE,207,126.11420000000004,0.13,0.63
+default,REINFORCE:seed11,REINFORCE,208,64.51780000000002,0.1,0.62
+default,REINFORCE:seed11,REINFORCE,209,122.33340000000001,0.19,0.62
+default,REINFORCE:seed11,REINFORCE,210,113.7912,0.13,0.68
+default,REINFORCE:seed11,REINFORCE,211,151.60759999999996,0.16,0.64
+default,REINFORCE:seed11,REINFORCE,212,78.72480000000003,0.2,0.63
+default,REINFORCE:seed11,REINFORCE,213,138.05700000000004,0.14,0.68
+default,REINFORCE:seed11,REINFORCE,214,118.57960000000003,0.19,0.61
+default,REINFORCE:seed11,REINFORCE,215,104.77579999999996,0.15,0.64
+default,REINFORCE:seed11,REINFORCE,216,105.45699999999991,0.09,0.64
+default,REINFORCE:seed11,REINFORCE,217,82.55859999999996,0.21,0.59
+default,REINFORCE:seed11,REINFORCE,218,65.444,0.16,0.6
+default,REINFORCE:seed11,REINFORCE,219,115.2432,0.16,0.63
+default,REINFORCE:seed11,REINFORCE,220,156.72219999999996,0.11,0.67
+default,REINFORCE:seed11,REINFORCE,221,108.30599999999998,0.24,0.6
+default,REINFORCE:seed11,REINFORCE,222,107.41339999999998,0.17,0.63
+default,REINFORCE:seed11,REINFORCE,223,99.21279999999999,0.23,0.56
+default,REINFORCE:seed11,REINFORCE,224,60.26180000000004,0.16,0.6
+default,REINFORCE:seed11,REINFORCE,225,80.94460000000005,0.18,0.64
+default,REINFORCE:seed11,REINFORCE,226,104.18020000000006,0.12,0.63
+default,REINFORCE:seed11,REINFORCE,227,120.17159999999998,0.1,0.67
+default,REINFORCE:seed11,REINFORCE,228,133.89439999999996,0.08,0.71
+default,REINFORCE:seed11,REINFORCE,229,124.38559999999998,0.16,0.63
+default,REINFORCE:seed11,REINFORCE,230,123.71820000000002,0.2,0.62
+default,REINFORCE:seed11,REINFORCE,231,104.28840000000001,0.19,0.59
+default,REINFORCE:seed11,REINFORCE,232,129.29120000000006,0.15,0.62
+default,REINFORCE:seed11,REINFORCE,233,130.1728,0.09,0.64
+default,REINFORCE:seed11,REINFORCE,234,135.12440000000004,0.09,0.66
+default,REINFORCE:seed11,REINFORCE,235,170.10979999999995,0.11,0.68
+default,REINFORCE:seed11,REINFORCE,236,142.53300000000002,0.14,0.6
+default,REINFORCE:seed11,REINFORCE,237,106.78680000000003,0.13,0.62
+default,REINFORCE:seed11,REINFORCE,238,77.28040000000004,0.15,0.62
+default,REINFORCE:seed11,REINFORCE,239,112.31740000000002,0.19,0.59
+default,REINFORCE:seed11,REINFORCE,240,103.19860000000003,0.13,0.64
+default,REINFORCE:seed11,REINFORCE,241,81.3612,0.22,0.58
+default,REINFORCE:seed11,REINFORCE,242,96.1730000000001,0.07,0.66
+default,REINFORCE:seed11,REINFORCE,243,76.27039999999994,0.13,0.66
+default,REINFORCE:seed11,REINFORCE,244,144.0576,0.15,0.63
+default,REINFORCE:seed11,REINFORCE,245,136.7842,0.11,0.63
+default,REINFORCE:seed11,REINFORCE,246,139.3764,0.11,0.64
+default,REINFORCE:seed11,REINFORCE,247,93.14699999999995,0.23,0.6
+default,REINFORCE:seed11,REINFORCE,248,119.19620000000003,0.12,0.64
+default,REINFORCE:seed11,REINFORCE,249,109.40699999999998,0.14,0.66
+default,REINFORCE:seed13,REINFORCE,200,122.92559999999997,0.23,0.55
+default,REINFORCE:seed13,REINFORCE,201,116.23580000000004,0.12,0.67
+default,REINFORCE:seed13,REINFORCE,202,95.84319999999998,0.11,0.67
+default,REINFORCE:seed13,REINFORCE,203,135.0652,0.16,0.64
+default,REINFORCE:seed13,REINFORCE,204,124.59480000000005,0.16,0.63
+default,REINFORCE:seed13,REINFORCE,205,61.59020000000001,0.23,0.55
+default,REINFORCE:seed13,REINFORCE,206,106.6018,0.15,0.61
+default,REINFORCE:seed13,REINFORCE,207,126.11420000000004,0.13,0.63
+default,REINFORCE:seed13,REINFORCE,208,64.51780000000002,0.1,0.62
+default,REINFORCE:seed13,REINFORCE,209,122.33340000000001,0.19,0.62
+default,REINFORCE:seed13,REINFORCE,210,113.7912,0.13,0.68
+default,REINFORCE:seed13,REINFORCE,211,151.60759999999996,0.16,0.64
+default,REINFORCE:seed13,REINFORCE,212,78.72480000000003,0.2,0.63
+default,REINFORCE:seed13,REINFORCE,213,138.05700000000004,0.14,0.68
+default,REINFORCE:seed13,REINFORCE,214,118.57960000000003,0.19,0.61
+default,REINFORCE:seed13,REINFORCE,215,104.77579999999996,0.15,0.64
+default,REINFORCE:seed13,REINFORCE,216,105.45699999999991,0.09,0.64
+default,REINFORCE:seed13,REINFORCE,217,82.55859999999996,0.21,0.59
+default,REINFORCE:seed13,REINFORCE,218,65.444,0.16,0.6
+default,REINFORCE:seed13,REINFORCE,219,115.2432,0.16,0.63
+default,REINFORCE:seed13,REINFORCE,220,156.72219999999996,0.11,0.67
+default,REINFORCE:seed13,REINFORCE,221,108.30599999999998,0.24,0.6
+default,REINFORCE:seed13,REINFORCE,222,107.41339999999998,0.17,0.63
+default,REINFORCE:seed13,REINFORCE,223,99.21279999999999,0.23,0.56
+default,REINFORCE:seed13,REINFORCE,224,60.26180000000004,0.16,0.6
+default,REINFORCE:seed13,REINFORCE,225,80.94460000000005,0.18,0.64
+default,REINFORCE:seed13,REINFORCE,226,104.18020000000006,0.12,0.63
+default,REINFORCE:seed13,REINFORCE,227,120.17159999999998,0.1,0.67
+default,REINFORCE:seed13,REINFORCE,228,133.89439999999996,0.08,0.71
+default,REINFORCE:seed13,REINFORCE,229,124.38559999999998,0.16,0.63
+default,REINFORCE:seed13,REINFORCE,230,123.71820000000002,0.2,0.62
+default,REINFORCE:seed13,REINFORCE,231,104.28840000000001,0.19,0.59
+default,REINFORCE:seed13,REINFORCE,232,129.29120000000006,0.15,0.62
+default,REINFORCE:seed13,REINFORCE,233,130.1728,0.09,0.64
+default,REINFORCE:seed13,REINFORCE,234,135.12440000000004,0.09,0.66
+default,REINFORCE:seed13,REINFORCE,235,170.10979999999995,0.11,0.68
+default,REINFORCE:seed13,REINFORCE,236,142.53300000000002,0.14,0.6
+default,REINFORCE:seed13,REINFORCE,237,106.78680000000003,0.13,0.62
+default,REINFORCE:seed13,REINFORCE,238,77.28040000000004,0.15,0.62
+default,REINFORCE:seed13,REINFORCE,239,112.31740000000002,0.19,0.59
+default,REINFORCE:seed13,REINFORCE,240,103.19860000000003,0.13,0.64
+default,REINFORCE:seed13,REINFORCE,241,81.3612,0.22,0.58
+default,REINFORCE:seed13,REINFORCE,242,96.1730000000001,0.07,0.66
+default,REINFORCE:seed13,REINFORCE,243,76.27039999999994,0.13,0.66
+default,REINFORCE:seed13,REINFORCE,244,144.0576,0.15,0.63
+default,REINFORCE:seed13,REINFORCE,245,136.7842,0.11,0.63
+default,REINFORCE:seed13,REINFORCE,246,139.3764,0.11,0.64
+default,REINFORCE:seed13,REINFORCE,247,93.14699999999995,0.23,0.6
+default,REINFORCE:seed13,REINFORCE,248,119.19620000000003,0.12,0.64
+default,REINFORCE:seed13,REINFORCE,249,109.40699999999998,0.14,0.66
+default,REINFORCE:seed7,REINFORCE,200,122.92559999999997,0.23,0.55
+default,REINFORCE:seed7,REINFORCE,201,116.23580000000004,0.12,0.67
+default,REINFORCE:seed7,REINFORCE,202,95.84319999999998,0.11,0.67
+default,REINFORCE:seed7,REINFORCE,203,135.0652,0.16,0.64
+default,REINFORCE:seed7,REINFORCE,204,124.59480000000005,0.16,0.63
+default,REINFORCE:seed7,REINFORCE,205,61.59020000000001,0.23,0.55
+default,REINFORCE:seed7,REINFORCE,206,106.6018,0.15,0.61
+default,REINFORCE:seed7,REINFORCE,207,126.11420000000004,0.13,0.63
+default,REINFORCE:seed7,REINFORCE,208,64.51780000000002,0.1,0.62
+default,REINFORCE:seed7,REINFORCE,209,122.33340000000001,0.19,0.62
+default,REINFORCE:seed7,REINFORCE,210,113.7912,0.13,0.68
+default,REINFORCE:seed7,REINFORCE,211,151.60759999999996,0.16,0.64
+default,REINFORCE:seed7,REINFORCE,212,78.72480000000003,0.2,0.63
+default,REINFORCE:seed7,REINFORCE,213,138.05700000000004,0.14,0.68
+default,REINFORCE:seed7,REINFORCE,214,118.57960000000003,0.19,0.61
+default,REINFORCE:seed7,REINFORCE,215,104.77579999999996,0.15,0.64
+default,REINFORCE:seed7,REINFORCE,216,105.45699999999991,0.09,0.64
+default,REINFORCE:seed7,REINFORCE,217,82.55859999999996,0.21,0.59
+default,REINFORCE:seed7,REINFORCE,218,65.444,0.16,0.6
+default,REINFORCE:seed7,REINFORCE,219,115.2432,0.16,0.63
+default,REINFORCE:seed7,REINFORCE,220,156.72219999999996,0.11,0.67
+default,REINFORCE:seed7,REINFORCE,221,108.30599999999998,0.24,0.6
+default,REINFORCE:seed7,REINFORCE,222,107.41339999999998,0.17,0.63
+default,REINFORCE:seed7,REINFORCE,223,99.21279999999999,0.23,0.56
+default,REINFORCE:seed7,REINFORCE,224,60.26180000000004,0.16,0.6
+default,REINFORCE:seed7,REINFORCE,225,80.94460000000005,0.18,0.64
+default,REINFORCE:seed7,REINFORCE,226,104.18020000000006,0.12,0.63
+default,REINFORCE:seed7,REINFORCE,227,120.17159999999998,0.1,0.67
+default,REINFORCE:seed7,REINFORCE,228,133.89439999999996,0.08,0.71
+default,REINFORCE:seed7,REINFORCE,229,124.38559999999998,0.16,0.63
+default,REINFORCE:seed7,REINFORCE,230,123.71820000000002,0.2,0.62
+default,REINFORCE:seed7,REINFORCE,231,104.28840000000001,0.19,0.59
+default,REINFORCE:seed7,REINFORCE,232,129.29120000000006,0.15,0.62
+default,REINFORCE:seed7,REINFORCE,233,130.1728,0.09,0.64
+default,REINFORCE:seed7,REINFORCE,234,135.12440000000004,0.09,0.66
+default,REINFORCE:seed7,REINFORCE,235,170.10979999999995,0.11,0.68
+default,REINFORCE:seed7,REINFORCE,236,142.53300000000002,0.14,0.6
+default,REINFORCE:seed7,REINFORCE,237,106.78680000000003,0.13,0.62
+default,REINFORCE:seed7,REINFORCE,238,77.28040000000004,0.15,0.62
+default,REINFORCE:seed7,REINFORCE,239,112.31740000000002,0.19,0.59
+default,REINFORCE:seed7,REINFORCE,240,103.19860000000003,0.13,0.64
+default,REINFORCE:seed7,REINFORCE,241,81.3612,0.22,0.58
+default,REINFORCE:seed7,REINFORCE,242,96.1730000000001,0.07,0.66
+default,REINFORCE:seed7,REINFORCE,243,76.27039999999994,0.13,0.66
+default,REINFORCE:seed7,REINFORCE,244,144.0576,0.15,0.63
+default,REINFORCE:seed7,REINFORCE,245,136.7842,0.11,0.63
+default,REINFORCE:seed7,REINFORCE,246,139.3764,0.11,0.64
+default,REINFORCE:seed7,REINFORCE,247,93.14699999999995,0.23,0.6
+default,REINFORCE:seed7,REINFORCE,248,119.19620000000003,0.12,0.64
+default,REINFORCE:seed7,REINFORCE,249,109.40699999999998,0.14,0.66
+default,PPO:seed11,PPO,200,122.92559999999997,0.23,0.55
+default,PPO:seed11,PPO,201,115.56760000000003,0.12,0.65
+default,PPO:seed11,PPO,202,105.4546,0.11,0.66
+default,PPO:seed11,PPO,203,128.84639999999996,0.18,0.64
+default,PPO:seed11,PPO,204,124.59480000000005,0.16,0.63
+default,PPO:seed11,PPO,205,53.079599999999985,0.27,0.53
+default,PPO:seed11,PPO,206,106.59640000000002,0.16,0.61
+default,PPO:seed11,PPO,207,126.11420000000004,0.13,0.63
+default,PPO:seed11,PPO,208,67.57380000000002,0.1,0.62
+default,PPO:seed11,PPO,209,121.36099999999996,0.18,0.61
+default,PPO:seed11,PPO,210,118.00739999999996,0.14,0.68
+default,PPO:seed11,PPO,211,151.42019999999997,0.16,0.64
+default,PPO:seed11,PPO,212,78.72480000000003,0.2,0.63
+default,PPO:seed11,PPO,213,138.05700000000004,0.14,0.68
+default,PPO:seed11,PPO,214,120.05060000000003,0.2,0.6
+default,PPO:seed11,PPO,215,109.24899999999998,0.15,0.64
+default,PPO:seed11,PPO,216,105.45699999999991,0.09,0.64
+default,PPO:seed11,PPO,217,87.03479999999996,0.22,0.6
+default,PPO:seed11,PPO,218,65.444,0.16,0.6
+default,PPO:seed11,PPO,219,126.57540000000003,0.14,0.65
+default,PPO:seed11,PPO,220,159.9342,0.11,0.66
+default,PPO:seed11,PPO,221,107.26939999999996,0.21,0.62
+default,PPO:seed11,PPO,222,107.58679999999997,0.17,0.63
+default,PPO:seed11,PPO,223,99.21279999999999,0.23,0.56
+default,PPO:seed11,PPO,224,55.28980000000004,0.14,0.62
+default,PPO:seed11,PPO,225,79.52359999999996,0.17,0.63
+default,PPO:seed11,PPO,226,111.50000000000009,0.13,0.64
+default,PPO:seed11,PPO,227,119.27539999999999,0.1,0.67
+default,PPO:seed11,PPO,228,132.59979999999996,0.08,0.7
+default,PPO:seed11,PPO,229,131.7704,0.15,0.64
+default,PPO:seed11,PPO,230,123.71820000000002,0.2,0.62
+default,PPO:seed11,PPO,231,106.34960000000001,0.21,0.59
+default,PPO:seed11,PPO,232,125.3578,0.16,0.62
+default,PPO:seed11,PPO,233,133.3838,0.11,0.64
+default,PPO:seed11,PPO,234,140.01420000000002,0.1,0.66
+default,PPO:seed11,PPO,235,170.10979999999995,0.11,0.68
+default,PPO:seed11,PPO,236,139.925,0.14,0.61
+default,PPO:seed11,PPO,237,104.73920000000001,0.15,0.62
+default,PPO:seed11,PPO,238,95.00080000000003,0.18,0.6
+default,PPO:seed11,PPO,239,119.1986,0.15,0.61
+default,PPO:seed11,PPO,240,103.19860000000003,0.13,0.64
+default,PPO:seed11,PPO,241,75.96640000000006,0.25,0.59
+default,PPO:seed11,PPO,242,107.77320000000006,0.08,0.66
+default,PPO:seed11,PPO,243,79.25260000000004,0.13,0.66
+default,PPO:seed11,PPO,244,144.0576,0.15,0.63
+default,PPO:seed11,PPO,245,139.96260000000004,0.1,0.64
+default,PPO:seed11,PPO,246,139.44599999999997,0.11,0.64
+default,PPO:seed11,PPO,247,93.14699999999995,0.23,0.6
+default,PPO:seed11,PPO,248,124.52120000000005,0.11,0.64
+default,PPO:seed11,PPO,249,110.66300000000005,0.14,0.66
+default,PPO:seed13,PPO,200,122.92559999999997,0.23,0.55
+default,PPO:seed13,PPO,201,116.23580000000004,0.12,0.67
+default,PPO:seed13,PPO,202,95.84319999999998,0.11,0.67
+default,PPO:seed13,PPO,203,135.0652,0.16,0.64
+default,PPO:seed13,PPO,204,124.59480000000005,0.16,0.63
+default,PPO:seed13,PPO,205,61.540000000000006,0.23,0.55
+default,PPO:seed13,PPO,206,106.6018,0.15,0.61
+default,PPO:seed13,PPO,207,126.11420000000004,0.13,0.63
+default,PPO:seed13,PPO,208,64.51780000000002,0.1,0.62
+default,PPO:seed13,PPO,209,118.73180000000002,0.19,0.6
+default,PPO:seed13,PPO,210,113.7912,0.13,0.68
+default,PPO:seed13,PPO,211,151.42019999999997,0.16,0.64
+default,PPO:seed13,PPO,212,78.72480000000003,0.2,0.63
+default,PPO:seed13,PPO,213,138.05700000000004,0.14,0.68
+default,PPO:seed13,PPO,214,120.05060000000003,0.2,0.6
+default,PPO:seed13,PPO,215,107.62599999999992,0.16,0.64
+default,PPO:seed13,PPO,216,105.45699999999991,0.09,0.64
+default,PPO:seed13,PPO,217,84.28259999999995,0.21,0.59
+default,PPO:seed13,PPO,218,65.444,0.16,0.6
+default,PPO:seed13,PPO,219,115.2432,0.16,0.63
+default,PPO:seed13,PPO,220,159.9342,0.11,0.66
+default,PPO:seed13,PPO,221,112.08860000000001,0.24,0.61
+default,PPO:seed13,PPO,222,107.41339999999998,0.17,0.63
+default,PPO:seed13,PPO,223,99.21279999999999,0.23,0.56
+default,PPO:seed13,PPO,224,60.26180000000004,0.16,0.6
+default,PPO:seed13,PPO,225,80.94460000000005,0.18,0.64
+default,PPO:seed13,PPO,226,104.18020000000006,0.12,0.63
+default,PPO:seed13,PPO,227,119.27539999999999,0.1,0.67
+default,PPO:seed13,PPO,228,132.59979999999996,0.08,0.7
+default,PPO:seed13,PPO,229,133.147,0.15,0.65
+default,PPO:seed13,PPO,230,123.71820000000002,0.2,0.62
+default,PPO:seed13,PPO,231,106.34960000000001,0.21,0.59
+default,PPO:seed13,PPO,232,125.3578,0.16,0.62
+default,PPO:seed13,PPO,233,133.3838,0.11,0.64
+default,PPO:seed13,PPO,234,135.12440000000004,0.09,0.66
+default,PPO:seed13,PPO,235,170.03199999999995,0.11,0.68
+default,PPO:seed13,PPO,236,148.85459999999998,0.14,0.61
+default,PPO:seed13,PPO,237,106.78680000000003,0.13,0.62
+default,PPO:seed13,PPO,238,80.19800000000006,0.15,0.63
+default,PPO:seed13,PPO,239,119.1986,0.15,0.61
+default,PPO:seed13,PPO,240,103.19860000000003,0.13,0.64
+default,PPO:seed13,PPO,241,81.91820000000001,0.21,0.58
+default,PPO:seed13,PPO,242,96.1730000000001,0.07,0.66
+default,PPO:seed13,PPO,243,76.27039999999994,0.13,0.66
+default,PPO:seed13,PPO,244,144.0576,0.15,0.63
+default,PPO:seed13,PPO,245,136.7842,0.11,0.63
+default,PPO:seed13,PPO,246,139.3764,0.11,0.64
+default,PPO:seed13,PPO,247,93.14699999999995,0.23,0.6
+default,PPO:seed13,PPO,248,126.20480000000003,0.11,0.64
+default,PPO:seed13,PPO,249,109.40699999999998,0.14,0.66
+default,PPO:seed7,PPO,200,122.92559999999997,0.23,0.55
+default,PPO:seed7,PPO,201,116.23580000000004,0.12,0.67
+default,PPO:seed7,PPO,202,101.1561999999999,0.11,0.67
+default,PPO:seed7,PPO,203,135.0652,0.16,0.64
+default,PPO:seed7,PPO,204,124.59480000000005,0.16,0.63
+default,PPO:seed7,PPO,205,61.59020000000001,0.23,0.55
+default,PPO:seed7,PPO,206,106.6018,0.15,0.61
+default,PPO:seed7,PPO,207,126.11420000000004,0.13,0.63
+default,PPO:seed7,PPO,208,64.51780000000002,0.1,0.62
+default,PPO:seed7,PPO,209,122.33340000000001,0.19,0.62
+default,PPO:seed7,PPO,210,118.00739999999996,0.14,0.68
+default,PPO:seed7,PPO,211,151.60759999999996,0.16,0.64
+default,PPO:seed7,PPO,212,78.72480000000003,0.2,0.63
+default,PPO:seed7,PPO,213,138.05700000000004,0.14,0.68
+default,PPO:seed7,PPO,214,118.57960000000003,0.19,0.61
+default,PPO:seed7,PPO,215,108.57239999999999,0.16,0.64
+default,PPO:seed7,PPO,216,105.45699999999991,0.09,0.64
+default,PPO:seed7,PPO,217,87.03479999999996,0.22,0.6
+default,PPO:seed7,PPO,218,65.444,0.16,0.6
+default,PPO:seed7,PPO,219,116.82839999999993,0.15,0.63
+default,PPO:seed7,PPO,220,156.72219999999996,0.11,0.67
+default,PPO:seed7,PPO,221,111.79339999999999,0.24,0.61
+default,PPO:seed7,PPO,222,107.58679999999997,0.17,0.63
+default,PPO:seed7,PPO,223,99.21279999999999,0.23,0.56
+default,PPO:seed7,PPO,224,59.18780000000005,0.18,0.61
+default,PPO:seed7,PPO,225,79.84599999999996,0.16,0.66
+default,PPO:seed7,PPO,226,103.51900000000003,0.14,0.63
+default,PPO:seed7,PPO,227,120.17159999999998,0.1,0.67
+default,PPO:seed7,PPO,228,133.89439999999996,0.08,0.71
+default,PPO:seed7,PPO,229,124.38559999999998,0.16,0.63
+default,PPO:seed7,PPO,230,123.71820000000002,0.2,0.62
+default,PPO:seed7,PPO,231,112.51200000000006,0.19,0.6
+default,PPO:seed7,PPO,232,129.29120000000006,0.15,0.62
+default,PPO:seed7,PPO,233,130.1728,0.09,0.64
+default,PPO:seed7,PPO,234,135.12440000000004,0.09,0.66
+default,PPO:seed7,PPO,235,170.10979999999995,0.11,0.68
+default,PPO:seed7,PPO,236,142.53300000000002,0.14,0.6
+default,PPO:seed7,PPO,237,106.78680000000003,0.13,0.62
+default,PPO:seed7,PPO,238,90.66539999999992,0.13,0.63
+default,PPO:seed7,PPO,239,112.31740000000002,0.19,0.59
+default,PPO:seed7,PPO,240,103.19860000000003,0.13,0.64
+default,PPO:seed7,PPO,241,81.91820000000001,0.21,0.58
+default,PPO:seed7,PPO,242,101.38720000000004,0.07,0.67
+default,PPO:seed7,PPO,243,79.73959999999995,0.13,0.66
+default,PPO:seed7,PPO,244,144.0576,0.15,0.63
+default,PPO:seed7,PPO,245,136.7842,0.11,0.63
+default,PPO:seed7,PPO,246,139.3764,0.11,0.64
+default,PPO:seed7,PPO,247,93.14699999999995,0.23,0.6
+default,PPO:seed7,PPO,248,119.19620000000003,0.12,0.64
+default,PPO:seed7,PPO,249,109.40699999999998,0.14,0.66
+env_tight_fixedrisk,always_execute,baseline,200,75.03620000000001,0.2,0.35
+env_tight_fixedrisk,always_execute,baseline,201,78.70159999999998,0.11,0.42
+env_tight_fixedrisk,always_execute,baseline,202,87.46619999999999,0.15,0.44
+env_tight_fixedrisk,always_execute,baseline,203,82.26479999999998,0.13,0.44
+env_tight_fixedrisk,always_execute,baseline,204,79.68719999999995,0.12,0.43
+env_tight_fixedrisk,always_execute,baseline,205,74.06020000000001,0.16,0.39
+env_tight_fixedrisk,always_execute,baseline,206,73.76259999999999,0.11,0.41
+env_tight_fixedrisk,always_execute,baseline,207,69.43100000000004,0.18,0.42
+env_tight_fixedrisk,always_execute,baseline,208,58.06619999999998,0.14,0.41
+env_tight_fixedrisk,always_execute,baseline,209,105.51000000000002,0.19,0.44
+env_tight_fixedrisk,always_execute,baseline,210,59.456400000000016,0.14,0.41
+env_tight_fixedrisk,always_execute,baseline,211,111.78519999999999,0.1,0.43
+env_tight_fixedrisk,always_execute,baseline,212,68.90240000000001,0.16,0.39
+env_tight_fixedrisk,always_execute,baseline,213,88.52179999999993,0.12,0.44
+env_tight_fixedrisk,always_execute,baseline,214,49.83259999999996,0.27,0.38
+env_tight_fixedrisk,always_execute,baseline,215,71.25400000000002,0.13,0.4
+env_tight_fixedrisk,always_execute,baseline,216,105.55160000000002,0.08,0.4
+env_tight_fixedrisk,always_execute,baseline,217,92.6988,0.11,0.44
+env_tight_fixedrisk,always_execute,baseline,218,69.42920000000001,0.11,0.4
+env_tight_fixedrisk,always_execute,baseline,219,105.8726,0.11,0.44
+env_tight_fixedrisk,always_execute,baseline,220,118.95720000000003,0.1,0.45
+env_tight_fixedrisk,always_execute,baseline,221,68.623,0.25,0.35
+env_tight_fixedrisk,always_execute,baseline,222,98.96339999999998,0.15,0.44
+env_tight_fixedrisk,always_execute,baseline,223,79.435,0.12,0.39
+env_tight_fixedrisk,always_execute,baseline,224,90.31020000000001,0.11,0.44
+env_tight_fixedrisk,always_execute,baseline,225,62.26679999999999,0.14,0.42
+env_tight_fixedrisk,always_execute,baseline,226,92.9762,0.09,0.43
+env_tight_fixedrisk,always_execute,baseline,227,132.44840000000002,0.08,0.47
+env_tight_fixedrisk,always_execute,baseline,228,98.30419999999998,0.07,0.45
+env_tight_fixedrisk,always_execute,baseline,229,85.57679999999998,0.1,0.44
+env_tight_fixedrisk,always_execute,baseline,230,83.4992,0.2,0.41
+env_tight_fixedrisk,always_execute,baseline,231,115.0812,0.15,0.45
+env_tight_fixedrisk,always_execute,baseline,232,88.89079999999998,0.13,0.39
+env_tight_fixedrisk,always_execute,baseline,233,93.5686,0.09,0.42
+env_tight_fixedrisk,always_execute,baseline,234,77.75840000000005,0.14,0.4
+env_tight_fixedrisk,always_execute,baseline,235,93.56200000000001,0.1,0.44
+env_tight_fixedrisk,always_execute,baseline,236,95.45119999999996,0.09,0.42
+env_tight_fixedrisk,always_execute,baseline,237,67.92420000000004,0.16,0.43
+env_tight_fixedrisk,always_execute,baseline,238,62.048199999999966,0.15,0.4
+env_tight_fixedrisk,always_execute,baseline,239,89.37979999999997,0.16,0.4
+env_tight_fixedrisk,always_execute,baseline,240,78.21399999999998,0.13,0.41
+env_tight_fixedrisk,always_execute,baseline,241,79.03,0.15,0.39
+env_tight_fixedrisk,always_execute,baseline,242,112.4034,0.07,0.45
+env_tight_fixedrisk,always_execute,baseline,243,48.57459999999995,0.12,0.42
+env_tight_fixedrisk,always_execute,baseline,244,50.62980000000002,0.24,0.34
+env_tight_fixedrisk,always_execute,baseline,245,78.55299999999997,0.15,0.42
+env_tight_fixedrisk,always_execute,baseline,246,82.45439999999996,0.08,0.43
+env_tight_fixedrisk,always_execute,baseline,247,46.8698,0.19,0.38
+env_tight_fixedrisk,always_execute,baseline,248,74.79339999999999,0.15,0.43
+env_tight_fixedrisk,always_execute,baseline,249,88.57140000000001,0.14,0.41
+env_tight_fixedrisk,scale_when_blocked (hand),hand,200,87.97639999999998,0.21,0.38
+env_tight_fixedrisk,scale_when_blocked (hand),hand,201,93.79840000000004,0.13,0.44
+env_tight_fixedrisk,scale_when_blocked (hand),hand,202,88.81940000000003,0.13,0.46
+env_tight_fixedrisk,scale_when_blocked (hand),hand,203,86.96819999999997,0.14,0.45
+env_tight_fixedrisk,scale_when_blocked (hand),hand,204,86.72219999999996,0.14,0.48
+env_tight_fixedrisk,scale_when_blocked (hand),hand,205,89.46360000000001,0.17,0.45
+env_tight_fixedrisk,scale_when_blocked (hand),hand,206,111.2876,0.09,0.47
+env_tight_fixedrisk,scale_when_blocked (hand),hand,207,125.2852,0.1,0.5
+env_tight_fixedrisk,scale_when_blocked (hand),hand,208,57.93140000000001,0.15,0.43
+env_tight_fixedrisk,scale_when_blocked (hand),hand,209,97.29719999999998,0.19,0.44
+env_tight_fixedrisk,scale_when_blocked (hand),hand,210,76.81559999999999,0.11,0.45
+env_tight_fixedrisk,scale_when_blocked (hand),hand,211,124.81280000000004,0.07,0.5
+env_tight_fixedrisk,scale_when_blocked (hand),hand,212,65.51139999999998,0.19,0.42
+env_tight_fixedrisk,scale_when_blocked (hand),hand,213,120.45139999999998,0.08,0.51
+env_tight_fixedrisk,scale_when_blocked (hand),hand,214,57.571399999999954,0.24,0.42
+env_tight_fixedrisk,scale_when_blocked (hand),hand,215,94.94439999999999,0.1,0.44
+env_tight_fixedrisk,scale_when_blocked (hand),hand,216,102.8014,0.1,0.45
+env_tight_fixedrisk,scale_when_blocked (hand),hand,217,124.52200000000002,0.1,0.48
+env_tight_fixedrisk,scale_when_blocked (hand),hand,218,65.26840000000004,0.18,0.4
+env_tight_fixedrisk,scale_when_blocked (hand),hand,219,84.63680000000004,0.13,0.46
+env_tight_fixedrisk,scale_when_blocked (hand),hand,220,115.44019999999998,0.12,0.47
+env_tight_fixedrisk,scale_when_blocked (hand),hand,221,98.7892,0.19,0.43
+env_tight_fixedrisk,scale_when_blocked (hand),hand,222,96.721,0.16,0.44
+env_tight_fixedrisk,scale_when_blocked (hand),hand,223,97.97540000000001,0.16,0.42
+env_tight_fixedrisk,scale_when_blocked (hand),hand,224,35.76799999999996,0.23,0.43
+env_tight_fixedrisk,scale_when_blocked (hand),hand,225,63.696799999999996,0.14,0.44
+env_tight_fixedrisk,scale_when_blocked (hand),hand,226,109.0146,0.08,0.45
+env_tight_fixedrisk,scale_when_blocked (hand),hand,227,112.90599999999998,0.16,0.46
+env_tight_fixedrisk,scale_when_blocked (hand),hand,228,98.6704,0.09,0.5
+env_tight_fixedrisk,scale_when_blocked (hand),hand,229,90.82120000000003,0.11,0.47
+env_tight_fixedrisk,scale_when_blocked (hand),hand,230,65.28439999999999,0.18,0.45
+env_tight_fixedrisk,scale_when_blocked (hand),hand,231,85.5028,0.15,0.47
+env_tight_fixedrisk,scale_when_blocked (hand),hand,232,101.84719999999999,0.13,0.4
+env_tight_fixedrisk,scale_when_blocked (hand),hand,233,92.76479999999998,0.14,0.44
+env_tight_fixedrisk,scale_when_blocked (hand),hand,234,81.23259999999998,0.1,0.45
+env_tight_fixedrisk,scale_when_blocked (hand),hand,235,107.25460000000001,0.14,0.45
+env_tight_fixedrisk,scale_when_blocked (hand),hand,236,79.11039999999997,0.18,0.43
+env_tight_fixedrisk,scale_when_blocked (hand),hand,237,54.6382,0.15,0.44
+env_tight_fixedrisk,scale_when_blocked (hand),hand,238,62.85080000000001,0.16,0.41
+env_tight_fixedrisk,scale_when_blocked (hand),hand,239,73.72179999999999,0.15,0.45
+env_tight_fixedrisk,scale_when_blocked (hand),hand,240,89.19560000000004,0.12,0.41
+env_tight_fixedrisk,scale_when_blocked (hand),hand,241,104.01500000000001,0.17,0.45
+env_tight_fixedrisk,scale_when_blocked (hand),hand,242,84.37319999999997,0.1,0.46
+env_tight_fixedrisk,scale_when_blocked (hand),hand,243,62.9001999999999,0.09,0.43
+env_tight_fixedrisk,scale_when_blocked (hand),hand,244,89.876,0.13,0.43
+env_tight_fixedrisk,scale_when_blocked (hand),hand,245,95.8366,0.15,0.45
+env_tight_fixedrisk,scale_when_blocked (hand),hand,246,137.96519999999998,0.06,0.49
+env_tight_fixedrisk,scale_when_blocked (hand),hand,247,48.462800000000016,0.2,0.38
+env_tight_fixedrisk,scale_when_blocked (hand),hand,248,71.63580000000002,0.12,0.45
+env_tight_fixedrisk,scale_when_blocked (hand),hand,249,101.62859999999998,0.1,0.47
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,200,75.03620000000001,0.2,0.35
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,201,78.70159999999998,0.11,0.42
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,202,87.46619999999999,0.15,0.44
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,203,82.26479999999998,0.13,0.44
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,204,79.68719999999995,0.12,0.43
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,205,74.06020000000001,0.16,0.39
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,206,73.76259999999999,0.11,0.41
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,207,69.43100000000004,0.18,0.42
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,208,58.06619999999998,0.14,0.41
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,209,105.51000000000002,0.19,0.44
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,210,59.456400000000016,0.14,0.41
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,211,111.78519999999999,0.1,0.43
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,212,68.90240000000001,0.16,0.39
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,213,88.52179999999993,0.12,0.44
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,214,49.83259999999996,0.27,0.38
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,215,71.25400000000002,0.13,0.4
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,216,105.55160000000002,0.08,0.4
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,217,92.6988,0.11,0.44
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,218,69.42920000000001,0.11,0.4
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,219,105.8726,0.11,0.44
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,220,118.95720000000003,0.1,0.45
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,221,68.623,0.25,0.35
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,222,98.96339999999998,0.15,0.44
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,223,79.435,0.12,0.39
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,224,90.31020000000001,0.11,0.44
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,225,62.26679999999999,0.14,0.42
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,226,92.9762,0.09,0.43
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,227,132.44840000000002,0.08,0.47
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,228,98.30419999999998,0.07,0.45
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,229,85.57679999999998,0.1,0.44
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,230,83.4992,0.2,0.41
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,231,115.0812,0.15,0.45
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,232,88.89079999999998,0.13,0.39
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,233,93.5686,0.09,0.42
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,234,77.75840000000005,0.14,0.4
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,235,93.56200000000001,0.1,0.44
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,236,95.45119999999996,0.09,0.42
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,237,67.92420000000004,0.16,0.43
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,238,62.048199999999966,0.15,0.4
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,239,89.37979999999997,0.16,0.4
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,240,78.21399999999998,0.13,0.41
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,241,79.03,0.15,0.39
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,242,112.4034,0.07,0.45
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,243,48.57459999999995,0.12,0.42
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,244,50.62980000000002,0.24,0.34
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,245,78.55299999999997,0.15,0.42
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,246,82.45439999999996,0.08,0.43
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,247,46.8698,0.19,0.38
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,248,74.79339999999999,0.15,0.43
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,249,88.57140000000001,0.14,0.41
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,200,75.03620000000001,0.2,0.35
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,201,78.70159999999998,0.11,0.42
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,202,87.46619999999999,0.15,0.44
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,203,82.26479999999998,0.13,0.44
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,204,79.68719999999995,0.12,0.43
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,205,74.06020000000001,0.16,0.39
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,206,73.76259999999999,0.11,0.41
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,207,69.43100000000004,0.18,0.42
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,208,58.06619999999998,0.14,0.41
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,209,105.51000000000002,0.19,0.44
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,210,59.456400000000016,0.14,0.41
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,211,111.78519999999999,0.1,0.43
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,212,68.90240000000001,0.16,0.39
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,213,88.52179999999993,0.12,0.44
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,214,49.83259999999996,0.27,0.38
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,215,71.25400000000002,0.13,0.4
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,216,105.55160000000002,0.08,0.4
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,217,92.6988,0.11,0.44
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,218,69.42920000000001,0.11,0.4
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,219,105.8726,0.11,0.44
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,220,118.95720000000003,0.1,0.45
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,221,68.623,0.25,0.35
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,222,98.96339999999998,0.15,0.44
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,223,79.435,0.12,0.39
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,224,90.31020000000001,0.11,0.44
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,225,62.26679999999999,0.14,0.42
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,226,92.9762,0.09,0.43
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,227,132.44840000000002,0.08,0.47
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,228,98.30419999999998,0.07,0.45
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,229,85.57679999999998,0.1,0.44
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,230,83.4992,0.2,0.41
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,231,115.0812,0.15,0.45
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,232,88.89079999999998,0.13,0.39
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,233,93.5686,0.09,0.42
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,234,77.75840000000005,0.14,0.4
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,235,93.56200000000001,0.1,0.44
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,236,95.45119999999996,0.09,0.42
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,237,67.92420000000004,0.16,0.43
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,238,62.048199999999966,0.15,0.4
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,239,89.37979999999997,0.16,0.4
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,240,78.21399999999998,0.13,0.41
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,241,79.03,0.15,0.39
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,242,112.4034,0.07,0.45
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,243,48.57459999999995,0.12,0.42
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,244,50.62980000000002,0.24,0.34
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,245,78.55299999999997,0.15,0.42
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,246,82.45439999999996,0.08,0.43
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,247,46.8698,0.19,0.38
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,248,74.79339999999999,0.15,0.43
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,249,88.57140000000001,0.14,0.41
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,200,75.03620000000001,0.2,0.35
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,201,78.70159999999998,0.11,0.42
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,202,87.46619999999999,0.15,0.44
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,203,82.26479999999998,0.13,0.44
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,204,79.68719999999995,0.12,0.43
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,205,74.06020000000001,0.16,0.39
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,206,73.76259999999999,0.11,0.41
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,207,69.43100000000004,0.18,0.42
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,208,58.06619999999998,0.14,0.41
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,209,105.51000000000002,0.19,0.44
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,210,59.456400000000016,0.14,0.41
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,211,111.78519999999999,0.1,0.43
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,212,68.90240000000001,0.16,0.39
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,213,88.52179999999993,0.12,0.44
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,214,49.83259999999996,0.27,0.38
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,215,71.25400000000002,0.13,0.4
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,216,105.55160000000002,0.08,0.4
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,217,92.6988,0.11,0.44
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,218,69.42920000000001,0.11,0.4
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,219,105.8726,0.11,0.44
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,220,118.95720000000003,0.1,0.45
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,221,68.623,0.25,0.35
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,222,98.96339999999998,0.15,0.44
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,223,79.435,0.12,0.39
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,224,90.31020000000001,0.11,0.44
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,225,62.26679999999999,0.14,0.42
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,226,92.9762,0.09,0.43
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,227,132.44840000000002,0.08,0.47
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,228,98.30419999999998,0.07,0.45
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,229,85.57679999999998,0.1,0.44
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,230,83.4992,0.2,0.41
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,231,115.0812,0.15,0.45
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,232,88.89079999999998,0.13,0.39
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,233,93.5686,0.09,0.42
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,234,77.75840000000005,0.14,0.4
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,235,93.56200000000001,0.1,0.44
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,236,95.45119999999996,0.09,0.42
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,237,67.92420000000004,0.16,0.43
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,238,62.048199999999966,0.15,0.4
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,239,89.37979999999997,0.16,0.4
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,240,78.21399999999998,0.13,0.41
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,241,79.03,0.15,0.39
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,242,112.4034,0.07,0.45
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,243,48.57459999999995,0.12,0.42
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,244,50.62980000000002,0.24,0.34
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,245,78.55299999999997,0.15,0.42
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,246,82.45439999999996,0.08,0.43
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,247,46.8698,0.19,0.38
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,248,74.79339999999999,0.15,0.43
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,249,88.57140000000001,0.14,0.41
+env_tight_fixedrisk,PPO:seed11,PPO,200,119.50500000000005,0.24,0.53
+env_tight_fixedrisk,PPO:seed11,PPO,201,133.85000000000002,0.15,0.64
+env_tight_fixedrisk,PPO:seed11,PPO,202,136.90480000000002,0.15,0.63
+env_tight_fixedrisk,PPO:seed11,PPO,203,127.08539999999999,0.13,0.53
+env_tight_fixedrisk,PPO:seed11,PPO,204,156.8162,0.13,0.6
+env_tight_fixedrisk,PPO:seed11,PPO,205,106.97019999999999,0.21,0.54
+env_tight_fixedrisk,PPO:seed11,PPO,206,124.82340000000002,0.13,0.64
+env_tight_fixedrisk,PPO:seed11,PPO,207,114.05680000000001,0.15,0.57
+env_tight_fixedrisk,PPO:seed11,PPO,208,74.34460000000004,0.11,0.62
+env_tight_fixedrisk,PPO:seed11,PPO,209,86.45519999999999,0.22,0.47
+env_tight_fixedrisk,PPO:seed11,PPO,210,87.72120000000005,0.13,0.62
+env_tight_fixedrisk,PPO:seed11,PPO,211,149.3746,0.11,0.53
+env_tight_fixedrisk,PPO:seed11,PPO,212,70.72320000000005,0.18,0.56
+env_tight_fixedrisk,PPO:seed11,PPO,213,115.07379999999996,0.11,0.5
+env_tight_fixedrisk,PPO:seed11,PPO,214,103.15259999999999,0.18,0.59
+env_tight_fixedrisk,PPO:seed11,PPO,215,116.3766,0.12,0.66
+env_tight_fixedrisk,PPO:seed11,PPO,216,133.48819999999998,0.14,0.58
+env_tight_fixedrisk,PPO:seed11,PPO,217,136.6862000000001,0.19,0.63
+env_tight_fixedrisk,PPO:seed11,PPO,218,60.53379999999994,0.17,0.61
+env_tight_fixedrisk,PPO:seed11,PPO,219,140.8528,0.13,0.58
+env_tight_fixedrisk,PPO:seed11,PPO,220,101.74059999999997,0.11,0.63
+env_tight_fixedrisk,PPO:seed11,PPO,221,117.5428,0.21,0.61
+env_tight_fixedrisk,PPO:seed11,PPO,222,104.8746,0.16,0.45
+env_tight_fixedrisk,PPO:seed11,PPO,223,126.31600000000003,0.21,0.55
+env_tight_fixedrisk,PPO:seed11,PPO,224,120.20400000000001,0.13,0.58
+env_tight_fixedrisk,PPO:seed11,PPO,225,100.27619999999996,0.14,0.52
+env_tight_fixedrisk,PPO:seed11,PPO,226,81.63520000000001,0.13,0.64
+env_tight_fixedrisk,PPO:seed11,PPO,227,145.23319999999998,0.14,0.63
+env_tight_fixedrisk,PPO:seed11,PPO,228,130.75060000000002,0.07,0.66
+env_tight_fixedrisk,PPO:seed11,PPO,229,109.72479999999999,0.1,0.65
+env_tight_fixedrisk,PPO:seed11,PPO,230,122.3894,0.18,0.64
+env_tight_fixedrisk,PPO:seed11,PPO,231,123.51979999999998,0.11,0.53
+env_tight_fixedrisk,PPO:seed11,PPO,232,118.2618,0.15,0.55
+env_tight_fixedrisk,PPO:seed11,PPO,233,105.79580000000001,0.1,0.66
+env_tight_fixedrisk,PPO:seed11,PPO,234,87.64539999999998,0.16,0.57
+env_tight_fixedrisk,PPO:seed11,PPO,235,133.68560000000002,0.17,0.6
+env_tight_fixedrisk,PPO:seed11,PPO,236,91.33779999999997,0.14,0.53
+env_tight_fixedrisk,PPO:seed11,PPO,237,114.0564,0.15,0.61
+env_tight_fixedrisk,PPO:seed11,PPO,238,87.38759999999996,0.12,0.58
+env_tight_fixedrisk,PPO:seed11,PPO,239,110.02120000000002,0.22,0.57
+env_tight_fixedrisk,PPO:seed11,PPO,240,123.23179999999999,0.12,0.58
+env_tight_fixedrisk,PPO:seed11,PPO,241,71.7576,0.25,0.49
+env_tight_fixedrisk,PPO:seed11,PPO,242,112.42219999999996,0.08,0.67
+env_tight_fixedrisk,PPO:seed11,PPO,243,81.09119999999997,0.14,0.62
+env_tight_fixedrisk,PPO:seed11,PPO,244,115.02540000000002,0.13,0.44
+env_tight_fixedrisk,PPO:seed11,PPO,245,124.91959999999995,0.1,0.68
+env_tight_fixedrisk,PPO:seed11,PPO,246,99.34259999999998,0.09,0.63
+env_tight_fixedrisk,PPO:seed11,PPO,247,103.23940000000002,0.21,0.54
+env_tight_fixedrisk,PPO:seed11,PPO,248,110.63960000000003,0.13,0.55
+env_tight_fixedrisk,PPO:seed11,PPO,249,91.28499999999997,0.14,0.58
+env_tight_fixedrisk,PPO:seed13,PPO,200,121.69900000000001,0.21,0.53
+env_tight_fixedrisk,PPO:seed13,PPO,201,134.9854,0.14,0.49
+env_tight_fixedrisk,PPO:seed13,PPO,202,133.86719999999997,0.16,0.63
+env_tight_fixedrisk,PPO:seed13,PPO,203,98.98159999999997,0.15,0.53
+env_tight_fixedrisk,PPO:seed13,PPO,204,87.38619999999996,0.2,0.54
+env_tight_fixedrisk,PPO:seed13,PPO,205,85.24319999999996,0.12,0.53
+env_tight_fixedrisk,PPO:seed13,PPO,206,132.1952,0.13,0.6
+env_tight_fixedrisk,PPO:seed13,PPO,207,118.42079999999999,0.13,0.49
+env_tight_fixedrisk,PPO:seed13,PPO,208,77.56739999999995,0.11,0.58
+env_tight_fixedrisk,PPO:seed13,PPO,209,91.8478,0.21,0.48
+env_tight_fixedrisk,PPO:seed13,PPO,210,95.06300000000003,0.14,0.54
+env_tight_fixedrisk,PPO:seed13,PPO,211,151.79180000000002,0.1,0.53
+env_tight_fixedrisk,PPO:seed13,PPO,212,71.8172,0.18,0.49
+env_tight_fixedrisk,PPO:seed13,PPO,213,101.65059999999998,0.12,0.56
+env_tight_fixedrisk,PPO:seed13,PPO,214,53.43720000000002,0.26,0.49
+env_tight_fixedrisk,PPO:seed13,PPO,215,66.51139999999998,0.18,0.51
+env_tight_fixedrisk,PPO:seed13,PPO,216,134.30599999999998,0.14,0.58
+env_tight_fixedrisk,PPO:seed13,PPO,217,115.04599999999999,0.16,0.49
+env_tight_fixedrisk,PPO:seed13,PPO,218,54.27039999999994,0.17,0.63
+env_tight_fixedrisk,PPO:seed13,PPO,219,135.85859999999997,0.12,0.56
+env_tight_fixedrisk,PPO:seed13,PPO,220,123.78479999999999,0.09,0.55
+env_tight_fixedrisk,PPO:seed13,PPO,221,146.32799999999997,0.22,0.6
+env_tight_fixedrisk,PPO:seed13,PPO,222,94.46339999999998,0.18,0.48
+env_tight_fixedrisk,PPO:seed13,PPO,223,126.09560000000002,0.21,0.55
+env_tight_fixedrisk,PPO:seed13,PPO,224,59.03859999999999,0.22,0.51
+env_tight_fixedrisk,PPO:seed13,PPO,225,75.3774,0.15,0.47
+env_tight_fixedrisk,PPO:seed13,PPO,226,87.48339999999992,0.08,0.56
+env_tight_fixedrisk,PPO:seed13,PPO,227,151.52039999999997,0.15,0.61
+env_tight_fixedrisk,PPO:seed13,PPO,228,106.62640000000003,0.09,0.6
+env_tight_fixedrisk,PPO:seed13,PPO,229,127.14420000000001,0.09,0.63
+env_tight_fixedrisk,PPO:seed13,PPO,230,129.8352,0.17,0.67
+env_tight_fixedrisk,PPO:seed13,PPO,231,139.49740000000003,0.12,0.59
+env_tight_fixedrisk,PPO:seed13,PPO,232,121.20519999999999,0.15,0.56
+env_tight_fixedrisk,PPO:seed13,PPO,233,127.95059999999998,0.08,0.68
+env_tight_fixedrisk,PPO:seed13,PPO,234,83.1366,0.16,0.56
+env_tight_fixedrisk,PPO:seed13,PPO,235,133.6842,0.17,0.6
+env_tight_fixedrisk,PPO:seed13,PPO,236,94.21600000000002,0.12,0.48
+env_tight_fixedrisk,PPO:seed13,PPO,237,114.69679999999994,0.16,0.57
+env_tight_fixedrisk,PPO:seed13,PPO,238,68.72579999999999,0.18,0.5
+env_tight_fixedrisk,PPO:seed13,PPO,239,137.95120000000003,0.16,0.62
+env_tight_fixedrisk,PPO:seed13,PPO,240,71.71999999999994,0.19,0.5
+env_tight_fixedrisk,PPO:seed13,PPO,241,86.59719999999996,0.22,0.54
+env_tight_fixedrisk,PPO:seed13,PPO,242,109.48020000000001,0.08,0.67
+env_tight_fixedrisk,PPO:seed13,PPO,243,65.48720000000002,0.11,0.58
+env_tight_fixedrisk,PPO:seed13,PPO,244,119.59120000000001,0.2,0.54
+env_tight_fixedrisk,PPO:seed13,PPO,245,74.07959999999993,0.14,0.59
+env_tight_fixedrisk,PPO:seed13,PPO,246,103.64619999999996,0.12,0.49
+env_tight_fixedrisk,PPO:seed13,PPO,247,102.23059999999998,0.22,0.53
+env_tight_fixedrisk,PPO:seed13,PPO,248,80.734,0.1,0.49
+env_tight_fixedrisk,PPO:seed13,PPO,249,89.01459999999999,0.14,0.6
+env_tight_fixedrisk,PPO:seed7,PPO,200,119.50500000000005,0.24,0.53
+env_tight_fixedrisk,PPO:seed7,PPO,201,140.3216,0.14,0.52
+env_tight_fixedrisk,PPO:seed7,PPO,202,133.86719999999997,0.16,0.63
+env_tight_fixedrisk,PPO:seed7,PPO,203,92.68499999999999,0.26,0.58
+env_tight_fixedrisk,PPO:seed7,PPO,204,105.07179999999994,0.15,0.58
+env_tight_fixedrisk,PPO:seed7,PPO,205,81.60459999999996,0.14,0.53
+env_tight_fixedrisk,PPO:seed7,PPO,206,127.29400000000001,0.12,0.59
+env_tight_fixedrisk,PPO:seed7,PPO,207,118.42079999999999,0.13,0.49
+env_tight_fixedrisk,PPO:seed7,PPO,208,77.56739999999995,0.11,0.58
+env_tight_fixedrisk,PPO:seed7,PPO,209,91.8478,0.21,0.48
+env_tight_fixedrisk,PPO:seed7,PPO,210,95.06300000000003,0.14,0.54
+env_tight_fixedrisk,PPO:seed7,PPO,211,148.4526,0.09,0.52
+env_tight_fixedrisk,PPO:seed7,PPO,212,71.8172,0.18,0.49
+env_tight_fixedrisk,PPO:seed7,PPO,213,133.31879999999995,0.09,0.53
+env_tight_fixedrisk,PPO:seed7,PPO,214,80.47180000000002,0.25,0.51
+env_tight_fixedrisk,PPO:seed7,PPO,215,96.00739999999996,0.1,0.58
+env_tight_fixedrisk,PPO:seed7,PPO,216,134.30599999999998,0.14,0.58
+env_tight_fixedrisk,PPO:seed7,PPO,217,127.161,0.15,0.52
+env_tight_fixedrisk,PPO:seed7,PPO,218,52.709399999999974,0.21,0.61
+env_tight_fixedrisk,PPO:seed7,PPO,219,135.96619999999996,0.12,0.56
+env_tight_fixedrisk,PPO:seed7,PPO,220,117.57759999999999,0.09,0.55
+env_tight_fixedrisk,PPO:seed7,PPO,221,103.96780000000003,0.22,0.57
+env_tight_fixedrisk,PPO:seed7,PPO,222,97.0232,0.13,0.44
+env_tight_fixedrisk,PPO:seed7,PPO,223,132.40420000000003,0.19,0.57
+env_tight_fixedrisk,PPO:seed7,PPO,224,59.03859999999999,0.22,0.51
+env_tight_fixedrisk,PPO:seed7,PPO,225,76.6658,0.15,0.47
+env_tight_fixedrisk,PPO:seed7,PPO,226,88.82900000000006,0.1,0.58
+env_tight_fixedrisk,PPO:seed7,PPO,227,154.26920000000004,0.15,0.62
+env_tight_fixedrisk,PPO:seed7,PPO,228,111.39320000000004,0.09,0.61
+env_tight_fixedrisk,PPO:seed7,PPO,229,127.14420000000001,0.09,0.63
+env_tight_fixedrisk,PPO:seed7,PPO,230,149.3098,0.19,0.67
+env_tight_fixedrisk,PPO:seed7,PPO,231,139.49740000000003,0.12,0.59
+env_tight_fixedrisk,PPO:seed7,PPO,232,121.20519999999999,0.15,0.56
+env_tight_fixedrisk,PPO:seed7,PPO,233,127.95059999999998,0.08,0.68
+env_tight_fixedrisk,PPO:seed7,PPO,234,83.1366,0.16,0.56
+env_tight_fixedrisk,PPO:seed7,PPO,235,133.6818,0.17,0.6
+env_tight_fixedrisk,PPO:seed7,PPO,236,82.98059999999998,0.13,0.49
+env_tight_fixedrisk,PPO:seed7,PPO,237,100.21719999999998,0.14,0.61
+env_tight_fixedrisk,PPO:seed7,PPO,238,68.72579999999999,0.18,0.5
+env_tight_fixedrisk,PPO:seed7,PPO,239,128.85719999999998,0.18,0.61
+env_tight_fixedrisk,PPO:seed7,PPO,240,101.16540000000003,0.11,0.56
+env_tight_fixedrisk,PPO:seed7,PPO,241,86.72039999999996,0.22,0.54
+env_tight_fixedrisk,PPO:seed7,PPO,242,109.48020000000001,0.08,0.67
+env_tight_fixedrisk,PPO:seed7,PPO,243,65.14999999999995,0.11,0.56
+env_tight_fixedrisk,PPO:seed7,PPO,244,119.59120000000001,0.2,0.54
+env_tight_fixedrisk,PPO:seed7,PPO,245,74.41799999999999,0.15,0.6
+env_tight_fixedrisk,PPO:seed7,PPO,246,103.64619999999996,0.12,0.49
+env_tight_fixedrisk,PPO:seed7,PPO,247,112.58599999999996,0.22,0.54
+env_tight_fixedrisk,PPO:seed7,PPO,248,80.74939999999992,0.11,0.48
+env_tight_fixedrisk,PPO:seed7,PPO,249,81.94279999999996,0.14,0.57
+env_cascade,always_execute,baseline,200,18.307999999999993,0.58,0.36
+env_cascade,always_execute,baseline,201,15.14759999999994,0.55,0.39
+env_cascade,always_execute,baseline,202,10.807600000000022,0.47,0.45
+env_cascade,always_execute,baseline,203,35.75120000000001,0.47,0.47
+env_cascade,always_execute,baseline,204,14.007799999999989,0.5,0.44
+env_cascade,always_execute,baseline,205,23.106000000000037,0.47,0.46
+env_cascade,always_execute,baseline,206,-51.20319999999998,0.61,0.35
+env_cascade,always_execute,baseline,207,11.388200000000012,0.48,0.47
+env_cascade,always_execute,baseline,208,-29.40219999999998,0.55,0.41
+env_cascade,always_execute,baseline,209,23.282599999999988,0.58,0.37
+env_cascade,always_execute,baseline,210,1.4378000000000668,0.51,0.44
+env_cascade,always_execute,baseline,211,20.998599999999996,0.59,0.39
+env_cascade,always_execute,baseline,212,48.54139999999994,0.4,0.46
+env_cascade,always_execute,baseline,213,59.213000000000065,0.44,0.49
+env_cascade,always_execute,baseline,214,35.239400000000046,0.51,0.46
+env_cascade,always_execute,baseline,215,53.205799999999954,0.51,0.45
+env_cascade,always_execute,baseline,216,-20.985600000000034,0.53,0.39
+env_cascade,always_execute,baseline,217,5.374999999999972,0.57,0.42
+env_cascade,always_execute,baseline,218,28.455799999999954,0.45,0.43
+env_cascade,always_execute,baseline,219,6.503999999999934,0.49,0.42
+env_cascade,always_execute,baseline,220,50.215,0.46,0.5
+env_cascade,always_execute,baseline,221,60.74780000000004,0.46,0.51
+env_cascade,always_execute,baseline,222,57.158200000000036,0.49,0.47
+env_cascade,always_execute,baseline,223,29.766199999999984,0.54,0.42
+env_cascade,always_execute,baseline,224,-16.33940000000004,0.55,0.39
+env_cascade,always_execute,baseline,225,48.5222,0.42,0.49
+env_cascade,always_execute,baseline,226,10.625599999999991,0.47,0.43
+env_cascade,always_execute,baseline,227,38.600599999999986,0.52,0.45
+env_cascade,always_execute,baseline,228,-8.409999999999997,0.55,0.44
+env_cascade,always_execute,baseline,229,-2.5059999999999505,0.58,0.41
+env_cascade,always_execute,baseline,230,38.90560000000002,0.56,0.44
+env_cascade,always_execute,baseline,231,59.83740000000003,0.42,0.46
+env_cascade,always_execute,baseline,232,-3.0055999999999727,0.56,0.42
+env_cascade,always_execute,baseline,233,43.851399999999984,0.44,0.43
+env_cascade,always_execute,baseline,234,36.615800000000036,0.4,0.5
+env_cascade,always_execute,baseline,235,49.26559999999998,0.49,0.43
+env_cascade,always_execute,baseline,236,32.15259999999998,0.53,0.42
+env_cascade,always_execute,baseline,237,43.73659999999997,0.42,0.46
+env_cascade,always_execute,baseline,238,48.95740000000001,0.4,0.48
+env_cascade,always_execute,baseline,239,32.2136,0.52,0.46
+env_cascade,always_execute,baseline,240,-7.434600000000017,0.5,0.41
+env_cascade,always_execute,baseline,241,17.488199999999978,0.56,0.4
+env_cascade,always_execute,baseline,242,3.0935999999999524,0.54,0.43
+env_cascade,always_execute,baseline,243,13.009000000000029,0.49,0.47
+env_cascade,always_execute,baseline,244,12.582999999999984,0.6,0.37
+env_cascade,always_execute,baseline,245,36.74120000000002,0.55,0.44
+env_cascade,always_execute,baseline,246,30.723799999999983,0.51,0.43
+env_cascade,always_execute,baseline,247,-31.669600000000088,0.54,0.39
+env_cascade,always_execute,baseline,248,-3.9630000000000365,0.54,0.39
+env_cascade,always_execute,baseline,249,20.49720000000002,0.53,0.42
+env_cascade,throttle (hand),hand,200,65.2878,0.38,0.39
+env_cascade,throttle (hand),hand,201,41.55400000000003,0.34,0.43
+env_cascade,throttle (hand),hand,202,5.779000000000025,0.42,0.39
+env_cascade,throttle (hand),hand,203,66.03879999999998,0.34,0.39
+env_cascade,throttle (hand),hand,204,49.0728,0.4,0.37
+env_cascade,throttle (hand),hand,205,0.3457999999999686,0.39,0.36
+env_cascade,throttle (hand),hand,206,62.002399999999966,0.37,0.42
+env_cascade,throttle (hand),hand,207,66.62219999999998,0.35,0.45
+env_cascade,throttle (hand),hand,208,34.80260000000001,0.36,0.38
+env_cascade,throttle (hand),hand,209,69.10240000000002,0.38,0.38
+env_cascade,throttle (hand),hand,210,64.99239999999998,0.31,0.42
+env_cascade,throttle (hand),hand,211,-4.125800000000027,0.51,0.27
+env_cascade,throttle (hand),hand,212,16.196000000000012,0.44,0.36
+env_cascade,throttle (hand),hand,213,49.75240000000004,0.34,0.42
+env_cascade,throttle (hand),hand,214,88.88040000000001,0.27,0.44
+env_cascade,throttle (hand),hand,215,14.839199999999984,0.48,0.33
+env_cascade,throttle (hand),hand,216,22.977199999999975,0.39,0.39
+env_cascade,throttle (hand),hand,217,21.934000000000033,0.39,0.35
+env_cascade,throttle (hand),hand,218,-5.148999999999987,0.42,0.31
+env_cascade,throttle (hand),hand,219,2.8966000000000633,0.47,0.34
+env_cascade,throttle (hand),hand,220,5.271399999999986,0.48,0.33
+env_cascade,throttle (hand),hand,221,15.841399999999958,0.42,0.37
+env_cascade,throttle (hand),hand,222,68.55880000000002,0.36,0.4
+env_cascade,throttle (hand),hand,223,-0.6122000000000014,0.53,0.3
+env_cascade,throttle (hand),hand,224,0.2867999999999853,0.41,0.37
+env_cascade,throttle (hand),hand,225,1.4505999999999233,0.43,0.34
+env_cascade,throttle (hand),hand,226,45.38479999999997,0.29,0.4
+env_cascade,throttle (hand),hand,227,73.43780000000001,0.33,0.41
+env_cascade,throttle (hand),hand,228,26.666800000000023,0.39,0.38
+env_cascade,throttle (hand),hand,229,21.342600000000004,0.45,0.35
+env_cascade,throttle (hand),hand,230,26.338600000000014,0.48,0.35
+env_cascade,throttle (hand),hand,231,54.290000000000006,0.38,0.37
+env_cascade,throttle (hand),hand,232,20.645399999999967,0.46,0.33
+env_cascade,throttle (hand),hand,233,18.652399999999993,0.4,0.36
+env_cascade,throttle (hand),hand,234,14.213399999999908,0.36,0.39
+env_cascade,throttle (hand),hand,235,73.92759999999998,0.37,0.41
+env_cascade,throttle (hand),hand,236,19.104599999999976,0.46,0.36
+env_cascade,throttle (hand),hand,237,24.241200000000006,0.36,0.37
+env_cascade,throttle (hand),hand,238,38.06179999999998,0.43,0.38
+env_cascade,throttle (hand),hand,239,65.77120000000001,0.39,0.41
+env_cascade,throttle (hand),hand,240,43.867399999999975,0.34,0.39
+env_cascade,throttle (hand),hand,241,77.80040000000001,0.33,0.42
+env_cascade,throttle (hand),hand,242,42.25119999999998,0.32,0.41
+env_cascade,throttle (hand),hand,243,15.639599999999973,0.31,0.43
+env_cascade,throttle (hand),hand,244,52.019400000000005,0.36,0.33
+env_cascade,throttle (hand),hand,245,57.54019999999997,0.32,0.4
+env_cascade,throttle (hand),hand,246,32.53060000000001,0.39,0.38
+env_cascade,throttle (hand),hand,247,1.6448000000000036,0.46,0.35
+env_cascade,throttle (hand),hand,248,-5.493200000000016,0.37,0.37
+env_cascade,throttle (hand),hand,249,42.84360000000002,0.43,0.38
+env_cascade,REINFORCE:seed7,REINFORCE,200,180.0244,0.07,0.67
+env_cascade,REINFORCE:seed7,REINFORCE,201,133.45079999999996,0.03,0.65
+env_cascade,REINFORCE:seed7,REINFORCE,202,114.31659999999992,0.04,0.7
+env_cascade,REINFORCE:seed7,REINFORCE,203,177.7052,0.07,0.68
+env_cascade,REINFORCE:seed7,REINFORCE,204,169.25519999999997,0.03,0.69
+env_cascade,REINFORCE:seed7,REINFORCE,205,98.24459999999996,0.1,0.64
+env_cascade,REINFORCE:seed7,REINFORCE,206,157.94080000000002,0.05,0.68
+env_cascade,REINFORCE:seed7,REINFORCE,207,141.04119999999995,0.06,0.66
+env_cascade,REINFORCE:seed7,REINFORCE,208,95.10679999999995,0.01,0.7
+env_cascade,REINFORCE:seed7,REINFORCE,209,126.33840000000001,0.07,0.66
+env_cascade,REINFORCE:seed7,REINFORCE,210,150.7406,0.02,0.69
+env_cascade,REINFORCE:seed7,REINFORCE,211,169.75959999999998,0.08,0.69
+env_cascade,REINFORCE:seed7,REINFORCE,212,116.12719999999996,0.02,0.71
+env_cascade,REINFORCE:seed7,REINFORCE,213,171.481,0.03,0.73
+env_cascade,REINFORCE:seed7,REINFORCE,214,133.41540000000003,0.09,0.63
+env_cascade,REINFORCE:seed7,REINFORCE,215,111.84500000000003,0.05,0.7
+env_cascade,REINFORCE:seed7,REINFORCE,216,123.19979999999988,0.03,0.7
+env_cascade,REINFORCE:seed7,REINFORCE,217,140.48580000000004,0.02,0.7
+env_cascade,REINFORCE:seed7,REINFORCE,218,158.83939999999998,0.06,0.67
+env_cascade,REINFORCE:seed7,REINFORCE,219,138.39499999999998,0.07,0.66
+env_cascade,REINFORCE:seed7,REINFORCE,220,153.53640000000007,0.1,0.64
+env_cascade,REINFORCE:seed7,REINFORCE,221,190.65779999999998,0.05,0.72
+env_cascade,REINFORCE:seed7,REINFORCE,222,169.9004,0.04,0.66
+env_cascade,REINFORCE:seed7,REINFORCE,223,160.85699999999997,0.06,0.67
+env_cascade,REINFORCE:seed7,REINFORCE,224,144.34119999999996,0.04,0.67
+env_cascade,REINFORCE:seed7,REINFORCE,225,134.484,0.03,0.69
+env_cascade,REINFORCE:seed7,REINFORCE,226,110.03120000000007,0.05,0.64
+env_cascade,REINFORCE:seed7,REINFORCE,227,142.71220000000005,0.04,0.69
+env_cascade,REINFORCE:seed7,REINFORCE,228,123.28819999999999,0.05,0.65
+env_cascade,REINFORCE:seed7,REINFORCE,229,123.4016,0.07,0.72
+env_cascade,REINFORCE:seed7,REINFORCE,230,190.43460000000002,0.07,0.72
+env_cascade,REINFORCE:seed7,REINFORCE,231,157.76860000000002,0.04,0.66
+env_cascade,REINFORCE:seed7,REINFORCE,232,139.31339999999997,0.05,0.67
+env_cascade,REINFORCE:seed7,REINFORCE,233,111.71340000000005,0.02,0.68
+env_cascade,REINFORCE:seed7,REINFORCE,234,117.1165999999999,0.02,0.68
+env_cascade,REINFORCE:seed7,REINFORCE,235,199.4386,0.04,0.71
+env_cascade,REINFORCE:seed7,REINFORCE,236,149.97520000000003,0.01,0.71
+env_cascade,REINFORCE:seed7,REINFORCE,237,135.84720000000004,0.01,0.7
+env_cascade,REINFORCE:seed7,REINFORCE,238,102.46360000000004,0.06,0.64
+env_cascade,REINFORCE:seed7,REINFORCE,239,185.86520000000002,0.05,0.73
+env_cascade,REINFORCE:seed7,REINFORCE,240,141.7108,0.03,0.68
+env_cascade,REINFORCE:seed7,REINFORCE,241,119.27199999999996,0.04,0.68
+env_cascade,REINFORCE:seed7,REINFORCE,242,103.559,0.03,0.69
+env_cascade,REINFORCE:seed7,REINFORCE,243,110.93559999999994,0.0,0.71
+env_cascade,REINFORCE:seed7,REINFORCE,244,164.61080000000007,0.04,0.69
+env_cascade,REINFORCE:seed7,REINFORCE,245,105.78760000000005,0.05,0.66
+env_cascade,REINFORCE:seed7,REINFORCE,246,135.6646,0.03,0.68
+env_cascade,REINFORCE:seed7,REINFORCE,247,133.99459999999993,0.1,0.67
+env_cascade,REINFORCE:seed7,REINFORCE,248,153.6952,0.03,0.71
+env_cascade,REINFORCE:seed7,REINFORCE,249,146.88720000000006,0.04,0.72
+env_cascade,REINFORCE:seed11,REINFORCE,200,145.327,0.02,0.47
+env_cascade,REINFORCE:seed11,REINFORCE,201,157.2382,0.01,0.49
+env_cascade,REINFORCE:seed11,REINFORCE,202,120.33579999999995,0.04,0.62
+env_cascade,REINFORCE:seed11,REINFORCE,203,130.3818,0.05,0.55
+env_cascade,REINFORCE:seed11,REINFORCE,204,122.94200000000001,0.02,0.59
+env_cascade,REINFORCE:seed11,REINFORCE,205,101.7103999999999,0.05,0.59
+env_cascade,REINFORCE:seed11,REINFORCE,206,130.77939999999998,0.02,0.59
+env_cascade,REINFORCE:seed11,REINFORCE,207,148.736,0.03,0.52
+env_cascade,REINFORCE:seed11,REINFORCE,208,93.12140000000004,0.01,0.57
+env_cascade,REINFORCE:seed11,REINFORCE,209,169.876,0.01,0.61
+env_cascade,REINFORCE:seed11,REINFORCE,210,139.98719999999997,0.04,0.57
+env_cascade,REINFORCE:seed11,REINFORCE,211,153.4308,0.02,0.51
+env_cascade,REINFORCE:seed11,REINFORCE,212,114.37940000000002,0.03,0.59
+env_cascade,REINFORCE:seed11,REINFORCE,213,127.00679999999994,0.05,0.57
+env_cascade,REINFORCE:seed11,REINFORCE,214,130.81119999999999,0.09,0.55
+env_cascade,REINFORCE:seed11,REINFORCE,215,110.81519999999992,0.01,0.58
+env_cascade,REINFORCE:seed11,REINFORCE,216,107.645,0.06,0.51
+env_cascade,REINFORCE:seed11,REINFORCE,217,138.89019999999994,0.01,0.62
+env_cascade,REINFORCE:seed11,REINFORCE,218,108.75959999999998,0.03,0.61
+env_cascade,REINFORCE:seed11,REINFORCE,219,147.119,0.06,0.57
+env_cascade,REINFORCE:seed11,REINFORCE,220,114.19540000000006,0.01,0.63
+env_cascade,REINFORCE:seed11,REINFORCE,221,117.47500000000004,0.04,0.61
+env_cascade,REINFORCE:seed11,REINFORCE,222,137.2376,0.01,0.59
+env_cascade,REINFORCE:seed11,REINFORCE,223,128.4034,0.04,0.48
+env_cascade,REINFORCE:seed11,REINFORCE,224,88.77139999999999,0.04,0.59
+env_cascade,REINFORCE:seed11,REINFORCE,225,125.32860000000001,0.02,0.6
+env_cascade,REINFORCE:seed11,REINFORCE,226,83.77319999999993,0.04,0.56
+env_cascade,REINFORCE:seed11,REINFORCE,227,172.0452,0.01,0.56
+env_cascade,REINFORCE:seed11,REINFORCE,228,123.90480000000002,0.03,0.58
+env_cascade,REINFORCE:seed11,REINFORCE,229,153.92520000000002,0.01,0.56
+env_cascade,REINFORCE:seed11,REINFORCE,230,142.89020000000002,0.02,0.5
+env_cascade,REINFORCE:seed11,REINFORCE,231,140.1134,0.03,0.55
+env_cascade,REINFORCE:seed11,REINFORCE,232,145.47039999999998,0.04,0.47
+env_cascade,REINFORCE:seed11,REINFORCE,233,98.79580000000004,0.04,0.55
+env_cascade,REINFORCE:seed11,REINFORCE,234,118.83720000000002,0.02,0.6
+env_cascade,REINFORCE:seed11,REINFORCE,235,150.2598,0.02,0.56
+env_cascade,REINFORCE:seed11,REINFORCE,236,156.93080000000003,0.01,0.6
+env_cascade,REINFORCE:seed11,REINFORCE,237,105.38999999999996,0.04,0.58
+env_cascade,REINFORCE:seed11,REINFORCE,238,126.89679999999998,0.03,0.5
+env_cascade,REINFORCE:seed11,REINFORCE,239,126.14180000000002,0.04,0.58
+env_cascade,REINFORCE:seed11,REINFORCE,240,116.39259999999994,0.03,0.57
+env_cascade,REINFORCE:seed11,REINFORCE,241,70.90499999999992,0.07,0.56
+env_cascade,REINFORCE:seed11,REINFORCE,242,94.13480000000001,0.02,0.59
+env_cascade,REINFORCE:seed11,REINFORCE,243,102.99579999999995,0.02,0.63
+env_cascade,REINFORCE:seed11,REINFORCE,244,146.301,0.0,0.54
+env_cascade,REINFORCE:seed11,REINFORCE,245,96.41979999999998,0.04,0.61
+env_cascade,REINFORCE:seed11,REINFORCE,246,137.79160000000002,0.01,0.57
+env_cascade,REINFORCE:seed11,REINFORCE,247,132.993,0.04,0.56
+env_cascade,REINFORCE:seed11,REINFORCE,248,125.8164,0.01,0.59
+env_cascade,REINFORCE:seed11,REINFORCE,249,146.70940000000004,0.02,0.54
+env_cascade,REINFORCE:seed13,REINFORCE,200,53.62819999999999,0.02,0.18
+env_cascade,REINFORCE:seed13,REINFORCE,201,8.25120000000004,0.44,0.42
+env_cascade,REINFORCE:seed13,REINFORCE,202,117.58539999999998,0.05,0.6
+env_cascade,REINFORCE:seed13,REINFORCE,203,112.6772,0.06,0.44
+env_cascade,REINFORCE:seed13,REINFORCE,204,130.20619999999988,0.04,0.65
+env_cascade,REINFORCE:seed13,REINFORCE,205,96.6418,0.05,0.52
+env_cascade,REINFORCE:seed13,REINFORCE,206,124.89739999999995,0.05,0.66
+env_cascade,REINFORCE:seed13,REINFORCE,207,93.7466,0.04,0.42
+env_cascade,REINFORCE:seed13,REINFORCE,208,46.51319999999997,0.18,0.63
+env_cascade,REINFORCE:seed13,REINFORCE,209,83.52900000000002,0.04,0.35
+env_cascade,REINFORCE:seed13,REINFORCE,210,104.72319999999999,0.05,0.69
+env_cascade,REINFORCE:seed13,REINFORCE,211,96.202,0.0,0.34
+env_cascade,REINFORCE:seed13,REINFORCE,212,2.2207999999999686,0.47,0.45
+env_cascade,REINFORCE:seed13,REINFORCE,213,75.83760000000001,0.19,0.41
+env_cascade,REINFORCE:seed13,REINFORCE,214,82.082,0.06,0.37
+env_cascade,REINFORCE:seed13,REINFORCE,215,109.57720000000002,0.0,0.56
+env_cascade,REINFORCE:seed13,REINFORCE,216,43.48379999999999,0.02,0.17
+env_cascade,REINFORCE:seed13,REINFORCE,217,74.20340000000007,0.27,0.6
+env_cascade,REINFORCE:seed13,REINFORCE,218,88.0748,0.01,0.51
+env_cascade,REINFORCE:seed13,REINFORCE,219,86.9314,0.03,0.38
+env_cascade,REINFORCE:seed13,REINFORCE,220,63.6958,0.0,0.19
+env_cascade,REINFORCE:seed13,REINFORCE,221,96.851,0.01,0.39
+env_cascade,REINFORCE:seed13,REINFORCE,222,76.5884,0.04,0.25
+env_cascade,REINFORCE:seed13,REINFORCE,223,85.75420000000001,0.08,0.39
+env_cascade,REINFORCE:seed13,REINFORCE,224,11.247600000000034,0.33,0.47
+env_cascade,REINFORCE:seed13,REINFORCE,225,98.89240000000002,0.07,0.53
+env_cascade,REINFORCE:seed13,REINFORCE,226,122.82199999999989,0.04,0.74
+env_cascade,REINFORCE:seed13,REINFORCE,227,73.62959999999993,0.18,0.57
+env_cascade,REINFORCE:seed13,REINFORCE,228,53.13540000000001,0.0,0.22
+env_cascade,REINFORCE:seed13,REINFORCE,229,81.9288,0.1,0.43
+env_cascade,REINFORCE:seed13,REINFORCE,230,103.382,0.02,0.39
+env_cascade,REINFORCE:seed13,REINFORCE,231,112.3172,0.01,0.42
+env_cascade,REINFORCE:seed13,REINFORCE,232,87.71719999999999,0.01,0.31
+env_cascade,REINFORCE:seed13,REINFORCE,233,113.5386,0.02,0.68
+env_cascade,REINFORCE:seed13,REINFORCE,234,124.47559999999996,0.02,0.71
+env_cascade,REINFORCE:seed13,REINFORCE,235,22.203399999999995,0.01,0.07
+env_cascade,REINFORCE:seed13,REINFORCE,236,98.65700000000001,0.02,0.37
+env_cascade,REINFORCE:seed13,REINFORCE,237,104.20999999999997,0.1,0.63
+env_cascade,REINFORCE:seed13,REINFORCE,238,74.0604,0.12,0.38
+env_cascade,REINFORCE:seed13,REINFORCE,239,41.91099999999998,0.1,0.21
+env_cascade,REINFORCE:seed13,REINFORCE,240,42.0672,0.05,0.17
+env_cascade,REINFORCE:seed13,REINFORCE,241,39.635799999999996,0.03,0.14
+env_cascade,REINFORCE:seed13,REINFORCE,242,98.02980000000002,0.05,0.67
+env_cascade,REINFORCE:seed13,REINFORCE,243,39.91259999999991,0.27,0.6
+env_cascade,REINFORCE:seed13,REINFORCE,244,89.3546,0.0,0.38
+env_cascade,REINFORCE:seed13,REINFORCE,245,107.73139999999995,0.02,0.63
+env_cascade,REINFORCE:seed13,REINFORCE,246,123.21899999999991,0.03,0.65
+env_cascade,REINFORCE:seed13,REINFORCE,247,61.77420000000001,0.07,0.31
+env_cascade,REINFORCE:seed13,REINFORCE,248,39.488199999999935,0.26,0.45
+env_cascade,REINFORCE:seed13,REINFORCE,249,64.4966,0.02,0.23
+env_cascade,PPO:seed11,PPO,200,182.1024,0.06,0.68
+env_cascade,PPO:seed11,PPO,201,196.23579999999998,0.01,0.71
+env_cascade,PPO:seed11,PPO,202,147.87439999999998,0.04,0.7
+env_cascade,PPO:seed11,PPO,203,178.2566,0.08,0.63
+env_cascade,PPO:seed11,PPO,204,139.78999999999996,0.03,0.67
+env_cascade,PPO:seed11,PPO,205,121.44040000000001,0.07,0.67
+env_cascade,PPO:seed11,PPO,206,164.68859999999995,0.05,0.68
+env_cascade,PPO:seed11,PPO,207,162.09099999999998,0.05,0.65
+env_cascade,PPO:seed11,PPO,208,98.3022,0.0,0.69
+env_cascade,PPO:seed11,PPO,209,116.83420000000001,0.14,0.56
+env_cascade,PPO:seed11,PPO,210,112.77940000000001,0.03,0.66
+env_cascade,PPO:seed11,PPO,211,182.7878,0.04,0.7
+env_cascade,PPO:seed11,PPO,212,132.3716,0.03,0.7
+env_cascade,PPO:seed11,PPO,213,176.72320000000002,0.01,0.7
+env_cascade,PPO:seed11,PPO,214,189.7642,0.04,0.71
+env_cascade,PPO:seed11,PPO,215,101.14380000000001,0.04,0.66
+env_cascade,PPO:seed11,PPO,216,119.99919999999993,0.02,0.68
+env_cascade,PPO:seed11,PPO,217,180.30380000000002,0.04,0.71
+env_cascade,PPO:seed11,PPO,218,100.97539999999998,0.05,0.66
+env_cascade,PPO:seed11,PPO,219,145.91340000000002,0.03,0.64
+env_cascade,PPO:seed11,PPO,220,188.7322,0.04,0.7
+env_cascade,PPO:seed11,PPO,221,149.3784,0.05,0.66
+env_cascade,PPO:seed11,PPO,222,163.9282,0.05,0.65
+env_cascade,PPO:seed11,PPO,223,134.58140000000003,0.09,0.6
+env_cascade,PPO:seed11,PPO,224,125.267,0.03,0.66
+env_cascade,PPO:seed11,PPO,225,105.48479999999992,0.02,0.69
+env_cascade,PPO:seed11,PPO,226,137.71459999999996,0.03,0.67
+env_cascade,PPO:seed11,PPO,227,141.84920000000005,0.03,0.7
+env_cascade,PPO:seed11,PPO,228,115.3024,0.04,0.69
+env_cascade,PPO:seed11,PPO,229,122.95159999999996,0.05,0.68
+env_cascade,PPO:seed11,PPO,230,192.34159999999997,0.04,0.71
+env_cascade,PPO:seed11,PPO,231,159.00220000000002,0.06,0.64
+env_cascade,PPO:seed11,PPO,232,125.47119999999995,0.04,0.66
+env_cascade,PPO:seed11,PPO,233,125.87940000000003,0.06,0.66
+env_cascade,PPO:seed11,PPO,234,145.9942,0.01,0.67
+env_cascade,PPO:seed11,PPO,235,124.1506,0.04,0.67
+env_cascade,PPO:seed11,PPO,236,170.93340000000006,0.02,0.7
+env_cascade,PPO:seed11,PPO,237,140.01180000000005,0.04,0.69
+env_cascade,PPO:seed11,PPO,238,122.14619999999996,0.05,0.66
+env_cascade,PPO:seed11,PPO,239,169.38620000000003,0.02,0.71
+env_cascade,PPO:seed11,PPO,240,130.87939999999998,0.04,0.65
+env_cascade,PPO:seed11,PPO,241,162.3904,0.05,0.68
+env_cascade,PPO:seed11,PPO,242,102.65799999999989,0.04,0.68
+env_cascade,PPO:seed11,PPO,243,105.40399999999997,0.0,0.72
+env_cascade,PPO:seed11,PPO,244,165.963,0.08,0.66
+env_cascade,PPO:seed11,PPO,245,111.41459999999992,0.03,0.66
+env_cascade,PPO:seed11,PPO,246,180.47339999999997,0.02,0.69
+env_cascade,PPO:seed11,PPO,247,121.97479999999999,0.05,0.69
+env_cascade,PPO:seed11,PPO,248,123.02319999999995,0.03,0.66
+env_cascade,PPO:seed11,PPO,249,154.466,0.08,0.64
+env_cascade,PPO:seed13,PPO,200,190.4124,0.06,0.69
+env_cascade,PPO:seed13,PPO,201,143.50300000000001,0.03,0.68
+env_cascade,PPO:seed13,PPO,202,172.8474,0.01,0.73
+env_cascade,PPO:seed13,PPO,203,164.45999999999998,0.09,0.61
+env_cascade,PPO:seed13,PPO,204,134.21040000000005,0.02,0.71
+env_cascade,PPO:seed13,PPO,205,117.55199999999994,0.06,0.65
+env_cascade,PPO:seed13,PPO,206,162.98940000000005,0.05,0.7
+env_cascade,PPO:seed13,PPO,207,132.49319999999997,0.11,0.61
+env_cascade,PPO:seed13,PPO,208,102.60380000000008,0.01,0.71
+env_cascade,PPO:seed13,PPO,209,138.5116,0.12,0.61
+env_cascade,PPO:seed13,PPO,210,104.49339999999998,0.07,0.63
+env_cascade,PPO:seed13,PPO,211,127.8306,0.07,0.65
+env_cascade,PPO:seed13,PPO,212,109.06700000000008,0.03,0.71
+env_cascade,PPO:seed13,PPO,213,163.05020000000002,0.02,0.73
+env_cascade,PPO:seed13,PPO,214,177.48700000000002,0.07,0.69
+env_cascade,PPO:seed13,PPO,215,102.17840000000004,0.07,0.68
+env_cascade,PPO:seed13,PPO,216,155.7864,0.05,0.68
+env_cascade,PPO:seed13,PPO,217,140.16420000000005,0.02,0.7
+env_cascade,PPO:seed13,PPO,218,110.08880000000002,0.06,0.67
+env_cascade,PPO:seed13,PPO,219,152.62840000000003,0.07,0.67
+env_cascade,PPO:seed13,PPO,220,183.34159999999994,0.04,0.71
+env_cascade,PPO:seed13,PPO,221,180.29539999999997,0.03,0.7
+env_cascade,PPO:seed13,PPO,222,175.43260000000004,0.06,0.65
+env_cascade,PPO:seed13,PPO,223,103.86139999999997,0.16,0.56
+env_cascade,PPO:seed13,PPO,224,134.12599999999998,0.07,0.66
+env_cascade,PPO:seed13,PPO,225,123.57220000000001,0.07,0.63
+env_cascade,PPO:seed13,PPO,226,98.72399999999996,0.1,0.62
+env_cascade,PPO:seed13,PPO,227,126.22739999999999,0.04,0.69
+env_cascade,PPO:seed13,PPO,228,141.16500000000005,0.03,0.68
+env_cascade,PPO:seed13,PPO,229,148.52220000000003,0.06,0.69
+env_cascade,PPO:seed13,PPO,230,181.4484,0.06,0.71
+env_cascade,PPO:seed13,PPO,231,165.36020000000002,0.05,0.66
+env_cascade,PPO:seed13,PPO,232,148.86180000000004,0.07,0.67
+env_cascade,PPO:seed13,PPO,233,136.00900000000001,0.03,0.69
+env_cascade,PPO:seed13,PPO,234,110.61159999999997,0.06,0.66
+env_cascade,PPO:seed13,PPO,235,192.08839999999998,0.04,0.71
+env_cascade,PPO:seed13,PPO,236,146.42739999999998,0.04,0.68
+env_cascade,PPO:seed13,PPO,237,150.54480000000007,0.04,0.68
+env_cascade,PPO:seed13,PPO,238,111.84680000000003,0.07,0.64
+env_cascade,PPO:seed13,PPO,239,184.2,0.04,0.72
+env_cascade,PPO:seed13,PPO,240,124.6848,0.05,0.64
+env_cascade,PPO:seed13,PPO,241,174.84119999999996,0.07,0.69
+env_cascade,PPO:seed13,PPO,242,100.61399999999993,0.05,0.68
+env_cascade,PPO:seed13,PPO,243,121.25380000000001,0.0,0.73
+env_cascade,PPO:seed13,PPO,244,170.892,0.05,0.69
+env_cascade,PPO:seed13,PPO,245,118.52380000000001,0.02,0.69
+env_cascade,PPO:seed13,PPO,246,147.03379999999993,0.06,0.67
+env_cascade,PPO:seed13,PPO,247,147.804,0.11,0.66
+env_cascade,PPO:seed13,PPO,248,138.1894,0.03,0.68
+env_cascade,PPO:seed13,PPO,249,126.78199999999998,0.04,0.72
+env_cascade,PPO:seed7,PPO,200,182.1576,0.07,0.68
+env_cascade,PPO:seed7,PPO,201,146.9604,0.09,0.65
+env_cascade,PPO:seed7,PPO,202,99.74459999999999,0.08,0.66
+env_cascade,PPO:seed7,PPO,203,107.9682,0.25,0.51
+env_cascade,PPO:seed7,PPO,204,103.60520000000002,0.12,0.61
+env_cascade,PPO:seed7,PPO,205,84.26079999999995,0.11,0.63
+env_cascade,PPO:seed7,PPO,206,141.4384,0.15,0.6
+env_cascade,PPO:seed7,PPO,207,133.065,0.16,0.58
+env_cascade,PPO:seed7,PPO,208,84.38019999999997,0.1,0.66
+env_cascade,PPO:seed7,PPO,209,102.79019999999997,0.18,0.59
+env_cascade,PPO:seed7,PPO,210,96.95880000000002,0.1,0.62
+env_cascade,PPO:seed7,PPO,211,142.007,0.15,0.61
+env_cascade,PPO:seed7,PPO,212,105.9652,0.13,0.61
+env_cascade,PPO:seed7,PPO,213,164.08980000000003,0.06,0.7
+env_cascade,PPO:seed7,PPO,214,115.30659999999997,0.14,0.63
+env_cascade,PPO:seed7,PPO,215,94.19259999999997,0.19,0.53
+env_cascade,PPO:seed7,PPO,216,107.98079999999996,0.17,0.57
+env_cascade,PPO:seed7,PPO,217,120.81300000000002,0.11,0.63
+env_cascade,PPO:seed7,PPO,218,85.20620000000001,0.15,0.57
+env_cascade,PPO:seed7,PPO,219,132.6706,0.07,0.69
+env_cascade,PPO:seed7,PPO,220,121.39539999999998,0.06,0.68
+env_cascade,PPO:seed7,PPO,221,185.05819999999997,0.06,0.7
+env_cascade,PPO:seed7,PPO,222,124.1908,0.2,0.54
+env_cascade,PPO:seed7,PPO,223,100.68020000000001,0.2,0.55
+env_cascade,PPO:seed7,PPO,224,119.01459999999997,0.11,0.64
+env_cascade,PPO:seed7,PPO,225,82.26460000000003,0.12,0.59
+env_cascade,PPO:seed7,PPO,226,85.84579999999994,0.15,0.57
+env_cascade,PPO:seed7,PPO,227,140.76300000000003,0.07,0.68
+env_cascade,PPO:seed7,PPO,228,111.611,0.09,0.66
+env_cascade,PPO:seed7,PPO,229,116.04179999999997,0.15,0.6
+env_cascade,PPO:seed7,PPO,230,158.16879999999998,0.12,0.65
+env_cascade,PPO:seed7,PPO,231,130.6976,0.11,0.59
+env_cascade,PPO:seed7,PPO,232,84.18799999999995,0.2,0.54
+env_cascade,PPO:seed7,PPO,233,145.84519999999998,0.09,0.66
+env_cascade,PPO:seed7,PPO,234,106.05019999999998,0.11,0.62
+env_cascade,PPO:seed7,PPO,235,178.98020000000005,0.09,0.68
+env_cascade,PPO:seed7,PPO,236,142.67119999999994,0.1,0.66
+env_cascade,PPO:seed7,PPO,237,125.55880000000002,0.05,0.69
+env_cascade,PPO:seed7,PPO,238,105.80300000000007,0.09,0.65
+env_cascade,PPO:seed7,PPO,239,89.51539999999996,0.13,0.64
+env_cascade,PPO:seed7,PPO,240,122.28399999999999,0.04,0.67
+env_cascade,PPO:seed7,PPO,241,123.49679999999998,0.16,0.59
+env_cascade,PPO:seed7,PPO,242,80.62680000000009,0.1,0.65
+env_cascade,PPO:seed7,PPO,243,86.08340000000003,0.07,0.65
+env_cascade,PPO:seed7,PPO,244,162.4002,0.1,0.65
+env_cascade,PPO:seed7,PPO,245,96.0357999999999,0.13,0.61
+env_cascade,PPO:seed7,PPO,246,116.2689999999999,0.05,0.7
+env_cascade,PPO:seed7,PPO,247,101.01740000000001,0.11,0.66
+env_cascade,PPO:seed7,PPO,248,108.23840000000003,0.12,0.6
+env_cascade,PPO:seed7,PPO,249,123.19400000000002,0.12,0.63
+env_cascade_broken,always_execute,baseline,200,18.307999999999993,0.58,0.36
+env_cascade_broken,always_execute,baseline,201,15.14759999999994,0.55,0.39
+env_cascade_broken,always_execute,baseline,202,10.807600000000022,0.47,0.45
+env_cascade_broken,always_execute,baseline,203,35.75120000000001,0.47,0.47
+env_cascade_broken,always_execute,baseline,204,14.007799999999989,0.5,0.44
+env_cascade_broken,always_execute,baseline,205,23.106000000000037,0.47,0.46
+env_cascade_broken,always_execute,baseline,206,-51.20319999999998,0.61,0.35
+env_cascade_broken,always_execute,baseline,207,11.388200000000012,0.48,0.47
+env_cascade_broken,always_execute,baseline,208,-29.40219999999998,0.55,0.41
+env_cascade_broken,always_execute,baseline,209,23.282599999999988,0.58,0.37
+env_cascade_broken,always_execute,baseline,210,1.4378000000000668,0.51,0.44
+env_cascade_broken,always_execute,baseline,211,20.998599999999996,0.59,0.39
+env_cascade_broken,always_execute,baseline,212,48.54139999999994,0.4,0.46
+env_cascade_broken,always_execute,baseline,213,59.213000000000065,0.44,0.49
+env_cascade_broken,always_execute,baseline,214,35.239400000000046,0.51,0.46
+env_cascade_broken,always_execute,baseline,215,53.205799999999954,0.51,0.45
+env_cascade_broken,always_execute,baseline,216,-20.985600000000034,0.53,0.39
+env_cascade_broken,always_execute,baseline,217,5.374999999999972,0.57,0.42
+env_cascade_broken,always_execute,baseline,218,28.455799999999954,0.45,0.43
+env_cascade_broken,always_execute,baseline,219,6.503999999999934,0.49,0.42
+env_cascade_broken,always_execute,baseline,220,50.215,0.46,0.5
+env_cascade_broken,always_execute,baseline,221,60.74780000000004,0.46,0.51
+env_cascade_broken,always_execute,baseline,222,57.158200000000036,0.49,0.47
+env_cascade_broken,always_execute,baseline,223,29.766199999999984,0.54,0.42
+env_cascade_broken,always_execute,baseline,224,-16.33940000000004,0.55,0.39
+env_cascade_broken,always_execute,baseline,225,48.5222,0.42,0.49
+env_cascade_broken,always_execute,baseline,226,10.625599999999991,0.47,0.43
+env_cascade_broken,always_execute,baseline,227,38.600599999999986,0.52,0.45
+env_cascade_broken,always_execute,baseline,228,-8.409999999999997,0.55,0.44
+env_cascade_broken,always_execute,baseline,229,-2.5059999999999505,0.58,0.41
+env_cascade_broken,always_execute,baseline,230,38.90560000000002,0.56,0.44
+env_cascade_broken,always_execute,baseline,231,59.83740000000003,0.42,0.46
+env_cascade_broken,always_execute,baseline,232,-3.0055999999999727,0.56,0.42
+env_cascade_broken,always_execute,baseline,233,43.851399999999984,0.44,0.43
+env_cascade_broken,always_execute,baseline,234,36.615800000000036,0.4,0.5
+env_cascade_broken,always_execute,baseline,235,49.26559999999998,0.49,0.43
+env_cascade_broken,always_execute,baseline,236,32.15259999999998,0.53,0.42
+env_cascade_broken,always_execute,baseline,237,43.73659999999997,0.42,0.46
+env_cascade_broken,always_execute,baseline,238,48.95740000000001,0.4,0.48
+env_cascade_broken,always_execute,baseline,239,32.2136,0.52,0.46
+env_cascade_broken,always_execute,baseline,240,-7.434600000000017,0.5,0.41
+env_cascade_broken,always_execute,baseline,241,17.488199999999978,0.56,0.4
+env_cascade_broken,always_execute,baseline,242,3.0935999999999524,0.54,0.43
+env_cascade_broken,always_execute,baseline,243,13.009000000000029,0.49,0.47
+env_cascade_broken,always_execute,baseline,244,12.582999999999984,0.6,0.37
+env_cascade_broken,always_execute,baseline,245,36.74120000000002,0.55,0.44
+env_cascade_broken,always_execute,baseline,246,30.723799999999983,0.51,0.43
+env_cascade_broken,always_execute,baseline,247,-31.669600000000088,0.54,0.39
+env_cascade_broken,always_execute,baseline,248,-3.9630000000000365,0.54,0.39
+env_cascade_broken,always_execute,baseline,249,20.49720000000002,0.53,0.42
+env_cascade_broken,throttle (hand),hand,200,65.2878,0.38,0.39
+env_cascade_broken,throttle (hand),hand,201,41.55400000000003,0.34,0.43
+env_cascade_broken,throttle (hand),hand,202,5.779000000000025,0.42,0.39
+env_cascade_broken,throttle (hand),hand,203,66.03879999999998,0.34,0.39
+env_cascade_broken,throttle (hand),hand,204,49.0728,0.4,0.37
+env_cascade_broken,throttle (hand),hand,205,0.3457999999999686,0.39,0.36
+env_cascade_broken,throttle (hand),hand,206,62.002399999999966,0.37,0.42
+env_cascade_broken,throttle (hand),hand,207,66.62219999999998,0.35,0.45
+env_cascade_broken,throttle (hand),hand,208,34.80260000000001,0.36,0.38
+env_cascade_broken,throttle (hand),hand,209,69.10240000000002,0.38,0.38
+env_cascade_broken,throttle (hand),hand,210,64.99239999999998,0.31,0.42
+env_cascade_broken,throttle (hand),hand,211,-4.125800000000027,0.51,0.27
+env_cascade_broken,throttle (hand),hand,212,16.196000000000012,0.44,0.36
+env_cascade_broken,throttle (hand),hand,213,49.75240000000004,0.34,0.42
+env_cascade_broken,throttle (hand),hand,214,88.88040000000001,0.27,0.44
+env_cascade_broken,throttle (hand),hand,215,14.839199999999984,0.48,0.33
+env_cascade_broken,throttle (hand),hand,216,22.977199999999975,0.39,0.39
+env_cascade_broken,throttle (hand),hand,217,21.934000000000033,0.39,0.35
+env_cascade_broken,throttle (hand),hand,218,-5.148999999999987,0.42,0.31
+env_cascade_broken,throttle (hand),hand,219,2.8966000000000633,0.47,0.34
+env_cascade_broken,throttle (hand),hand,220,5.271399999999986,0.48,0.33
+env_cascade_broken,throttle (hand),hand,221,15.841399999999958,0.42,0.37
+env_cascade_broken,throttle (hand),hand,222,68.55880000000002,0.36,0.4
+env_cascade_broken,throttle (hand),hand,223,-0.6122000000000014,0.53,0.3
+env_cascade_broken,throttle (hand),hand,224,0.2867999999999853,0.41,0.37
+env_cascade_broken,throttle (hand),hand,225,1.4505999999999233,0.43,0.34
+env_cascade_broken,throttle (hand),hand,226,45.38479999999997,0.29,0.4
+env_cascade_broken,throttle (hand),hand,227,73.43780000000001,0.33,0.41
+env_cascade_broken,throttle (hand),hand,228,26.666800000000023,0.39,0.38
+env_cascade_broken,throttle (hand),hand,229,21.342600000000004,0.45,0.35
+env_cascade_broken,throttle (hand),hand,230,26.338600000000014,0.48,0.35
+env_cascade_broken,throttle (hand),hand,231,54.290000000000006,0.38,0.37
+env_cascade_broken,throttle (hand),hand,232,20.645399999999967,0.46,0.33
+env_cascade_broken,throttle (hand),hand,233,18.652399999999993,0.4,0.36
+env_cascade_broken,throttle (hand),hand,234,14.213399999999908,0.36,0.39
+env_cascade_broken,throttle (hand),hand,235,73.92759999999998,0.37,0.41
+env_cascade_broken,throttle (hand),hand,236,19.104599999999976,0.46,0.36
+env_cascade_broken,throttle (hand),hand,237,24.241200000000006,0.36,0.37
+env_cascade_broken,throttle (hand),hand,238,38.06179999999998,0.43,0.38
+env_cascade_broken,throttle (hand),hand,239,65.77120000000001,0.39,0.41
+env_cascade_broken,throttle (hand),hand,240,43.867399999999975,0.34,0.39
+env_cascade_broken,throttle (hand),hand,241,77.80040000000001,0.33,0.42
+env_cascade_broken,throttle (hand),hand,242,42.25119999999998,0.32,0.41
+env_cascade_broken,throttle (hand),hand,243,15.639599999999973,0.31,0.43
+env_cascade_broken,throttle (hand),hand,244,52.019400000000005,0.36,0.33
+env_cascade_broken,throttle (hand),hand,245,57.54019999999997,0.32,0.4
+env_cascade_broken,throttle (hand),hand,246,32.53060000000001,0.39,0.38
+env_cascade_broken,throttle (hand),hand,247,1.6448000000000036,0.46,0.35
+env_cascade_broken,throttle (hand),hand,248,-5.493200000000016,0.37,0.37
+env_cascade_broken,throttle (hand),hand,249,42.84360000000002,0.43,0.38
+env_cascade_broken,REINFORCE:seed11,REINFORCE,200,27.082000000000022,0.51,0.35
+env_cascade_broken,REINFORCE:seed11,REINFORCE,201,99.22119999999995,0.31,0.54
+env_cascade_broken,REINFORCE:seed11,REINFORCE,202,49.74520000000001,0.41,0.52
+env_cascade_broken,REINFORCE:seed11,REINFORCE,203,71.8164,0.34,0.51
+env_cascade_broken,REINFORCE:seed11,REINFORCE,204,122.14580000000001,0.25,0.59
+env_cascade_broken,REINFORCE:seed11,REINFORCE,205,3.8291999999999575,0.49,0.4
+env_cascade_broken,REINFORCE:seed11,REINFORCE,206,-13.38119999999995,0.51,0.43
+env_cascade_broken,REINFORCE:seed11,REINFORCE,207,29.957400000000007,0.48,0.44
+env_cascade_broken,REINFORCE:seed11,REINFORCE,208,8.55399999999996,0.44,0.46
+env_cascade_broken,REINFORCE:seed11,REINFORCE,209,64.4138,0.34,0.52
+env_cascade_broken,REINFORCE:seed11,REINFORCE,210,86.67260000000002,0.34,0.48
+env_cascade_broken,REINFORCE:seed11,REINFORCE,211,61.60560000000001,0.44,0.45
+env_cascade_broken,REINFORCE:seed11,REINFORCE,212,86.16599999999998,0.3,0.52
+env_cascade_broken,REINFORCE:seed11,REINFORCE,213,69.15980000000003,0.34,0.52
+env_cascade_broken,REINFORCE:seed11,REINFORCE,214,59.596599999999995,0.38,0.48
+env_cascade_broken,REINFORCE:seed11,REINFORCE,215,10.265,0.51,0.43
+env_cascade_broken,REINFORCE:seed11,REINFORCE,216,1.2891999999999655,0.4,0.47
+env_cascade_broken,REINFORCE:seed11,REINFORCE,217,41.86659999999996,0.41,0.45
+env_cascade_broken,REINFORCE:seed11,REINFORCE,218,36.24240000000003,0.48,0.39
+env_cascade_broken,REINFORCE:seed11,REINFORCE,219,38.860200000000006,0.38,0.46
+env_cascade_broken,REINFORCE:seed11,REINFORCE,220,8.002399999999966,0.47,0.45
+env_cascade_broken,REINFORCE:seed11,REINFORCE,221,54.000399999999985,0.52,0.44
+env_cascade_broken,REINFORCE:seed11,REINFORCE,222,70.01780000000001,0.39,0.48
+env_cascade_broken,REINFORCE:seed11,REINFORCE,223,48.1358,0.46,0.42
+env_cascade_broken,REINFORCE:seed11,REINFORCE,224,-20.905399999999965,0.61,0.29
+env_cascade_broken,REINFORCE:seed11,REINFORCE,225,3.9236000000000217,0.51,0.39
+env_cascade_broken,REINFORCE:seed11,REINFORCE,226,37.2388,0.35,0.52
+env_cascade_broken,REINFORCE:seed11,REINFORCE,227,119.93259999999998,0.26,0.6
+env_cascade_broken,REINFORCE:seed11,REINFORCE,228,29.801999999999964,0.36,0.5
+env_cascade_broken,REINFORCE:seed11,REINFORCE,229,6.253,0.5,0.43
+env_cascade_broken,REINFORCE:seed11,REINFORCE,230,76.82180000000002,0.37,0.5
+env_cascade_broken,REINFORCE:seed11,REINFORCE,231,60.52699999999999,0.37,0.45
+env_cascade_broken,REINFORCE:seed11,REINFORCE,232,5.823200000000028,0.48,0.41
+env_cascade_broken,REINFORCE:seed11,REINFORCE,233,45.226999999999975,0.4,0.49
+env_cascade_broken,REINFORCE:seed11,REINFORCE,234,21.606999999999985,0.42,0.49
+env_cascade_broken,REINFORCE:seed11,REINFORCE,235,65.38539999999996,0.43,0.44
+env_cascade_broken,REINFORCE:seed11,REINFORCE,236,39.06879999999998,0.48,0.42
+env_cascade_broken,REINFORCE:seed11,REINFORCE,237,34.79979999999996,0.38,0.49
+env_cascade_broken,REINFORCE:seed11,REINFORCE,238,18.033799999999943,0.46,0.41
+env_cascade_broken,REINFORCE:seed11,REINFORCE,239,58.43479999999998,0.42,0.5
+env_cascade_broken,REINFORCE:seed11,REINFORCE,240,46.238,0.32,0.48
+env_cascade_broken,REINFORCE:seed11,REINFORCE,241,67.60279999999999,0.32,0.52
+env_cascade_broken,REINFORCE:seed11,REINFORCE,242,31.657200000000003,0.37,0.49
+env_cascade_broken,REINFORCE:seed11,REINFORCE,243,-17.00840000000001,0.47,0.41
+env_cascade_broken,REINFORCE:seed11,REINFORCE,244,94.34,0.35,0.55
+env_cascade_broken,REINFORCE:seed11,REINFORCE,245,5.499399999999994,0.51,0.41
+env_cascade_broken,REINFORCE:seed11,REINFORCE,246,32.006800000000055,0.43,0.5
+env_cascade_broken,REINFORCE:seed11,REINFORCE,247,68.791,0.46,0.49
+env_cascade_broken,REINFORCE:seed11,REINFORCE,248,18.870999999999867,0.51,0.44
+env_cascade_broken,REINFORCE:seed11,REINFORCE,249,13.356799999999993,0.49,0.44
+env_cascade_broken,REINFORCE:seed13,REINFORCE,200,18.307999999999993,0.58,0.36
+env_cascade_broken,REINFORCE:seed13,REINFORCE,201,15.14759999999994,0.55,0.39
+env_cascade_broken,REINFORCE:seed13,REINFORCE,202,10.807600000000022,0.47,0.45
+env_cascade_broken,REINFORCE:seed13,REINFORCE,203,35.75120000000001,0.47,0.47
+env_cascade_broken,REINFORCE:seed13,REINFORCE,204,14.007799999999989,0.5,0.44
+env_cascade_broken,REINFORCE:seed13,REINFORCE,205,23.106000000000037,0.47,0.46
+env_cascade_broken,REINFORCE:seed13,REINFORCE,206,-51.20319999999998,0.61,0.35
+env_cascade_broken,REINFORCE:seed13,REINFORCE,207,11.388200000000012,0.48,0.47
+env_cascade_broken,REINFORCE:seed13,REINFORCE,208,-29.40219999999998,0.55,0.41
+env_cascade_broken,REINFORCE:seed13,REINFORCE,209,23.282599999999988,0.58,0.37
+env_cascade_broken,REINFORCE:seed13,REINFORCE,210,1.4378000000000668,0.51,0.44
+env_cascade_broken,REINFORCE:seed13,REINFORCE,211,20.998599999999996,0.59,0.39
+env_cascade_broken,REINFORCE:seed13,REINFORCE,212,48.54139999999994,0.4,0.46
+env_cascade_broken,REINFORCE:seed13,REINFORCE,213,59.213000000000065,0.44,0.49
+env_cascade_broken,REINFORCE:seed13,REINFORCE,214,35.239400000000046,0.51,0.46
+env_cascade_broken,REINFORCE:seed13,REINFORCE,215,53.205799999999954,0.51,0.45
+env_cascade_broken,REINFORCE:seed13,REINFORCE,216,-20.985600000000034,0.53,0.39
+env_cascade_broken,REINFORCE:seed13,REINFORCE,217,5.374999999999972,0.57,0.42
+env_cascade_broken,REINFORCE:seed13,REINFORCE,218,28.455799999999954,0.45,0.43
+env_cascade_broken,REINFORCE:seed13,REINFORCE,219,6.503999999999934,0.49,0.42
+env_cascade_broken,REINFORCE:seed13,REINFORCE,220,50.215,0.46,0.5
+env_cascade_broken,REINFORCE:seed13,REINFORCE,221,60.74780000000004,0.46,0.51
+env_cascade_broken,REINFORCE:seed13,REINFORCE,222,57.158200000000036,0.49,0.47
+env_cascade_broken,REINFORCE:seed13,REINFORCE,223,29.766199999999984,0.54,0.42
+env_cascade_broken,REINFORCE:seed13,REINFORCE,224,-16.33940000000004,0.55,0.39
+env_cascade_broken,REINFORCE:seed13,REINFORCE,225,48.5222,0.42,0.49
+env_cascade_broken,REINFORCE:seed13,REINFORCE,226,10.625599999999991,0.47,0.43
+env_cascade_broken,REINFORCE:seed13,REINFORCE,227,38.600599999999986,0.52,0.45
+env_cascade_broken,REINFORCE:seed13,REINFORCE,228,-8.409999999999997,0.55,0.44
+env_cascade_broken,REINFORCE:seed13,REINFORCE,229,-2.5059999999999505,0.58,0.41
+env_cascade_broken,REINFORCE:seed13,REINFORCE,230,38.90560000000002,0.56,0.44
+env_cascade_broken,REINFORCE:seed13,REINFORCE,231,59.83740000000003,0.42,0.46
+env_cascade_broken,REINFORCE:seed13,REINFORCE,232,-3.0055999999999727,0.56,0.42
+env_cascade_broken,REINFORCE:seed13,REINFORCE,233,43.851399999999984,0.44,0.43
+env_cascade_broken,REINFORCE:seed13,REINFORCE,234,36.615800000000036,0.4,0.5
+env_cascade_broken,REINFORCE:seed13,REINFORCE,235,49.26559999999998,0.49,0.43
+env_cascade_broken,REINFORCE:seed13,REINFORCE,236,32.15259999999998,0.53,0.42
+env_cascade_broken,REINFORCE:seed13,REINFORCE,237,43.73659999999997,0.42,0.46
+env_cascade_broken,REINFORCE:seed13,REINFORCE,238,48.95740000000001,0.4,0.48
+env_cascade_broken,REINFORCE:seed13,REINFORCE,239,32.2136,0.52,0.46
+env_cascade_broken,REINFORCE:seed13,REINFORCE,240,-7.434600000000017,0.5,0.41
+env_cascade_broken,REINFORCE:seed13,REINFORCE,241,17.488199999999978,0.56,0.4
+env_cascade_broken,REINFORCE:seed13,REINFORCE,242,3.0935999999999524,0.54,0.43
+env_cascade_broken,REINFORCE:seed13,REINFORCE,243,13.009000000000029,0.49,0.47
+env_cascade_broken,REINFORCE:seed13,REINFORCE,244,12.582999999999984,0.6,0.37
+env_cascade_broken,REINFORCE:seed13,REINFORCE,245,36.74120000000002,0.55,0.44
+env_cascade_broken,REINFORCE:seed13,REINFORCE,246,30.723799999999983,0.51,0.43
+env_cascade_broken,REINFORCE:seed13,REINFORCE,247,-31.669600000000088,0.54,0.39
+env_cascade_broken,REINFORCE:seed13,REINFORCE,248,-3.9630000000000365,0.54,0.39
+env_cascade_broken,REINFORCE:seed13,REINFORCE,249,20.49720000000002,0.53,0.42
+env_cascade_broken,REINFORCE:seed7,REINFORCE,200,18.307999999999993,0.58,0.36
+env_cascade_broken,REINFORCE:seed7,REINFORCE,201,15.14759999999994,0.55,0.39
+env_cascade_broken,REINFORCE:seed7,REINFORCE,202,10.807600000000022,0.47,0.45
+env_cascade_broken,REINFORCE:seed7,REINFORCE,203,35.75120000000001,0.47,0.47
+env_cascade_broken,REINFORCE:seed7,REINFORCE,204,14.007799999999989,0.5,0.44
+env_cascade_broken,REINFORCE:seed7,REINFORCE,205,23.106000000000037,0.47,0.46
+env_cascade_broken,REINFORCE:seed7,REINFORCE,206,-51.20319999999998,0.61,0.35
+env_cascade_broken,REINFORCE:seed7,REINFORCE,207,11.388200000000012,0.48,0.47
+env_cascade_broken,REINFORCE:seed7,REINFORCE,208,-29.40219999999998,0.55,0.41
+env_cascade_broken,REINFORCE:seed7,REINFORCE,209,23.282599999999988,0.58,0.37
+env_cascade_broken,REINFORCE:seed7,REINFORCE,210,1.4378000000000668,0.51,0.44
+env_cascade_broken,REINFORCE:seed7,REINFORCE,211,20.998599999999996,0.59,0.39
+env_cascade_broken,REINFORCE:seed7,REINFORCE,212,48.54139999999994,0.4,0.46
+env_cascade_broken,REINFORCE:seed7,REINFORCE,213,59.213000000000065,0.44,0.49
+env_cascade_broken,REINFORCE:seed7,REINFORCE,214,35.239400000000046,0.51,0.46
+env_cascade_broken,REINFORCE:seed7,REINFORCE,215,53.205799999999954,0.51,0.45
+env_cascade_broken,REINFORCE:seed7,REINFORCE,216,-20.985600000000034,0.53,0.39
+env_cascade_broken,REINFORCE:seed7,REINFORCE,217,5.374999999999972,0.57,0.42
+env_cascade_broken,REINFORCE:seed7,REINFORCE,218,28.455799999999954,0.45,0.43
+env_cascade_broken,REINFORCE:seed7,REINFORCE,219,6.503999999999934,0.49,0.42
+env_cascade_broken,REINFORCE:seed7,REINFORCE,220,50.215,0.46,0.5
+env_cascade_broken,REINFORCE:seed7,REINFORCE,221,60.74780000000004,0.46,0.51
+env_cascade_broken,REINFORCE:seed7,REINFORCE,222,57.158200000000036,0.49,0.47
+env_cascade_broken,REINFORCE:seed7,REINFORCE,223,29.766199999999984,0.54,0.42
+env_cascade_broken,REINFORCE:seed7,REINFORCE,224,-16.33940000000004,0.55,0.39
+env_cascade_broken,REINFORCE:seed7,REINFORCE,225,48.5222,0.42,0.49
+env_cascade_broken,REINFORCE:seed7,REINFORCE,226,10.625599999999991,0.47,0.43
+env_cascade_broken,REINFORCE:seed7,REINFORCE,227,38.600599999999986,0.52,0.45
+env_cascade_broken,REINFORCE:seed7,REINFORCE,228,-8.409999999999997,0.55,0.44
+env_cascade_broken,REINFORCE:seed7,REINFORCE,229,-2.5059999999999505,0.58,0.41
+env_cascade_broken,REINFORCE:seed7,REINFORCE,230,38.90560000000002,0.56,0.44
+env_cascade_broken,REINFORCE:seed7,REINFORCE,231,59.83740000000003,0.42,0.46
+env_cascade_broken,REINFORCE:seed7,REINFORCE,232,-3.0055999999999727,0.56,0.42
+env_cascade_broken,REINFORCE:seed7,REINFORCE,233,43.851399999999984,0.44,0.43
+env_cascade_broken,REINFORCE:seed7,REINFORCE,234,36.615800000000036,0.4,0.5
+env_cascade_broken,REINFORCE:seed7,REINFORCE,235,49.26559999999998,0.49,0.43
+env_cascade_broken,REINFORCE:seed7,REINFORCE,236,32.15259999999998,0.53,0.42
+env_cascade_broken,REINFORCE:seed7,REINFORCE,237,43.73659999999997,0.42,0.46
+env_cascade_broken,REINFORCE:seed7,REINFORCE,238,48.95740000000001,0.4,0.48
+env_cascade_broken,REINFORCE:seed7,REINFORCE,239,32.2136,0.52,0.46
+env_cascade_broken,REINFORCE:seed7,REINFORCE,240,-7.434600000000017,0.5,0.41
+env_cascade_broken,REINFORCE:seed7,REINFORCE,241,17.488199999999978,0.56,0.4
+env_cascade_broken,REINFORCE:seed7,REINFORCE,242,3.0935999999999524,0.54,0.43
+env_cascade_broken,REINFORCE:seed7,REINFORCE,243,13.009000000000029,0.49,0.47
+env_cascade_broken,REINFORCE:seed7,REINFORCE,244,12.582999999999984,0.6,0.37
+env_cascade_broken,REINFORCE:seed7,REINFORCE,245,36.74120000000002,0.55,0.44
+env_cascade_broken,REINFORCE:seed7,REINFORCE,246,30.723799999999983,0.51,0.43
+env_cascade_broken,REINFORCE:seed7,REINFORCE,247,-31.669600000000088,0.54,0.39
+env_cascade_broken,REINFORCE:seed7,REINFORCE,248,-3.9630000000000365,0.54,0.39
+env_cascade_broken,REINFORCE:seed7,REINFORCE,249,20.49720000000002,0.53,0.42
+env_cascade_broken,PPO:seed11,PPO,200,67.6406,0.33,0.45
+env_cascade_broken,PPO:seed11,PPO,201,165.81640000000002,0.13,0.65
+env_cascade_broken,PPO:seed11,PPO,202,108.31720000000003,0.13,0.63
+env_cascade_broken,PPO:seed11,PPO,203,97.5132,0.14,0.61
+env_cascade_broken,PPO:seed11,PPO,204,121.89639999999993,0.04,0.68
+env_cascade_broken,PPO:seed11,PPO,205,104.46399999999996,0.07,0.64
+env_cascade_broken,PPO:seed11,PPO,206,116.85900000000001,0.15,0.63
+env_cascade_broken,PPO:seed11,PPO,207,92.5118,0.32,0.51
+env_cascade_broken,PPO:seed11,PPO,208,88.05259999999994,0.04,0.68
+env_cascade_broken,PPO:seed11,PPO,209,127.92599999999999,0.15,0.62
+env_cascade_broken,PPO:seed11,PPO,210,112.8364,0.19,0.54
+env_cascade_broken,PPO:seed11,PPO,211,122.96019999999999,0.23,0.6
+env_cascade_broken,PPO:seed11,PPO,212,110.20820000000003,0.03,0.71
+env_cascade_broken,PPO:seed11,PPO,213,144.493,0.05,0.69
+env_cascade_broken,PPO:seed11,PPO,214,143.307,0.14,0.65
+env_cascade_broken,PPO:seed11,PPO,215,73.736,0.1,0.62
+env_cascade_broken,PPO:seed11,PPO,216,115.44140000000002,0.04,0.72
+env_cascade_broken,PPO:seed11,PPO,217,111.1399999999999,0.14,0.58
+env_cascade_broken,PPO:seed11,PPO,218,62.741200000000006,0.23,0.5
+env_cascade_broken,PPO:seed11,PPO,219,108.269,0.15,0.59
+env_cascade_broken,PPO:seed11,PPO,220,121.95119999999997,0.15,0.62
+env_cascade_broken,PPO:seed11,PPO,221,132.03160000000003,0.19,0.57
+env_cascade_broken,PPO:seed11,PPO,222,118.65760000000003,0.19,0.57
+env_cascade_broken,PPO:seed11,PPO,223,110.22419999999997,0.21,0.56
+env_cascade_broken,PPO:seed11,PPO,224,73.48539999999997,0.11,0.6
+env_cascade_broken,PPO:seed11,PPO,225,119.31379999999999,0.07,0.65
+env_cascade_broken,PPO:seed11,PPO,226,93.9683999999999,0.08,0.63
+env_cascade_broken,PPO:seed11,PPO,227,110.67779999999999,0.24,0.53
+env_cascade_broken,PPO:seed11,PPO,228,110.48239999999998,0.21,0.58
+env_cascade_broken,PPO:seed11,PPO,229,93.80000000000001,0.28,0.54
+env_cascade_broken,PPO:seed11,PPO,230,105.51760000000002,0.17,0.61
+env_cascade_broken,PPO:seed11,PPO,231,85.65339999999998,0.21,0.55
+env_cascade_broken,PPO:seed11,PPO,232,100.51679999999999,0.14,0.6
+env_cascade_broken,PPO:seed11,PPO,233,115.97519999999999,0.06,0.65
+env_cascade_broken,PPO:seed11,PPO,234,95.81019999999994,0.08,0.63
+env_cascade_broken,PPO:seed11,PPO,235,170.68900000000002,0.14,0.67
+env_cascade_broken,PPO:seed11,PPO,236,129.4604,0.16,0.62
+env_cascade_broken,PPO:seed11,PPO,237,113.55420000000007,0.08,0.63
+env_cascade_broken,PPO:seed11,PPO,238,156.55259999999998,0.09,0.67
+env_cascade_broken,PPO:seed11,PPO,239,99.822,0.2,0.59
+env_cascade_broken,PPO:seed11,PPO,240,114.43900000000002,0.05,0.66
+env_cascade_broken,PPO:seed11,PPO,241,79.86280000000002,0.21,0.54
+env_cascade_broken,PPO:seed11,PPO,242,139.50440000000003,0.02,0.72
+env_cascade_broken,PPO:seed11,PPO,243,125.81699999999991,0.02,0.72
+env_cascade_broken,PPO:seed11,PPO,244,88.01559999999998,0.27,0.49
+env_cascade_broken,PPO:seed11,PPO,245,109.63479999999998,0.17,0.58
+env_cascade_broken,PPO:seed11,PPO,246,121.26580000000001,0.21,0.59
+env_cascade_broken,PPO:seed11,PPO,247,111.00419999999998,0.16,0.63
+env_cascade_broken,PPO:seed11,PPO,248,101.71640000000001,0.06,0.65
+env_cascade_broken,PPO:seed11,PPO,249,108.4188,0.17,0.6
+env_cascade_broken,PPO:seed13,PPO,200,50.50460000000001,0.46,0.4
+env_cascade_broken,PPO:seed13,PPO,201,63.50699999999999,0.29,0.54
+env_cascade_broken,PPO:seed13,PPO,202,40.436400000000035,0.34,0.52
+env_cascade_broken,PPO:seed13,PPO,203,65.62400000000002,0.35,0.49
+env_cascade_broken,PPO:seed13,PPO,204,63.47180000000006,0.27,0.56
+env_cascade_broken,PPO:seed13,PPO,205,53.56899999999999,0.35,0.49
+env_cascade_broken,PPO:seed13,PPO,206,22.962400000000017,0.33,0.5
+env_cascade_broken,PPO:seed13,PPO,207,38.95140000000001,0.47,0.42
+env_cascade_broken,PPO:seed13,PPO,208,59.68960000000001,0.33,0.49
+env_cascade_broken,PPO:seed13,PPO,209,74.3454,0.4,0.49
+env_cascade_broken,PPO:seed13,PPO,210,68.9794,0.3,0.57
+env_cascade_broken,PPO:seed13,PPO,211,37.125,0.49,0.4
+env_cascade_broken,PPO:seed13,PPO,212,14.347600000000043,0.46,0.36
+env_cascade_broken,PPO:seed13,PPO,213,98.17600000000007,0.28,0.57
+env_cascade_broken,PPO:seed13,PPO,214,101.35919999999993,0.31,0.59
+env_cascade_broken,PPO:seed13,PPO,215,86.41040000000002,0.27,0.59
+env_cascade_broken,PPO:seed13,PPO,216,29.4024,0.45,0.46
+env_cascade_broken,PPO:seed13,PPO,217,48.10779999999994,0.32,0.48
+env_cascade_broken,PPO:seed13,PPO,218,-21.1836,0.47,0.37
+env_cascade_broken,PPO:seed13,PPO,219,74.49359999999999,0.27,0.54
+env_cascade_broken,PPO:seed13,PPO,220,66.6722,0.43,0.45
+env_cascade_broken,PPO:seed13,PPO,221,93.03599999999994,0.33,0.52
+env_cascade_broken,PPO:seed13,PPO,222,68.4268,0.41,0.48
+env_cascade_broken,PPO:seed13,PPO,223,52.11259999999996,0.45,0.48
+env_cascade_broken,PPO:seed13,PPO,224,8.799799999999976,0.32,0.48
+env_cascade_broken,PPO:seed13,PPO,225,64.09460000000004,0.34,0.49
+env_cascade_broken,PPO:seed13,PPO,226,49.95939999999999,0.23,0.56
+env_cascade_broken,PPO:seed13,PPO,227,106.22539999999998,0.29,0.57
+env_cascade_broken,PPO:seed13,PPO,228,43.37300000000002,0.32,0.53
+env_cascade_broken,PPO:seed13,PPO,229,83.39719999999998,0.34,0.51
+env_cascade_broken,PPO:seed13,PPO,230,78.3484,0.41,0.51
+env_cascade_broken,PPO:seed13,PPO,231,34.3236,0.42,0.44
+env_cascade_broken,PPO:seed13,PPO,232,56.77120000000001,0.34,0.5
+env_cascade_broken,PPO:seed13,PPO,233,38.987600000000015,0.32,0.53
+env_cascade_broken,PPO:seed13,PPO,234,54.58859999999997,0.26,0.58
+env_cascade_broken,PPO:seed13,PPO,235,57.53580000000002,0.46,0.43
+env_cascade_broken,PPO:seed13,PPO,236,29.396000000000015,0.47,0.41
+env_cascade_broken,PPO:seed13,PPO,237,75.5918,0.38,0.52
+env_cascade_broken,PPO:seed13,PPO,238,97.62939999999999,0.21,0.6
+env_cascade_broken,PPO:seed13,PPO,239,73.38099999999999,0.41,0.5
+env_cascade_broken,PPO:seed13,PPO,240,59.470200000000006,0.34,0.5
+env_cascade_broken,PPO:seed13,PPO,241,43.29760000000002,0.41,0.45
+env_cascade_broken,PPO:seed13,PPO,242,58.85520000000005,0.32,0.49
+env_cascade_broken,PPO:seed13,PPO,243,29.660000000000025,0.25,0.57
+env_cascade_broken,PPO:seed13,PPO,244,67.02240000000002,0.46,0.47
+env_cascade_broken,PPO:seed13,PPO,245,52.65200000000003,0.29,0.53
+env_cascade_broken,PPO:seed13,PPO,246,3.8227999999999867,0.51,0.36
+env_cascade_broken,PPO:seed13,PPO,247,66.595,0.49,0.49
+env_cascade_broken,PPO:seed13,PPO,248,51.54519999999998,0.31,0.52
+env_cascade_broken,PPO:seed13,PPO,249,38.61739999999999,0.41,0.43
+env_cascade_broken,PPO:seed7,PPO,200,10.136400000000023,0.6,0.33
+env_cascade_broken,PPO:seed7,PPO,201,28.08339999999997,0.44,0.45
+env_cascade_broken,PPO:seed7,PPO,202,60.21579999999997,0.39,0.48
+env_cascade_broken,PPO:seed7,PPO,203,77.49939999999998,0.42,0.51
+env_cascade_broken,PPO:seed7,PPO,204,57.896000000000015,0.46,0.45
+env_cascade_broken,PPO:seed7,PPO,205,34.29960000000003,0.43,0.44
+env_cascade_broken,PPO:seed7,PPO,206,-11.987200000000016,0.47,0.4
+env_cascade_broken,PPO:seed7,PPO,207,13.192399999999992,0.51,0.41
+env_cascade_broken,PPO:seed7,PPO,208,21.837399999999974,0.35,0.5
+env_cascade_broken,PPO:seed7,PPO,209,7.082999999999998,0.54,0.4
+env_cascade_broken,PPO:seed7,PPO,210,34.131399999999985,0.43,0.45
+env_cascade_broken,PPO:seed7,PPO,211,26.244399999999956,0.56,0.39
+env_cascade_broken,PPO:seed7,PPO,212,36.036199999999965,0.41,0.46
+env_cascade_broken,PPO:seed7,PPO,213,52.441399999999916,0.37,0.52
+env_cascade_broken,PPO:seed7,PPO,214,47.43040000000005,0.43,0.48
+env_cascade_broken,PPO:seed7,PPO,215,49.25159999999994,0.4,0.48
+env_cascade_broken,PPO:seed7,PPO,216,14.65479999999998,0.47,0.44
+env_cascade_broken,PPO:seed7,PPO,217,57.634799999999984,0.45,0.47
+env_cascade_broken,PPO:seed7,PPO,218,40.31039999999997,0.38,0.49
+env_cascade_broken,PPO:seed7,PPO,219,32.91480000000003,0.41,0.44
+env_cascade_broken,PPO:seed7,PPO,220,74.2806,0.4,0.51
+env_cascade_broken,PPO:seed7,PPO,221,65.0748,0.35,0.55
+env_cascade_broken,PPO:seed7,PPO,222,50.77340000000001,0.46,0.42
+env_cascade_broken,PPO:seed7,PPO,223,36.77160000000001,0.47,0.44
+env_cascade_broken,PPO:seed7,PPO,224,45.9546,0.4,0.5
+env_cascade_broken,PPO:seed7,PPO,225,21.27979999999998,0.44,0.48
+env_cascade_broken,PPO:seed7,PPO,226,49.124799999999965,0.24,0.56
+env_cascade_broken,PPO:seed7,PPO,227,61.178800000000024,0.47,0.44
+env_cascade_broken,PPO:seed7,PPO,228,12.691000000000031,0.42,0.44
+env_cascade_broken,PPO:seed7,PPO,229,6.724600000000066,0.41,0.45
+env_cascade_broken,PPO:seed7,PPO,230,37.774399999999986,0.53,0.46
+env_cascade_broken,PPO:seed7,PPO,231,86.94540000000002,0.35,0.52
+env_cascade_broken,PPO:seed7,PPO,232,23.849800000000045,0.56,0.43
+env_cascade_broken,PPO:seed7,PPO,233,71.05760000000001,0.33,0.49
+env_cascade_broken,PPO:seed7,PPO,234,40.05380000000008,0.31,0.53
+env_cascade_broken,PPO:seed7,PPO,235,50.43519999999998,0.48,0.43
+env_cascade_broken,PPO:seed7,PPO,236,68.43040000000002,0.4,0.51
+env_cascade_broken,PPO:seed7,PPO,237,61.04279999999997,0.39,0.48
+env_cascade_broken,PPO:seed7,PPO,238,46.55740000000003,0.45,0.45
+env_cascade_broken,PPO:seed7,PPO,239,35.22720000000001,0.49,0.42
+env_cascade_broken,PPO:seed7,PPO,240,67.15320000000003,0.4,0.5
+env_cascade_broken,PPO:seed7,PPO,241,44.414800000000014,0.5,0.42
+env_cascade_broken,PPO:seed7,PPO,242,48.11880000000002,0.32,0.52
+env_cascade_broken,PPO:seed7,PPO,243,19.86219999999996,0.28,0.51
+env_cascade_broken,PPO:seed7,PPO,244,12.887399999999985,0.6,0.37
+env_cascade_broken,PPO:seed7,PPO,245,33.05520000000001,0.4,0.46
+env_cascade_broken,PPO:seed7,PPO,246,20.49899999999994,0.51,0.43
+env_cascade_broken,PPO:seed7,PPO,247,33.9906,0.58,0.41
+env_cascade_broken,PPO:seed7,PPO,248,36.724600000000024,0.51,0.45
+env_cascade_broken,PPO:seed7,PPO,249,0.8987999999999658,0.47,0.43
+env_heavytail_tight,always_execute,baseline,200,526.0434,0.17,0.39
+env_heavytail_tight,always_execute,baseline,201,294.4534,0.14,0.39
+env_heavytail_tight,always_execute,baseline,202,357.3184,0.13,0.43
+env_heavytail_tight,always_execute,baseline,203,342.3208,0.18,0.4
+env_heavytail_tight,always_execute,baseline,204,494.77799999999996,0.13,0.43
+env_heavytail_tight,always_execute,baseline,205,562.6636,0.09,0.44
+env_heavytail_tight,always_execute,baseline,206,551.2678,0.11,0.44
+env_heavytail_tight,always_execute,baseline,207,430.1718,0.11,0.4
+env_heavytail_tight,always_execute,baseline,208,410.221,0.13,0.38
+env_heavytail_tight,always_execute,baseline,209,259.56460000000004,0.2,0.37
+env_heavytail_tight,always_execute,baseline,210,585.6411999999999,0.13,0.42
+env_heavytail_tight,always_execute,baseline,211,390.11060000000003,0.13,0.4
+env_heavytail_tight,always_execute,baseline,212,402.27259999999995,0.09,0.4
+env_heavytail_tight,always_execute,baseline,213,567.2688,0.09,0.47
+env_heavytail_tight,always_execute,baseline,214,448.9678,0.17,0.41
+env_heavytail_tight,always_execute,baseline,215,465.64340000000004,0.09,0.47
+env_heavytail_tight,always_execute,baseline,216,514.4844,0.08,0.43
+env_heavytail_tight,always_execute,baseline,217,392.6686,0.13,0.39
+env_heavytail_tight,always_execute,baseline,218,623.0282000000001,0.15,0.4
+env_heavytail_tight,always_execute,baseline,219,542.9089999999999,0.1,0.47
+env_heavytail_tight,always_execute,baseline,220,541.1658,0.11,0.44
+env_heavytail_tight,always_execute,baseline,221,247.54579999999999,0.25,0.42
+env_heavytail_tight,always_execute,baseline,222,182.30680000000007,0.18,0.43
+env_heavytail_tight,always_execute,baseline,223,560.8786,0.11,0.39
+env_heavytail_tight,always_execute,baseline,224,586.145,0.13,0.4
+env_heavytail_tight,always_execute,baseline,225,262.5506,0.14,0.39
+env_heavytail_tight,always_execute,baseline,226,586.6600000000001,0.09,0.43
+env_heavytail_tight,always_execute,baseline,227,615.0416,0.12,0.44
+env_heavytail_tight,always_execute,baseline,228,375.7306,0.1,0.45
+env_heavytail_tight,always_execute,baseline,229,720.7444,0.09,0.44
+env_heavytail_tight,always_execute,baseline,230,344.3522,0.17,0.44
+env_heavytail_tight,always_execute,baseline,231,459.34180000000003,0.16,0.39
+env_heavytail_tight,always_execute,baseline,232,404.49399999999997,0.07,0.41
+env_heavytail_tight,always_execute,baseline,233,429.51439999999997,0.12,0.37
+env_heavytail_tight,always_execute,baseline,234,436.75880000000006,0.09,0.42
+env_heavytail_tight,always_execute,baseline,235,538.5272,0.17,0.42
+env_heavytail_tight,always_execute,baseline,236,315.404,0.13,0.42
+env_heavytail_tight,always_execute,baseline,237,432.17699999999996,0.13,0.4
+env_heavytail_tight,always_execute,baseline,238,330.3858,0.19,0.38
+env_heavytail_tight,always_execute,baseline,239,580.8134,0.11,0.44
+env_heavytail_tight,always_execute,baseline,240,477.8132,0.1,0.42
+env_heavytail_tight,always_execute,baseline,241,389.3743999999999,0.19,0.35
+env_heavytail_tight,always_execute,baseline,242,417.1705999999999,0.08,0.45
+env_heavytail_tight,always_execute,baseline,243,408.99199999999996,0.08,0.42
+env_heavytail_tight,always_execute,baseline,244,506.7252,0.17,0.4
+env_heavytail_tight,always_execute,baseline,245,399.9638,0.12,0.42
+env_heavytail_tight,always_execute,baseline,246,536.522,0.08,0.44
+env_heavytail_tight,always_execute,baseline,247,467.97439999999995,0.18,0.43
+env_heavytail_tight,always_execute,baseline,248,534.1088,0.15,0.43
+env_heavytail_tight,always_execute,baseline,249,326.85839999999996,0.14,0.42
+env_heavytail_tight,scale_when_blocked (hand),hand,200,534.8444,0.13,0.42
+env_heavytail_tight,scale_when_blocked (hand),hand,201,355.94280000000003,0.11,0.46
+env_heavytail_tight,scale_when_blocked (hand),hand,202,297.0656,0.16,0.44
+env_heavytail_tight,scale_when_blocked (hand),hand,203,414.9004,0.17,0.44
+env_heavytail_tight,scale_when_blocked (hand),hand,204,415.12479999999994,0.16,0.46
+env_heavytail_tight,scale_when_blocked (hand),hand,205,540.5002,0.11,0.45
+env_heavytail_tight,scale_when_blocked (hand),hand,206,646.1248,0.11,0.48
+env_heavytail_tight,scale_when_blocked (hand),hand,207,437.0242,0.13,0.43
+env_heavytail_tight,scale_when_blocked (hand),hand,208,440.36439999999993,0.11,0.41
+env_heavytail_tight,scale_when_blocked (hand),hand,209,323.44919999999996,0.17,0.46
+env_heavytail_tight,scale_when_blocked (hand),hand,210,554.255,0.13,0.45
+env_heavytail_tight,scale_when_blocked (hand),hand,211,483.40819999999997,0.13,0.44
+env_heavytail_tight,scale_when_blocked (hand),hand,212,475.22360000000003,0.11,0.43
+env_heavytail_tight,scale_when_blocked (hand),hand,213,467.4132000000001,0.2,0.44
+env_heavytail_tight,scale_when_blocked (hand),hand,214,468.39660000000003,0.18,0.41
+env_heavytail_tight,scale_when_blocked (hand),hand,215,535.405,0.1,0.5
+env_heavytail_tight,scale_when_blocked (hand),hand,216,484.2078,0.16,0.41
+env_heavytail_tight,scale_when_blocked (hand),hand,217,409.66139999999996,0.12,0.46
+env_heavytail_tight,scale_when_blocked (hand),hand,218,522.5544000000001,0.16,0.43
+env_heavytail_tight,scale_when_blocked (hand),hand,219,538.0566,0.08,0.5
+env_heavytail_tight,scale_when_blocked (hand),hand,220,636.2004000000001,0.11,0.49
+env_heavytail_tight,scale_when_blocked (hand),hand,221,269.6396,0.13,0.47
+env_heavytail_tight,scale_when_blocked (hand),hand,222,170.0146,0.18,0.38
+env_heavytail_tight,scale_when_blocked (hand),hand,223,533.9496,0.2,0.39
+env_heavytail_tight,scale_when_blocked (hand),hand,224,664.9654,0.09,0.45
+env_heavytail_tight,scale_when_blocked (hand),hand,225,291.8652000000001,0.15,0.43
+env_heavytail_tight,scale_when_blocked (hand),hand,226,584.7684,0.08,0.46
+env_heavytail_tight,scale_when_blocked (hand),hand,227,529.2766,0.12,0.45
+env_heavytail_tight,scale_when_blocked (hand),hand,228,413.3256,0.14,0.43
+env_heavytail_tight,scale_when_blocked (hand),hand,229,659.7048,0.12,0.46
+env_heavytail_tight,scale_when_blocked (hand),hand,230,431.0742,0.14,0.47
+env_heavytail_tight,scale_when_blocked (hand),hand,231,357.66319999999996,0.14,0.45
+env_heavytail_tight,scale_when_blocked (hand),hand,232,319.3402,0.17,0.41
+env_heavytail_tight,scale_when_blocked (hand),hand,233,492.7696,0.07,0.43
+env_heavytail_tight,scale_when_blocked (hand),hand,234,445.78799999999995,0.08,0.48
+env_heavytail_tight,scale_when_blocked (hand),hand,235,554.0483999999999,0.13,0.47
+env_heavytail_tight,scale_when_blocked (hand),hand,236,358.6416,0.15,0.41
+env_heavytail_tight,scale_when_blocked (hand),hand,237,477.8986000000001,0.16,0.43
+env_heavytail_tight,scale_when_blocked (hand),hand,238,386.7732000000001,0.13,0.44
+env_heavytail_tight,scale_when_blocked (hand),hand,239,559.19,0.17,0.46
+env_heavytail_tight,scale_when_blocked (hand),hand,240,498.80019999999996,0.12,0.43
+env_heavytail_tight,scale_when_blocked (hand),hand,241,435.5072,0.15,0.4
+env_heavytail_tight,scale_when_blocked (hand),hand,242,532.4026,0.1,0.46
+env_heavytail_tight,scale_when_blocked (hand),hand,243,472.06999999999994,0.07,0.47
+env_heavytail_tight,scale_when_blocked (hand),hand,244,523.5101999999999,0.15,0.46
+env_heavytail_tight,scale_when_blocked (hand),hand,245,455.9222,0.11,0.47
+env_heavytail_tight,scale_when_blocked (hand),hand,246,546.9988,0.1,0.49
+env_heavytail_tight,scale_when_blocked (hand),hand,247,560.6294,0.12,0.5
+env_heavytail_tight,scale_when_blocked (hand),hand,248,636.1316,0.09,0.46
+env_heavytail_tight,scale_when_blocked (hand),hand,249,359.0492,0.14,0.46
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,200,526.0434,0.17,0.39
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,201,294.4534,0.14,0.39
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,202,357.3184,0.13,0.43
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,203,342.3208,0.18,0.4
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,204,494.77799999999996,0.13,0.43
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,205,562.6636,0.09,0.44
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,206,551.2678,0.11,0.44
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,207,430.1718,0.11,0.4
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,208,410.221,0.13,0.38
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,209,259.56460000000004,0.2,0.37
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,210,585.6411999999999,0.13,0.42
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,211,390.11060000000003,0.13,0.4
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,212,402.27259999999995,0.09,0.4
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,213,567.2688,0.09,0.47
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,214,448.9678,0.17,0.41
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,215,465.64340000000004,0.09,0.47
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,216,514.4844,0.08,0.43
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,217,392.6686,0.13,0.39
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,218,623.0282000000001,0.15,0.4
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,219,542.9089999999999,0.1,0.47
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,220,541.1658,0.11,0.44
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,221,247.54579999999999,0.25,0.42
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,222,182.30680000000007,0.18,0.43
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,223,560.8786,0.11,0.39
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,224,586.145,0.13,0.4
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,225,262.5506,0.14,0.39
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,226,586.6600000000001,0.09,0.43
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,227,615.0416,0.12,0.44
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,228,375.7306,0.1,0.45
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,229,720.7444,0.09,0.44
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,230,344.3522,0.17,0.44
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,231,459.34180000000003,0.16,0.39
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,232,404.49399999999997,0.07,0.41
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,233,429.51439999999997,0.12,0.37
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,234,436.75880000000006,0.09,0.42
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,235,538.5272,0.17,0.42
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,236,315.404,0.13,0.42
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,237,432.17699999999996,0.13,0.4
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,238,330.3858,0.19,0.38
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,239,580.8134,0.11,0.44
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,240,477.8132,0.1,0.42
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,241,389.3743999999999,0.19,0.35
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,242,417.1705999999999,0.08,0.45
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,243,408.99199999999996,0.08,0.42
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,244,506.7252,0.17,0.4
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,245,399.9638,0.12,0.42
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,246,536.522,0.08,0.44
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,247,467.97439999999995,0.18,0.43
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,248,534.1088,0.15,0.43
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,249,326.85839999999996,0.14,0.42
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,200,526.0434,0.17,0.39
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,201,294.4534,0.14,0.39
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,202,357.3184,0.13,0.43
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,203,342.3208,0.18,0.4
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,204,494.77799999999996,0.13,0.43
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,205,562.6636,0.09,0.44
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,206,551.2678,0.11,0.44
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,207,430.1718,0.11,0.4
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,208,410.221,0.13,0.38
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,209,259.56460000000004,0.2,0.37
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,210,585.6411999999999,0.13,0.42
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,211,390.11060000000003,0.13,0.4
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,212,402.27259999999995,0.09,0.4
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,213,567.2688,0.09,0.47
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,214,448.9678,0.17,0.41
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,215,465.64340000000004,0.09,0.47
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,216,514.4844,0.08,0.43
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,217,392.6686,0.13,0.39
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,218,623.0282000000001,0.15,0.4
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,219,542.9089999999999,0.1,0.47
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,220,541.1658,0.11,0.44
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,221,247.54579999999999,0.25,0.42
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,222,182.30680000000007,0.18,0.43
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,223,560.8786,0.11,0.39
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,224,586.145,0.13,0.4
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,225,262.5506,0.14,0.39
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,226,586.6600000000001,0.09,0.43
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,227,615.0416,0.12,0.44
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,228,375.7306,0.1,0.45
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,229,720.7444,0.09,0.44
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,230,344.3522,0.17,0.44
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,231,459.34180000000003,0.16,0.39
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,232,404.49399999999997,0.07,0.41
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,233,429.51439999999997,0.12,0.37
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,234,436.75880000000006,0.09,0.42
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,235,538.5272,0.17,0.42
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,236,315.404,0.13,0.42
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,237,432.17699999999996,0.13,0.4
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,238,330.3858,0.19,0.38
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,239,580.8134,0.11,0.44
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,240,477.8132,0.1,0.42
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,241,389.3743999999999,0.19,0.35
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,242,417.1705999999999,0.08,0.45
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,243,408.99199999999996,0.08,0.42
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,244,506.7252,0.17,0.4
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,245,399.9638,0.12,0.42
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,246,536.522,0.08,0.44
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,247,467.97439999999995,0.18,0.43
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,248,534.1088,0.15,0.43
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,249,326.85839999999996,0.14,0.42
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,200,526.0434,0.17,0.39
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,201,294.4534,0.14,0.39
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,202,357.3184,0.13,0.43
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,203,342.3208,0.18,0.4
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,204,494.77799999999996,0.13,0.43
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,205,562.6636,0.09,0.44
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,206,551.2678,0.11,0.44
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,207,430.1718,0.11,0.4
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,208,410.221,0.13,0.38
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,209,259.56460000000004,0.2,0.37
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,210,585.6411999999999,0.13,0.42
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,211,390.11060000000003,0.13,0.4
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,212,402.27259999999995,0.09,0.4
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,213,567.2688,0.09,0.47
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,214,448.9678,0.17,0.41
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,215,465.64340000000004,0.09,0.47
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,216,514.4844,0.08,0.43
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,217,392.6686,0.13,0.39
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,218,623.0282000000001,0.15,0.4
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,219,542.9089999999999,0.1,0.47
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,220,541.1658,0.11,0.44
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,221,247.54579999999999,0.25,0.42
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,222,182.30680000000007,0.18,0.43
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,223,560.8786,0.11,0.39
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,224,586.145,0.13,0.4
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,225,262.5506,0.14,0.39
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,226,586.6600000000001,0.09,0.43
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,227,615.0416,0.12,0.44
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,228,375.7306,0.1,0.45
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,229,720.7444,0.09,0.44
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,230,344.3522,0.17,0.44
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,231,459.34180000000003,0.16,0.39
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,232,404.49399999999997,0.07,0.41
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,233,429.51439999999997,0.12,0.37
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,234,436.75880000000006,0.09,0.42
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,235,538.5272,0.17,0.42
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,236,315.404,0.13,0.42
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,237,432.17699999999996,0.13,0.4
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,238,330.3858,0.19,0.38
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,239,580.8134,0.11,0.44
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,240,477.8132,0.1,0.42
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,241,389.3743999999999,0.19,0.35
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,242,417.1705999999999,0.08,0.45
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,243,408.99199999999996,0.08,0.42
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,244,506.7252,0.17,0.4
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,245,399.9638,0.12,0.42
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,246,536.522,0.08,0.44
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,247,467.97439999999995,0.18,0.43
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,248,534.1088,0.15,0.43
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,249,326.85839999999996,0.14,0.42
+env_heavytail_tight,PPO:seed11,PPO,200,514.4684000000001,0.25,0.47
+env_heavytail_tight,PPO:seed11,PPO,201,331.64439999999996,0.17,0.47
+env_heavytail_tight,PPO:seed11,PPO,202,348.3014,0.19,0.5
+env_heavytail_tight,PPO:seed11,PPO,203,399.021,0.14,0.52
+env_heavytail_tight,PPO:seed11,PPO,204,503.53420000000006,0.16,0.53
+env_heavytail_tight,PPO:seed11,PPO,205,563.6512,0.1,0.52
+env_heavytail_tight,PPO:seed11,PPO,206,537.5666,0.15,0.5
+env_heavytail_tight,PPO:seed11,PPO,207,457.9924000000001,0.14,0.55
+env_heavytail_tight,PPO:seed11,PPO,208,403.9176,0.1,0.48
+env_heavytail_tight,PPO:seed11,PPO,209,293.08239999999995,0.16,0.56
+env_heavytail_tight,PPO:seed11,PPO,210,594.6852,0.14,0.55
+env_heavytail_tight,PPO:seed11,PPO,211,420.08140000000003,0.15,0.57
+env_heavytail_tight,PPO:seed11,PPO,212,409.6892000000001,0.12,0.55
+env_heavytail_tight,PPO:seed11,PPO,213,550.402,0.14,0.55
+env_heavytail_tight,PPO:seed11,PPO,214,494.87159999999994,0.12,0.54
+env_heavytail_tight,PPO:seed11,PPO,215,489.7254,0.14,0.62
+env_heavytail_tight,PPO:seed11,PPO,216,537.7592,0.11,0.54
+env_heavytail_tight,PPO:seed11,PPO,217,422.81899999999996,0.09,0.54
+env_heavytail_tight,PPO:seed11,PPO,218,658.3674000000001,0.18,0.59
+env_heavytail_tight,PPO:seed11,PPO,219,548.9042,0.11,0.54
+env_heavytail_tight,PPO:seed11,PPO,220,572.2938,0.14,0.58
+env_heavytail_tight,PPO:seed11,PPO,221,256.874,0.21,0.52
+env_heavytail_tight,PPO:seed11,PPO,222,166.78760000000005,0.22,0.51
+env_heavytail_tight,PPO:seed11,PPO,223,553.6316,0.12,0.45
+env_heavytail_tight,PPO:seed11,PPO,224,586.3924,0.21,0.48
+env_heavytail_tight,PPO:seed11,PPO,225,298.9792,0.13,0.56
+env_heavytail_tight,PPO:seed11,PPO,226,588.7398000000001,0.1,0.53
+env_heavytail_tight,PPO:seed11,PPO,227,630.1003999999999,0.15,0.52
+env_heavytail_tight,PPO:seed11,PPO,228,376.0722,0.18,0.49
+env_heavytail_tight,PPO:seed11,PPO,229,737.2002,0.14,0.55
+env_heavytail_tight,PPO:seed11,PPO,230,367.6112,0.16,0.56
+env_heavytail_tight,PPO:seed11,PPO,231,462.2935999999999,0.21,0.48
+env_heavytail_tight,PPO:seed11,PPO,232,409.06460000000004,0.08,0.54
+env_heavytail_tight,PPO:seed11,PPO,233,453.84999999999997,0.1,0.58
+env_heavytail_tight,PPO:seed11,PPO,234,456.1662,0.13,0.55
+env_heavytail_tight,PPO:seed11,PPO,235,555.9768,0.18,0.55
+env_heavytail_tight,PPO:seed11,PPO,236,334.26480000000004,0.16,0.53
+env_heavytail_tight,PPO:seed11,PPO,237,451.3328,0.19,0.52
+env_heavytail_tight,PPO:seed11,PPO,238,342.9552,0.18,0.51
+env_heavytail_tight,PPO:seed11,PPO,239,598.385,0.18,0.56
+env_heavytail_tight,PPO:seed11,PPO,240,474.6558,0.11,0.53
+env_heavytail_tight,PPO:seed11,PPO,241,418.956,0.26,0.47
+env_heavytail_tight,PPO:seed11,PPO,242,423.0286,0.09,0.57
+env_heavytail_tight,PPO:seed11,PPO,243,426.9934,0.12,0.57
+env_heavytail_tight,PPO:seed11,PPO,244,518.0325999999999,0.18,0.54
+env_heavytail_tight,PPO:seed11,PPO,245,404.4373999999999,0.14,0.54
+env_heavytail_tight,PPO:seed11,PPO,246,553.6795999999999,0.08,0.56
+env_heavytail_tight,PPO:seed11,PPO,247,466.636,0.2,0.52
+env_heavytail_tight,PPO:seed11,PPO,248,553.3358000000001,0.13,0.54
+env_heavytail_tight,PPO:seed11,PPO,249,371.26419999999996,0.15,0.53
+env_heavytail_tight,PPO:seed13,PPO,200,514.9346,0.16,0.39
+env_heavytail_tight,PPO:seed13,PPO,201,370.1488,0.14,0.54
+env_heavytail_tight,PPO:seed13,PPO,202,345.3904,0.15,0.42
+env_heavytail_tight,PPO:seed13,PPO,203,334.7504,0.19,0.4
+env_heavytail_tight,PPO:seed13,PPO,204,514.9554,0.17,0.52
+env_heavytail_tight,PPO:seed13,PPO,205,569.6766,0.1,0.51
+env_heavytail_tight,PPO:seed13,PPO,206,544.3336,0.17,0.5
+env_heavytail_tight,PPO:seed13,PPO,207,427.00100000000003,0.13,0.41
+env_heavytail_tight,PPO:seed13,PPO,208,404.9854000000001,0.11,0.48
+env_heavytail_tight,PPO:seed13,PPO,209,305.2684,0.18,0.43
+env_heavytail_tight,PPO:seed13,PPO,210,580.8308,0.14,0.52
+env_heavytail_tight,PPO:seed13,PPO,211,392.1752,0.14,0.51
+env_heavytail_tight,PPO:seed13,PPO,212,409.14879999999994,0.16,0.58
+env_heavytail_tight,PPO:seed13,PPO,213,568.9998,0.08,0.6
+env_heavytail_tight,PPO:seed13,PPO,214,497.313,0.17,0.52
+env_heavytail_tight,PPO:seed13,PPO,215,504.29599999999994,0.12,0.61
+env_heavytail_tight,PPO:seed13,PPO,216,520.8046,0.13,0.39
+env_heavytail_tight,PPO:seed13,PPO,217,404.6683999999999,0.18,0.56
+env_heavytail_tight,PPO:seed13,PPO,218,653.016,0.13,0.58
+env_heavytail_tight,PPO:seed13,PPO,219,540.1848,0.09,0.53
+env_heavytail_tight,PPO:seed13,PPO,220,558.4044,0.13,0.57
+env_heavytail_tight,PPO:seed13,PPO,221,286.2592,0.12,0.5
+env_heavytail_tight,PPO:seed13,PPO,222,196.22859999999997,0.19,0.42
+env_heavytail_tight,PPO:seed13,PPO,223,587.3439999999999,0.2,0.55
+env_heavytail_tight,PPO:seed13,PPO,224,566.393,0.2,0.48
+env_heavytail_tight,PPO:seed13,PPO,225,277.07379999999995,0.13,0.55
+env_heavytail_tight,PPO:seed13,PPO,226,593.1822,0.12,0.53
+env_heavytail_tight,PPO:seed13,PPO,227,610.0168,0.12,0.43
+env_heavytail_tight,PPO:seed13,PPO,228,380.21999999999997,0.18,0.51
+env_heavytail_tight,PPO:seed13,PPO,229,724.7284,0.13,0.52
+env_heavytail_tight,PPO:seed13,PPO,230,348.841,0.19,0.56
+env_heavytail_tight,PPO:seed13,PPO,231,486.4218,0.17,0.41
+env_heavytail_tight,PPO:seed13,PPO,232,415.67820000000006,0.12,0.55
+env_heavytail_tight,PPO:seed13,PPO,233,424.171,0.13,0.39
+env_heavytail_tight,PPO:seed13,PPO,234,450.09380000000004,0.14,0.62
+env_heavytail_tight,PPO:seed13,PPO,235,561.801,0.16,0.56
+env_heavytail_tight,PPO:seed13,PPO,236,316.7268000000001,0.16,0.58
+env_heavytail_tight,PPO:seed13,PPO,237,477.348,0.16,0.51
+env_heavytail_tight,PPO:seed13,PPO,238,358.87539999999996,0.16,0.59
+env_heavytail_tight,PPO:seed13,PPO,239,609.5183999999999,0.12,0.56
+env_heavytail_tight,PPO:seed13,PPO,240,446.2244,0.16,0.55
+env_heavytail_tight,PPO:seed13,PPO,241,397.2296,0.22,0.36
+env_heavytail_tight,PPO:seed13,PPO,242,434.22819999999996,0.1,0.55
+env_heavytail_tight,PPO:seed13,PPO,243,482.2764,0.09,0.59
+env_heavytail_tight,PPO:seed13,PPO,244,527.6652,0.2,0.53
+env_heavytail_tight,PPO:seed13,PPO,245,421.5738,0.13,0.63
+env_heavytail_tight,PPO:seed13,PPO,246,552.2270000000001,0.08,0.57
+env_heavytail_tight,PPO:seed13,PPO,247,494.0876,0.16,0.55
+env_heavytail_tight,PPO:seed13,PPO,248,564.8408,0.13,0.52
+env_heavytail_tight,PPO:seed13,PPO,249,362.1442,0.12,0.45
+env_heavytail_tight,PPO:seed7,PPO,200,526.4932,0.17,0.39
+env_heavytail_tight,PPO:seed7,PPO,201,304.7438000000001,0.14,0.39
+env_heavytail_tight,PPO:seed7,PPO,202,353.88439999999997,0.16,0.42
+env_heavytail_tight,PPO:seed7,PPO,203,344.9560000000001,0.17,0.41
+env_heavytail_tight,PPO:seed7,PPO,204,494.11800000000005,0.12,0.42
+env_heavytail_tight,PPO:seed7,PPO,205,562.6636,0.09,0.44
+env_heavytail_tight,PPO:seed7,PPO,206,535.7594,0.14,0.41
+env_heavytail_tight,PPO:seed7,PPO,207,430.1718,0.11,0.4
+env_heavytail_tight,PPO:seed7,PPO,208,410.221,0.13,0.38
+env_heavytail_tight,PPO:seed7,PPO,209,259.56460000000004,0.2,0.37
+env_heavytail_tight,PPO:seed7,PPO,210,585.6306,0.13,0.42
+env_heavytail_tight,PPO:seed7,PPO,211,396.0412,0.12,0.41
+env_heavytail_tight,PPO:seed7,PPO,212,405.03419999999994,0.09,0.41
+env_heavytail_tight,PPO:seed7,PPO,213,567.2688,0.09,0.47
+env_heavytail_tight,PPO:seed7,PPO,214,448.6638,0.17,0.41
+env_heavytail_tight,PPO:seed7,PPO,215,465.85360000000003,0.08,0.47
+env_heavytail_tight,PPO:seed7,PPO,216,514.4844,0.08,0.43
+env_heavytail_tight,PPO:seed7,PPO,217,383.84839999999997,0.15,0.37
+env_heavytail_tight,PPO:seed7,PPO,218,623.0282000000001,0.15,0.4
+env_heavytail_tight,PPO:seed7,PPO,219,542.9089999999999,0.1,0.47
+env_heavytail_tight,PPO:seed7,PPO,220,526.8950000000001,0.14,0.43
+env_heavytail_tight,PPO:seed7,PPO,221,247.1592,0.25,0.42
+env_heavytail_tight,PPO:seed7,PPO,222,173.46280000000002,0.2,0.4
+env_heavytail_tight,PPO:seed7,PPO,223,560.8786,0.11,0.39
+env_heavytail_tight,PPO:seed7,PPO,224,585.3622,0.13,0.4
+env_heavytail_tight,PPO:seed7,PPO,225,257.8718,0.14,0.38
+env_heavytail_tight,PPO:seed7,PPO,226,586.6600000000001,0.09,0.43
+env_heavytail_tight,PPO:seed7,PPO,227,615.0318000000001,0.12,0.44
+env_heavytail_tight,PPO:seed7,PPO,228,374.82059999999996,0.1,0.45
+env_heavytail_tight,PPO:seed7,PPO,229,717.597,0.08,0.43
+env_heavytail_tight,PPO:seed7,PPO,230,344.68679999999995,0.17,0.44
+env_heavytail_tight,PPO:seed7,PPO,231,459.2832,0.16,0.39
+env_heavytail_tight,PPO:seed7,PPO,232,404.49399999999997,0.07,0.41
+env_heavytail_tight,PPO:seed7,PPO,233,429.51439999999997,0.12,0.37
+env_heavytail_tight,PPO:seed7,PPO,234,441.53839999999997,0.08,0.44
+env_heavytail_tight,PPO:seed7,PPO,235,538.5272,0.17,0.42
+env_heavytail_tight,PPO:seed7,PPO,236,317.10400000000004,0.12,0.43
+env_heavytail_tight,PPO:seed7,PPO,237,432.17699999999996,0.13,0.4
+env_heavytail_tight,PPO:seed7,PPO,238,330.5458,0.19,0.38
+env_heavytail_tight,PPO:seed7,PPO,239,575.4988,0.1,0.43
+env_heavytail_tight,PPO:seed7,PPO,240,476.779,0.11,0.42
+env_heavytail_tight,PPO:seed7,PPO,241,365.1544,0.18,0.35
+env_heavytail_tight,PPO:seed7,PPO,242,417.7045999999999,0.08,0.45
+env_heavytail_tight,PPO:seed7,PPO,243,407.01460000000003,0.08,0.42
+env_heavytail_tight,PPO:seed7,PPO,244,510.34000000000003,0.16,0.41
+env_heavytail_tight,PPO:seed7,PPO,245,401.966,0.12,0.42
+env_heavytail_tight,PPO:seed7,PPO,246,529.126,0.09,0.43
+env_heavytail_tight,PPO:seed7,PPO,247,465.7287999999999,0.18,0.43
+env_heavytail_tight,PPO:seed7,PPO,248,538.3335999999999,0.13,0.44
+env_heavytail_tight,PPO:seed7,PPO,249,328.40919999999994,0.15,0.42

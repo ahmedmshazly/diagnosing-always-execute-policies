@@ -1,0 +1,33 @@
+{
+  "commit_sha": "9049c0acb81fdbd7be03975eeb9381dafebb04d4",
+  "config_hash": "44a99a1a0441cb9d60b13b56539830887a07b6309c6d0c2b8b2d542b9b149385",
+  "extra": {
+    "checkpoint": "results/phase5/rl_seed11/policy_best_by_val.pt",
+    "entrypoint": "phase5_rollout_dump",
+    "rollouts": 5
+  },
+  "git_dirty": true,
+  "hostname": "cursor",
+  "library_versions": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.4.4",
+    "pytest": "9.0.3",
+    "python": "3.12.3",
+    "scipy": "1.17.1",
+    "yaml": "6.0.1"
+  },
+  "platform": "Linux-6.12.58+-x86_64-with-glibc2.39",
+  "run_id": "rollouts",
+  "seed_list": [
+    200,
+    203,
+    210,
+    225,
+    240
+  ],
+  "wall_clock": {
+    "elapsed_seconds": 0.617,
+    "end": "2026-04-19T01:56:56.595589+00:00",
+    "start": "2026-04-19T01:56:55.987481+00:00"
+  }
+}

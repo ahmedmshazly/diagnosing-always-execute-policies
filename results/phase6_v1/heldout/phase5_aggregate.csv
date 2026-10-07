@@ -1,0 +1,41 @@
+agent,metric,n,mean,std,ci95_low,ci95_high
+Reflex Agent,total_utility,50,115.485036,25.770565,108.267363,122.256698
+Reflex Agent,completion_rate,50,0.6332,0.032915,0.6236,0.6422
+Reflex Agent,value_weighted_completion_rate,50,0.69621,0.042318,0.684416,0.707515
+Reflex Agent,uncapped_completion_rate,50,0.8098,0.047358,0.7968,0.8226
+Reflex Agent,failure_rate,50,0.1454,0.04441,0.1336,0.157805
+Reflex Agent,total_completed_value,50,206.6564,15.317453,202.36152,210.87548
+Reflex Agent,total_compute_cost,50,766.31364,230.453492,702.743664,830.501873
+Reflex Agent,avg_compute_cost_per_step,50,2.554382,0.768178,2.341633,2.767616
+"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",total_utility,50,85.46524,194.609555,33.120187,141.156876
+"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",completion_rate,50,0.548,0.086355,0.5242,0.5712
+"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",value_weighted_completion_rate,50,0.62349,0.080711,0.600828,0.64517
+"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",uncapped_completion_rate,50,0.793,0.047477,0.7798,0.806
+"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",failure_rate,50,0.1288,0.045204,0.1168,0.1416
+"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",total_completed_value,50,185.0544,24.988417,178.173495,191.774805
+"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",total_compute_cost,50,603.23236,158.926933,559.876943,646.262564
+"Tuned Utility-Based Agent (alpha=4.0, beta=1.0, gamma=4.0)",avg_compute_cost_per_step,50,2.010774,0.529751,1.865772,2.15522
+rl_v1_seed7,total_utility,50,111.522948,25.395278,104.571179,118.498357
+rl_v1_seed7,completion_rate,50,0.629,0.0337,0.6196,0.638
+rl_v1_seed7,value_weighted_completion_rate,50,0.691506,0.045146,0.678945,0.704056
+rl_v1_seed7,uncapped_completion_rate,50,0.8046,0.043669,0.7928,0.8166
+rl_v1_seed7,failure_rate,50,0.1514,0.044171,0.1394,0.163605
+rl_v1_seed7,total_completed_value,50,205.2838,16.287815,200.67521,209.70642
+rl_v1_seed7,total_compute_cost,50,786.20852,226.691369,724.181051,848.305424
+rl_v1_seed7,avg_compute_cost_per_step,50,2.620692,0.755633,2.411276,2.829736
+rl_v1_seed11,total_utility,50,111.522948,25.395278,104.354291,118.501369
+rl_v1_seed11,completion_rate,50,0.629,0.0337,0.6196,0.6384
+rl_v1_seed11,value_weighted_completion_rate,50,0.691506,0.045146,0.679064,0.703974
+rl_v1_seed11,uncapped_completion_rate,50,0.8046,0.043669,0.7926,0.8164
+rl_v1_seed11,failure_rate,50,0.1514,0.044171,0.139395,0.1636
+rl_v1_seed11,total_completed_value,50,205.2838,16.287815,200.797375,209.758445
+rl_v1_seed11,total_compute_cost,50,786.20852,226.691369,724.978783,848.229677
+rl_v1_seed11,avg_compute_cost_per_step,50,2.620692,0.755633,2.413574,2.82536
+rl_v1_seed13,total_utility,50,111.522948,25.395278,104.496295,118.270063
+rl_v1_seed13,completion_rate,50,0.629,0.0337,0.6196,0.638
+rl_v1_seed13,value_weighted_completion_rate,50,0.691506,0.045146,0.678571,0.703782
+rl_v1_seed13,uncapped_completion_rate,50,0.8046,0.043669,0.7926,0.8164
+rl_v1_seed13,failure_rate,50,0.1514,0.044171,0.1392,0.1638
+rl_v1_seed13,total_completed_value,50,205.2838,16.287815,200.779885,209.602295
+rl_v1_seed13,total_compute_cost,50,786.20852,226.691369,722.618627,846.861595
+rl_v1_seed13,avg_compute_cost_per_step,50,2.620692,0.755633,2.413254,2.830133

@@ -1,0 +1,97 @@
+{
+  "best_fixed_weight": {
+    "alpha": 4.0,
+    "beta": 1.0,
+    "cell_id": "alpha=4_beta=1_gamma=4",
+    "cell_utility_mean": 109.549,
+    "completion_rate_mean": 0.5835,
+    "cost_mean": 605.673,
+    "failure_rate_mean": 0.1525,
+    "gamma": 4.0,
+    "is_reference": false,
+    "mean_utility_mean": 118.2382,
+    "mean_utility_std": 22.870656,
+    "num_seeds": 20,
+    "reference_name": "",
+    "uncapped_completion_rate_mean": 0.5835,
+    "value_weighted_completion_rate_mean": 0.652325
+  },
+  "midterm_dominance": {
+    "completion_vs_cost": {
+      "dominator_cell_ids": [],
+      "num_dominators": 0
+    },
+    "completion_vs_failure": {
+      "dominator_cell_ids": [],
+      "num_dominators": 0
+    },
+    "cost_vs_failure": {
+      "dominator_cell_ids": [
+        "alpha=0.5_beta=0.05_gamma=4",
+        "alpha=0.5_beta=0.25_gamma=2",
+        "alpha=0.5_beta=0.5_gamma=2",
+        "alpha=0.5_beta=1_gamma=0.5",
+        "alpha=0.5_beta=1_gamma=2",
+        "alpha=0.5_beta=1_gamma=4",
+        "alpha=1_beta=0.05_gamma=4",
+        "alpha=1_beta=0.1_gamma=4",
+        "alpha=1_beta=0.25_gamma=4",
+        "alpha=1_beta=0.5_gamma=4",
+        "alpha=1_beta=1_gamma=4"
+      ],
+      "num_dominators": 11
+    }
+  },
+  "midterm_reference": {
+    "alpha": 1.0,
+    "beta": 0.4,
+    "cell_id": "alpha=1_beta=0.4_gamma=0.8",
+    "cell_utility_mean": -47.8186,
+    "completion_rate_mean": 0.5415,
+    "cost_mean": 548.5865,
+    "failure_rate_mean": 0.144,
+    "gamma": 0.8,
+    "is_reference": true,
+    "mean_utility_mean": 113.87735,
+    "mean_utility_std": 28.717397,
+    "num_seeds": 20,
+    "reference_name": "midterm_utility",
+    "uncapped_completion_rate_mean": 0.5415,
+    "value_weighted_completion_rate_mean": 0.61477
+  },
+  "phase1_reference": {
+    "alpha": 1.0,
+    "beta": 0.1,
+    "cell_id": "alpha=1_beta=0.1_gamma=1",
+    "cell_utility_mean": 113.87735,
+    "completion_rate_mean": 0.5415,
+    "cost_mean": 548.5865,
+    "failure_rate_mean": 0.144,
+    "gamma": 1.0,
+    "is_reference": true,
+    "mean_utility_mean": 113.87735,
+    "mean_utility_std": 28.717397,
+    "num_seeds": 20,
+    "reference_name": "phase1_default",
+    "uncapped_completion_rate_mean": 0.5415,
+    "value_weighted_completion_rate_mean": 0.61477
+  },
+  "reflex_reference": {
+    "alpha": NaN,
+    "beta": NaN,
+    "cell_id": "reflex",
+    "cell_utility_mean": 123.40862,
+    "completion_rate_mean": 0.6365,
+    "cost_mean": 668.5938,
+    "failure_rate_mean": 0.165,
+    "gamma": NaN,
+    "is_reference": true,
+    "mean_utility_mean": 123.40862,
+    "mean_utility_std": 22.25783,
+    "num_seeds": 20,
+    "reference_name": "reflex",
+    "uncapped_completion_rate_mean": 0.6365,
+    "value_weighted_completion_rate_mean": 0.69522
+  },
+  "selection_rule": "mean_utility_then_completion"
+}

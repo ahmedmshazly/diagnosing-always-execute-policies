@@ -1,0 +1,54 @@
+{
+  "commit_sha": "7902d878c109150c7aee3f31915b992463f650fa",
+  "config_hash": "2ec4d00e68ffb3ca8f5302bc6f9319996d45e4a82791d5d15e160d61a8732c4e",
+  "extra": {
+    "entrypoint": "sweep_phase3",
+    "eval_utility": {
+      "alpha": 1.0,
+      "beta": 0.1,
+      "gamma": 1.0
+    },
+    "include_uncapped": false,
+    "num_cells": 81,
+    "num_seeds": 20
+  },
+  "git_dirty": true,
+  "hostname": "cursor",
+  "library_versions": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.4.4",
+    "pytest": "9.0.3",
+    "python": "3.12.3",
+    "scipy": "1.17.1",
+    "yaml": "6.0.1"
+  },
+  "platform": "Linux-6.12.58+-x86_64-with-glibc2.39",
+  "run_id": "sweep_phase3",
+  "seed_list": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119
+  ],
+  "wall_clock": {
+    "elapsed_seconds": 539.227,
+    "end": "2026-04-18T22:59:48.371604+00:00",
+    "start": "2026-04-18T22:50:49.156450+00:00"
+  }
+}

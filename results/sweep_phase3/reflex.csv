@@ -1,0 +1,21 @@
+alpha,beta,gamma,cell_id,is_reference,reference_name,seed,agent_name,mean_utility,cell_utility,completion_rate,value_weighted_completion_rate,uncapped_completion_rate,cost,failure_rate,total_completed_value,total_job_value,completed_jobs,failed_jobs,steps_executed,hit_step_budget
+nan,nan,nan,reflex,True,reflex,100,Reflex Agent,134.7272,134.7272,0.63,0.7186,0.63,655.928,0.17,217.32,302.44,63,17,300,True
+nan,nan,nan,reflex,True,reflex,101,Reflex Agent,132.7702,132.7702,0.61,0.6635,0.61,464.398,0.23,202.21,304.75,61,23,300,True
+nan,nan,nan,reflex,True,reflex,102,Reflex Agent,105.846,105.846,0.61,0.6408,0.61,744.24,0.22,202.27,315.67,61,22,300,True
+nan,nan,nan,reflex,True,reflex,103,Reflex Agent,151.9924,151.9924,0.65,0.6871,0.65,305.876,0.17,199.58,290.48,65,17,300,True
+nan,nan,nan,reflex,True,reflex,104,Reflex Agent,125.0596,125.0596,0.63,0.6967,0.63,782.504,0.15,218.31,313.35,63,15,300,True
+nan,nan,nan,reflex,True,reflex,105,Reflex Agent,114.9352,114.9352,0.63,0.6861,0.63,739.148,0.18,206.85,301.48,63,18,300,True
+nan,nan,nan,reflex,True,reflex,106,Reflex Agent,169.2466,169.2466,0.65,0.7367,0.65,563.434,0.09,234.59,318.44,65,9,300,True
+nan,nan,nan,reflex,True,reflex,107,Reflex Agent,131.6554,131.6554,0.65,0.7227,0.65,572.746,0.15,203.93,282.18,65,15,300,True
+nan,nan,nan,reflex,True,reflex,108,Reflex Agent,143.7934,143.7934,0.67,0.7178,0.67,642.666,0.15,223.06,310.76,67,15,300,True
+nan,nan,nan,reflex,True,reflex,109,Reflex Agent,107.0294,107.0294,0.63,0.6718,0.63,636.306,0.21,191.66,285.3,63,21,300,True
+nan,nan,nan,reflex,True,reflex,110,Reflex Agent,105.738,105.738,0.67,0.7247,0.67,970.62,0.11,213.8,295.03,67,11,300,True
+nan,nan,nan,reflex,True,reflex,111,Reflex Agent,89.7794,89.7794,0.63,0.6861,0.63,800.206,0.15,184.8,269.36,63,15,300,True
+nan,nan,nan,reflex,True,reflex,112,Reflex Agent,118.9624,118.9624,0.66,0.7017,0.66,838.176,0.11,213.78,304.64,66,11,300,True
+nan,nan,nan,reflex,True,reflex,113,Reflex Agent,127.9254,127.9254,0.61,0.6608,0.61,465.546,0.21,195.48,295.82,61,21,300,True
+nan,nan,nan,reflex,True,reflex,114,Reflex Agent,144.8104,144.8104,0.66,0.7232,0.66,628.396,0.13,220.65,305.11,66,13,300,True
+nan,nan,nan,reflex,True,reflex,115,Reflex Agent,88.5154,88.5154,0.67,0.7265,0.67,1088.446,0.14,211.36,290.94,67,14,300,True
+nan,nan,nan,reflex,True,reflex,116,Reflex Agent,86.882,86.882,0.61,0.6999,0.61,971.48,0.11,195.03,278.66,61,11,300,True
+nan,nan,nan,reflex,True,reflex,117,Reflex Agent,146.6104,146.6104,0.67,0.7426,0.67,458.496,0.13,205.46,276.68,67,13,300,True
+nan,nan,nan,reflex,True,reflex,118,Reflex Agent,128.0374,128.0374,0.6,0.6515,0.6,407.726,0.25,193.81,297.48,60,25,300,True
+nan,nan,nan,reflex,True,reflex,119,Reflex Agent,113.8562,113.8562,0.59,0.6456,0.59,635.538,0.24,201.41,311.96,59,24,300,True
