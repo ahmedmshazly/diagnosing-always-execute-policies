@@ -1,0 +1,32 @@
+Phase-5 full-training run: results/hardening/rl_tight_fixedrisk_seed7
+  init_seed=7  batch_size=16
+  curriculum: [(20, 120, 80), (50, 200, 120), (100, 300, 200)]
+  validation pool: 20 seeds (every 25 updates)
+  [update    0] stage=0 mean_return= +4.763  loss= +0.0011  entropy=1.7815  steps=1400
+    [val @ update   25] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833 *
+  [update   40] stage=0 mean_return= +5.277  loss= -0.0236  entropy=1.7166  steps=74552
+    [val @ update   50] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+    [val @ update   75] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+  [update   80] stage=1 mean_return=+19.731  loss= +0.0108  entropy=1.5259  steps=150000
+    [val @ update  100] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+  [update  120] stage=1 mean_return=+21.991  loss= -0.1480  entropy=1.2953  steps=273317
+    [val @ update  125] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+    [val @ update  150] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+  [update  160] stage=1 mean_return=+27.825  loss= -0.0591  entropy=1.0902  steps=412894
+    [val @ update  175] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+    [val @ update  200] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+  [update  200] stage=2 mean_return=+95.227  loss= +0.0939  entropy=0.9318  steps=539062
+    [val @ update  225] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+  [update  240] stage=2 mean_return=+101.990  loss= +0.1421  entropy=0.8063  steps=733605
+    [val @ update  250] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+    [val @ update  275] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+  [update  280] stage=2 mean_return=+67.561  loss= +0.1177  entropy=0.7525  steps=920483
+    [val @ update  300] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+  [update  320] stage=2 mean_return=+96.068  loss= +0.0269  entropy=0.7240  steps=1100832
+    [val @ update  325] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+    [val @ update  350] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+  [update  360] stage=2 mean_return=+89.183  loss= -0.1210  entropy=0.7123  steps=1281518
+    [val @ update  375] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+    [val @ update  400] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+---
+Done. 400 updates, 1470488 env steps, best val=+79.833 @ update 25  (4471.5 s wall-clock)

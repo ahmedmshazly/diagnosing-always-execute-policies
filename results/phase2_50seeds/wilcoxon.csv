@@ -1,0 +1,10 @@
+metric,n_pairs,n_nonzero,mean_delta,median_delta,statistic,p_value
+completion_rate,50,48,-0.1124,-0.07,32.5,1.2042582887413727e-08
+value_weighted_completion_rate,50,50,-0.101432,-0.0541,35.0,7.65609797781508e-12
+uncapped_completion_rate,50,47,-0.0236,-0.02,276.5,0.0023143250976039014
+failure_rate,50,45,-0.0188,-0.02,230.5,0.001171900030506009
+total_completed_value,50,50,-30.3712,-15.925,35.0,7.65609797781508e-12
+total_compute_cost,50,50,-190.24396,-180.815,107.0,1.6183291151605772e-08
+avg_compute_cost_per_step,50,50,-0.634138,-0.6027,107.0,1.6183291151605772e-08
+total_utility,50,50,-9.466804,-7.8089,406.0,0.024847675451864504
+steps_executed,50,0,0.0,0.0,nan,nan

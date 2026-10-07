@@ -1,0 +1,28 @@
+scope,agent,metric,n,mean,std,ci95_low,ci95_high
+agent,Reflex Agent,completion_rate,50,0.6366,0.030211,0.6282,0.6448
+agent,Reflex Agent,value_weighted_completion_rate,50,0.696978,0.038134,0.686376,0.70741
+agent,Reflex Agent,uncapped_completion_rate,50,0.8118,0.042508,0.7998,0.8236
+agent,Reflex Agent,failure_rate,50,0.1452,0.040266,0.134395,0.1566
+agent,Reflex Agent,total_completed_value,50,209.9578,13.053136,206.46918,213.626265
+agent,Reflex Agent,total_compute_cost,50,744.46948,217.40945,685.686002,802.584631
+agent,Reflex Agent,avg_compute_cost_per_step,50,2.48156,0.724694,2.283455,2.678062
+agent,Reflex Agent,total_utility,50,120.990852,22.88893,114.760463,127.3082
+agent,Reflex Agent,steps_executed,50,300.0,0.0,300.0,300.0
+agent,Utility-Based Agent (Non-Learning Baseline),completion_rate,50,0.5242,0.102282,0.4958,0.551805
+agent,Utility-Based Agent (Non-Learning Baseline),value_weighted_completion_rate,50,0.595546,0.096452,0.568253,0.621612
+agent,Utility-Based Agent (Non-Learning Baseline),uncapped_completion_rate,50,0.7882,0.040542,0.7772,0.7994
+agent,Utility-Based Agent (Non-Learning Baseline),failure_rate,50,0.1264,0.035037,0.1166,0.1358
+agent,Utility-Based Agent (Non-Learning Baseline),total_completed_value,50,179.5866,30.29569,171.135045,187.750005
+agent,Utility-Based Agent (Non-Learning Baseline),total_compute_cost,50,554.22552,120.715324,521.279711,587.30028
+agent,Utility-Based Agent (Non-Learning Baseline),avg_compute_cost_per_step,50,1.847422,0.402384,1.735204,1.956573
+agent,Utility-Based Agent (Non-Learning Baseline),total_utility,50,111.524048,33.237911,102.345438,120.80446
+agent,Utility-Based Agent (Non-Learning Baseline),steps_executed,50,300.0,0.0,300.0,300.0
+delta,Utility - Reflex,completion_rate,50,-0.1124,0.106648,-0.1426,-0.0838
+delta,Utility - Reflex,value_weighted_completion_rate,50,-0.101432,0.101656,-0.130004,-0.074042
+delta,Utility - Reflex,uncapped_completion_rate,50,-0.0236,0.049724,-0.037,-0.01
+delta,Utility - Reflex,failure_rate,50,-0.0188,0.036401,-0.029,-0.009
+delta,Utility - Reflex,total_completed_value,50,-30.3712,30.133121,-38.87996,-22.4274
+delta,Utility - Reflex,total_compute_cost,50,-190.24396,196.648096,-243.435646,-135.779149
+delta,Utility - Reflex,avg_compute_cost_per_step,50,-0.634138,0.655484,-0.813516,-0.452432
+delta,Utility - Reflex,total_utility,50,-9.466804,27.844622,-17.050027,-1.943141
+delta,Utility - Reflex,steps_executed,50,0.0,0.0,0.0,0.0

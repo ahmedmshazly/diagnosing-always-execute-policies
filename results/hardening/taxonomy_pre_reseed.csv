@@ -1,0 +1,31 @@
+env,policy,algo,util,delta_vs_ae,p,exec_frac,fail,compl
+default,always_execute,baseline,111.523,0.0,nan,1.0,0.1514,0.629
+default,scale_when_blocked (hand),hand,114.308,2.785,0.055958599927954565,0.981,0.1482,0.6332
+default,PPO:seed11,PPO,113.038,1.515,0.04244755291904078,0.997,0.1534,0.6294
+default,PPO:seed13,PPO,112.337,0.814,0.030365113315399057,0.9973,0.1514,0.6294
+default,PPO:seed7,PPO,112.544,1.021,0.0064064902221673695,0.9993,0.1516,0.6306
+env_tight_fixedrisk,always_execute,baseline,82.848,0.0,nan,1.0,0.1364,0.416
+env_tight_fixedrisk,scale_when_blocked (hand),hand,89.056,6.208,0.03286210881230289,0.903,0.1382,0.447
+env_tight_fixedrisk,REINFORCE:seed7,REINFORCE,82.848,0.0,nan,1.0,0.1364,0.416
+env_tight_fixedrisk,REINFORCE:seed11,REINFORCE,82.848,0.0,nan,1.0,0.1364,0.416
+env_tight_fixedrisk,REINFORCE:seed13,REINFORCE,82.848,0.0,nan,1.0,0.1364,0.416
+env_tight_fixedrisk,PPO:seed11,PPO,111.203,28.355,1.616786704516926e-10,0.9257,0.1474,0.5834
+env_tight_fixedrisk,PPO:seed13,PPO,104.266,21.418,7.235236054725647e-08,0.9233,0.152,0.554
+env_tight_fixedrisk,PPO:seed7,PPO,106.056,23.207,1.4895306321704993e-08,0.9277,0.1504,0.5584
+env_cascade,always_execute,baseline,21.023,0.0,nan,1.0,0.508,0.4336
+env_cascade,throttle (hand),hand,34.146,13.123,0.014479791748943427,0.8123,0.3912,0.3766
+env_cascade,REINFORCE:seed7,REINFORCE,141.34,120.316,1.7763568394002505e-15,0.8893,0.0458,0.683
+env_cascade,PPO:seed11,PPO,143.391,122.367,1.7763568394002505e-15,0.8763,0.0418,0.6732
+env_cascade,PPO:seed7,PPO,118.511,97.488,1.7763568394002505e-15,0.8927,0.1176,0.6266
+env_cascade_broken,always_execute,baseline,21.023,0.0,nan,1.0,0.508,0.4336
+env_cascade_broken,throttle (hand),hand,34.146,13.123,0.014479791748943427,0.8123,0.3912,0.3766
+env_cascade_broken,REINFORCE:seed7,REINFORCE,21.023,0.0,nan,1.0,0.508,0.4336
+env_cascade_broken,PPO:seed7,PPO,39.043,18.02,4.788532343980023e-06,0.96,0.4368,0.46
+env_heavytail_tight,always_execute,baseline,451.557,0.0,nan,1.0,0.13,0.4166
+env_heavytail_tight,scale_when_blocked (hand),hand,470.037,18.48,0.02616696817119646,0.9013,0.1308,0.4476
+env_heavytail_tight,REINFORCE:seed11,REINFORCE,451.557,0.0,nan,1.0,0.13,0.4166
+env_heavytail_tight,REINFORCE:seed13,REINFORCE,451.557,0.0,nan,1.0,0.13,0.4166
+env_heavytail_tight,REINFORCE:seed7,REINFORCE,451.557,0.0,nan,1.0,0.13,0.4166
+env_heavytail_tight,PPO:seed11,PPO,465.81,14.253,2.649707155910619e-07,0.889,0.1498,0.5326
+env_heavytail_tight,PPO:seed13,PPO,466.294,14.737,7.946967700789287e-06,0.9293,0.1452,0.5138
+env_heavytail_tight,PPO:seed7,PPO,450.3,-1.257,0.27144531440365094,0.935,0.1308,0.4152

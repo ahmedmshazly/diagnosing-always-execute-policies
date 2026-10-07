@@ -1,0 +1,22 @@
+Phase-5 full-training run: results/hardening/rl_tight_hientropy_seed7
+  init_seed=7  batch_size=16
+  curriculum: [(100, 300, 200)]
+  validation pool: 20 seeds (every 25 updates)
+  [update    0] stage=0 mean_return=+24.184  loss= -0.1786  entropy=1.7810  steps=3515
+    [val @ update   25] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833 *
+  [update   25] stage=0 mean_return=+52.259  loss= -0.2548  entropy=1.7427  steps=121451
+    [val @ update   50] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+  [update   50] stage=0 mean_return=+65.550  loss= -0.1491  entropy=1.5757  steps=235251
+    [val @ update   75] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+  [update   75] stage=0 mean_return=+43.815  loss= -0.5874  entropy=1.4343  steps=357618
+    [val @ update  100] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+  [update  100] stage=0 mean_return=+57.957  loss= -0.2605  entropy=1.2763  steps=473584
+    [val @ update  125] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+  [update  125] stage=0 mean_return=+59.773  loss= -0.2546  entropy=1.2634  steps=591593
+    [val @ update  150] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+  [update  150] stage=0 mean_return=+86.340  loss= -0.2476  entropy=1.1831  steps=722767
+    [val @ update  175] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+  [update  175] stage=0 mean_return=+94.758  loss= -0.2957  entropy=1.1401  steps=844878
+    [val @ update  200] mean= +79.833 (std 18.840, n=20) best-so-far= +79.833  
+---
+Done. 200 updates, 953495 env steps, best val=+79.833 @ update 25  (21340.6 s wall-clock)
