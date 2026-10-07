@@ -1,0 +1,16 @@
+# Core simulator + analysis
+numpy>=1.24
+pyyaml>=6.0
+scipy>=1.10
+matplotlib>=3.7
+pytest>=7.0
+
+# Self-Learning agent (src/rl/). These were required by the RL stack since
+# Phase 4 but were never declared here; `make train` / the RL tests cannot
+# run without them.
+torch>=2.1
+gymnasium>=0.29
+
+# An exact, verified-working lockfile (Python 3.12) is committed at
+# results/hardening/frozen_env.txt. The version floors above are the loose
+# contract; the lockfile is the reproduce-the-pass pin.

@@ -1,0 +1,398 @@
+# Single source of truth for the adaptive-pipeline-orchestration project.
+#
+# Every simulator parameter, action parameter, stochastic-process knob,
+# cost coefficient, utility weight, and agent hyperparameter lives here.
+# No Python module under src/ contains a numeric literal that is not also
+# in this file.
+#
+# Also see SPECIFICATION.md for the prose spec of state, actions, stochastic
+# processes, cost, and utility weights — the two documents must stay in sync.
+
+meta:
+  config_name: default
+  schema_version: 2
+
+# ---------------------------------------------------------------------------
+# Experiment control
+# ---------------------------------------------------------------------------
+experiment:
+  num_jobs: 100            # jobs per episode
+  max_steps: 300           # hard step budget used for budget-capped metrics
+  uncapped_max_steps: 900  # Phase-2 spec: 3x the capped 300-step budget.
+                           # Used to test whether the capped completion gap
+                           # between Reflex and Utility-Based collapses when
+                           # given more time.
+  out_root: results        # every run writes to results/<run_id>/
+  run_id: null             # null -> auto timestamp; override via CLI
+
+seeds:
+  # Train / test split is enforced at every experiment entry point.
+  # The midterm used a single flat list 0..9; the v1 protocol uses
+  # 0..7 for training / weight-tuning and 8..15 as the held-out test set.
+  train: [0, 1, 2, 3, 4, 5, 6, 7]
+  test:  [8, 9, 10, 11, 12, 13, 14, 15]
+  # Retained so the exact midterm Table 1 run can still be reproduced.
+  midterm_baseline: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# ===========================================================================
+# Simulator
+# ===========================================================================
+simulator:
+  actions:
+    - Execute_Ready_Job
+    - Defer_Job
+    - Scale_Up
+    - Scale_Down
+    - Reprioritize_Queue
+    - Pause_LowPriority_Job
+
+  # ------------------------------------------------------------------------
+  # Cluster
+  # ------------------------------------------------------------------------
+  cluster:
+    base_cpu_capacity: 10
+    base_ram_capacity: 16
+    min_cpu_capacity: 6
+    min_ram_capacity: 8
+    scale_boost_duration: 3          # legacy alias; action_params.Scale_Up.duration_steps is canonical
+    max_recent_failures: 10
+    initial_spot_price_low: 0.3
+    initial_spot_price_high: 0.7
+
+  # ------------------------------------------------------------------------
+  # Action parameters
+  #
+  # Every action has a fixed, named parameter set (see SPECIFICATION.md §2).
+  # ------------------------------------------------------------------------
+  action_params:
+    Execute_Ready_Job:
+      selection_policy: value_times_priority   # "value" | "value_times_priority"
+      max_launches_per_step: 1
+    Defer_Job:
+      duration_steps: 1                        # no-op of this many ticks
+    Scale_Up:
+      cpu_delta: 3                             # additive CPU units
+      ram_delta: 4                             # additive RAM units
+      duration_steps: 3                        # boost lifetime (steps)
+    Scale_Down:
+      cpu_delta: 2
+      ram_delta: 2
+      # Floors are inherited from simulator.cluster.{min_cpu_capacity,min_ram_capacity}.
+    Reprioritize_Queue:
+      bump: 0.05
+      cap: 1.0
+    Pause_LowPriority_Job:
+      priority_threshold: 0.4
+      max_jobs: 2
+
+  # ------------------------------------------------------------------------
+  # Stochastic processes (see SPECIFICATION.md §3)
+  # ------------------------------------------------------------------------
+  stochastic_processes:
+
+    node_failure:
+      # Phase-1 committed semantics. Alternative is "per_node_bernoulli".
+      mode: per_step_single_victim
+      # P(at least one failure this step) conditional on >=1 running task.
+      prob: 0.05
+
+    data_spike:
+      # Phase-1 committed semantics. Alternative is "multiplicative_10x".
+      mode: additive_bump
+      prob: 0.08
+      min_tasks: 1
+      max_tasks: 3
+      # Parameters for mode=additive_bump:
+      duration_bump: 1
+      cpu_bump: 1
+      cpu_cap: 6
+      # Parameters for mode=multiplicative_10x (documented but not active):
+      multiplier: 10
+      duration_steps: 3
+
+    spot_price:
+      mode: bounded_random_walk
+      walk_low: -0.08
+      walk_high: 0.08
+      price_min: 0.1
+      price_max: 1.0
+
+  # ------------------------------------------------------------------------
+  # Cost function (see SPECIFICATION.md §4)
+  #
+  # step_cost(state)       = spot_price * (cpu_weight * cpu_in_use
+  #                                        + ram_weight * ram_in_use)
+  # action_cost(a, state)  = spot_price * action_costs[a]
+  # cost(state, action)    = step_cost(state) + action_cost(action, state)
+  # ------------------------------------------------------------------------
+  cost:
+    cpu_weight: 0.6
+    ram_weight: 0.4
+    action_costs:
+      Execute_Ready_Job: 0.0
+      Defer_Job: 0.0
+      Scale_Up: 0.0
+      Scale_Down: 0.0
+      Reprioritize_Queue: 0.0
+      Pause_LowPriority_Job: 0.0
+
+  # ------------------------------------------------------------------------
+  # State-vector normalisation (see SPECIFICATION.md §1)
+  # ------------------------------------------------------------------------
+  state_vector:
+    queue_depth_norm: 20.0
+    ready_nodes_norm: 20.0
+    recent_failures_norm: 5.0
+
+  # ------------------------------------------------------------------------
+  # Workload generation
+  # ------------------------------------------------------------------------
+  workload:
+    duration_factors: [0.8, 1.0, 1.2, 1.5]
+    # 1.0 is duplicated to bias cpu/ram factors toward "no resource inflation".
+    cpu_factors: [1.0, 1.0, 1.5]
+    ram_factors: [1.0, 1.0, 1.5]
+    priority_low: 0.2
+    priority_high: 1.0
+    deadline_steps_low: 30
+    deadline_steps_high: 120
+    job_value_low: 1.0
+    job_value_high: 5.0
+
+  # ------------------------------------------------------------------------
+  # DAG templates. Each task is (id, parents, base_duration, cpu, ram).
+  # ------------------------------------------------------------------------
+  dag_templates:
+    - name: chain
+      tasks:
+        - [extract,   [],           2, 2, 2]
+        - [transform, [extract],    3, 3, 3]
+        - [load,      [transform],  2, 2, 2]
+    - name: fork_join
+      tasks:
+        - [ingest,     [],                     2, 2, 2]
+        - [feature_a,  [ingest],               3, 2, 2]
+        - [feature_b,  [ingest],               3, 2, 2]
+        - [merge,      [feature_a, feature_b], 2, 3, 3]
+    - name: two_stage_batch
+      tasks:
+        - [ingest_a,  [],                              2, 1, 2]
+        - [ingest_b,  [],                              2, 1, 2]
+        - [ingest_c,  [],                              2, 1, 2]
+        - [aggregate, [ingest_a, ingest_b, ingest_c],  4, 4, 4]
+
+# ===========================================================================
+# Utility weights (see SPECIFICATION.md §5)
+#
+# U(s, a) = alpha * Value(job) - beta * Cost(resource) - gamma * Risk(failure)
+# ===========================================================================
+utility:
+  # Phase-1 committed defaults. The midterm did not pin these deliberately,
+  # so we move to a balanced starting point and plan to sweep in Phase 3.
+  alpha: 1.0
+  beta: 0.1
+  gamma: 1.0
+
+  # Exact midterm values, preserved so Table 1 can be reproduced via
+  # --config override or programmatic override_utility_weights().
+  midterm_values:
+    alpha: 1.0
+    beta: 0.4
+    gamma: 0.8
+
+# ===========================================================================
+# Reflex agent policy thresholds
+# ===========================================================================
+reflex_agent:
+  scale_down_spot_price_threshold: 0.8
+  scale_up_queue_depth_threshold: 3
+  scale_up_spot_price_threshold: 0.7
+
+# ===========================================================================
+# Non-learning Utility-Based agent scoring constants
+# ===========================================================================
+utility_agent:
+  # Hard penalties
+  no_executable_task_score: -10000.0
+  active_scale_up_penalty: -25.0
+  empty_queue_scale_up_penalty: -15.0
+  unnecessary_scale_up_penalty: -6.0
+  invalid_scale_down_penalty: -20.0
+  low_value_reprioritize_penalty: -8.0
+  no_low_priority_work_penalty: -12.0
+  unnecessary_pause_penalty: -10.0
+
+  execution_urgency_weight: 0.25
+
+  defer_base_penalty: -0.5
+  queue_penalty_weight: 4.0
+  urgency_penalty_weight: 4.0
+  failure_relief_weight: 0.8
+  price_relief_weight: 1.2
+  price_relief_threshold: 0.8
+
+  blocked_task_benefit_weight: 2.0
+  scale_up_urgency_weight: 4.0
+  scale_up_failure_weight: 2.0
+  scale_up_price_weight: 8.0
+
+  scale_down_price_weight: 6.0
+  scale_down_base_bonus: 1.5
+  scale_down_queue_weight: 0.5
+
+  reprioritize_queue_weight: 2.0
+  reprioritize_urgency_weight: 2.0
+  reprioritize_failure_weight: 1.0
+  reprioritize_base_penalty: 2.5
+  reprioritize_min_queue_depth: 4
+  reprioritize_min_urgency: 0.6
+
+  pause_active_low_weight: 1.2
+  pause_queue_weight: 2.0
+  pause_failure_weight: 4.0
+  pause_price_weight: 6.0
+  pause_base_penalty: 5.0
+  pause_price_threshold: 0.8
+  pause_min_failure_pressure: 0.4
+  pause_min_queue_pressure: 0.5
+
+  best_task_resource_cost_weight: 0.35
+  ready_children_bonus_weight: 0.15
+  job_value_base: 0.7
+  job_priority_weight: 0.6
+  job_urgency_weight: 0.4
+
+  load_risk_threshold: 0.8
+  load_risk_weight: 3.0
+  failure_history_risk_weight: 1.5
+  queue_pressure_risk_weight: 0.4
+
+  stress_guard_failure_limit: 0.6
+  stress_guard_price_limit: 0.9
+
+# ===========================================================================
+# Self-Learning Utility-Based agent (scaffolded for later commits)
+# ===========================================================================
+rl:
+  algorithm: reinforce_with_baseline    # "reinforce_with_baseline" | "ppo"
+  reward: shared_episode_utility        # uses utility.alpha/beta/gamma
+  # Risk term of the per-step reward (hardening fix, paper §4.3.3 audit):
+  #   counter_delta     - gamma * Δ(normalised recent_failures). This is the
+  #                       Phase-5/6 default. It does NOT telescope to the
+  #                       reported metric: the counter decays −1/step so
+  #                       Σ_t Δrisk ≈ 0 at episode end, while the metric
+  #                       penalises gamma * failed_jobs. The learner therefore
+  #                       trains with ≈ no failure penalty (see
+  #                       scripts/hardening/diag_reward_identity.py).
+  #   failed_jobs_delta - gamma * Δ(failed_jobs this step). Σ_t = gamma *
+  #                       failed_jobs, so Σ_t r_t == the episode utility
+  #                       EXACTLY. This is the corrected "shared utility".
+  # Default stays counter_delta so existing Phase-5/6 runs reproduce; the
+  # corrected re-runs pass failed_jobs_delta.
+  reward_risk_mode: counter_delta
+  # Phase-4 notational lock: the RL discount factor is delta, not gamma
+  # (paper §4.3, §5.6). Utility gamma stays as the failure-risk weight.
+  delta_discount: 0.99
+  entropy_coef: 0.01
+  # Note: no separate value-function head is trained; the sequence-specific
+  # baseline is the sole variance-reduction mechanism (paper §4.3.1).
+  learning_rate: 3.0e-4
+  optimizer: adam
+  grad_clip_norm: 1.0
+  batch_size: 16                        # episodes per update (REINFORCE)
+  num_updates: 400                      # total policy-gradient updates
+  steps_per_episode_cap: 300            # env max_steps during training
+  memoryless_termination: true          # tau ~ Exp(mu) per paper §4.3.4
+  sequence_specific_baseline: true      # per-timestep batch-mean baseline
+  curriculum:
+    enabled: true
+    stages:
+      - {num_jobs: 20,  max_steps: 120, num_updates: 80}
+      - {num_jobs: 50,  max_steps: 200, num_updates: 120}
+      - {num_jobs: 100, max_steps: 300, num_updates: 200}
+  network:
+    type: mlp
+    hidden_sizes: [64, 64]
+    activation: tanh
+
+  # Three-pool seed partitioning per §4.3.6. Pools are materialised as
+  # explicit integer lists (range start/stop pairs expanded at config load)
+  # so they can be set-operated in regression tests.
+  training_seeds:
+    kind: range
+    start: 300
+    stop: 1000
+  validation_seeds:
+    kind: range
+    start: 250
+    stop: 300
+  test_seeds:
+    kind: range
+    start: 200
+    stop: 250
+  initialisation_seeds: [7, 11, 13]
+
+  eval_every_updates: 25
+  checkpoint_every_updates: 50
+
+# Stripped Utility-Based comparand (paper §4.3.7, §5.6).
+# When disable_force_execute_guard=true, the _should_force_execution gate
+# that re-adds Execute_Ready_Job whenever score_execute > 0 is bypassed,
+# so the agent's decisions rest on its scoring rule alone.
+stripped_utility_agent:
+  disable_force_execute_guard: true
+
+# Phase-6 V1 richer-state representation (paper §6).
+# When use_richer_state=false (default) the observation is the Phase-5
+# 8-dim vector and every agent / training loop behaves exactly as in
+# Phase 5. Regression-guarded by tests/test_regression_phase5.py.
+# When use_richer_state=true the observation is 14-dim: the 8 Phase-5
+# features, followed by the 5 queue features, followed by the
+# 1 spot-price-forecast feature. Order is load-bearing; the policy
+# network's input layer reads its width from observation_dim(cfg).
+state_v2:
+  use_richer_state: false
+  feature_set: "queue_and_forecast"   # "queue_and_forecast" | "queue_and_forecast_and_gnn"
+  queue_features:
+    # Normalisation divisor for queue_len_abs_norm: raw number of active
+    # (not-yet-terminal) jobs, clipped to [0, 1] after division.
+    queue_len_norm: 100.0
+    # Upper bound of the per-job value distribution at workload
+    # generation (matches simulator.workload.job_value_high by default;
+    # exposed separately so state normalisation does not re-read the
+    # simulator block).
+    job_value_max: 5.0
+  forecast:
+    # Exponential moving-average coefficient: new = lambda*price + (1-lambda)*old.
+    ema_lambda: 0.3
+    # Value of the forecast at episode reset, before any spot-price draw.
+    initial_forecast: 0.5
+
+# ===========================================================================
+# Sweep / Pareto study
+# ===========================================================================
+sweep:
+  # Phase-3 (alpha, beta, gamma) grid. 4 x 5 x 4 = 80 cells.
+  # Seeds 100..119 are reserved for the sweep so seeds 0..49 remain clean
+  # for the baseline comparison and seeds 200+ stay free for RL evaluation.
+  alpha_grid: [0.5, 1.0, 2.0, 4.0]
+  beta_grid:  [0.05, 0.1, 0.25, 0.5, 1.0]
+  gamma_grid: [0.5, 1.0, 2.0, 4.0]
+  seeds: [100, 101, 102, 103, 104, 105, 106, 107, 108, 109,
+          110, 111, 112, 113, 114, 115, 116, 117, 118, 119]
+
+  # Reference points marked on every Pareto plot.
+  # The "midterm baseline" is the Utility-Based agent run under the midterm
+  # weights (alpha=1.0, beta=0.4, gamma=0.8). beta=0.4 is not on the main
+  # grid, so we include it as a named reference cell in addition to the grid.
+  reference_points:
+    midterm_utility: {alpha: 1.0, beta: 0.4, gamma: 0.8}
+    phase1_default:  {alpha: 1.0, beta: 0.1, gamma: 1.0}
+
+  # Evaluation utility used to rank cells on a comparable scale. This is the
+  # shared-U objective the RL agent is also trained against.
+  #   U_eval = eval_alpha * Value - eval_beta * Cost - eval_gamma * FailedJobs
+  evaluation_utility:
+    alpha: 1.0
+    beta: 0.1
+    gamma: 1.0
