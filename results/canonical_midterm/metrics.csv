@@ -1,0 +1,21 @@
+seed,agent_name,alpha,beta,gamma,num_jobs,steps_executed,completed_jobs,failed_jobs,completion_rate,value_weighted_completion_rate,uncapped_completion_rate,failure_rate,total_completed_value,total_job_value,total_compute_cost,avg_compute_cost_per_step,total_utility,completed_all_jobs,hit_step_budget
+0,Reflex Agent,1.0,0.4,0.8,100,300,62,15,0.62,0.6806,0.81,0.15,216.31,317.82,896.252,2.9875,-154.1908,False,True
+1,Reflex Agent,1.0,0.4,0.8,100,300,63,19,0.63,0.6985,0.79,0.19,207.01,296.36,1038.028,3.4601,-223.4012,False,True
+2,Reflex Agent,1.0,0.4,0.8,100,300,61,18,0.61,0.6776,0.8,0.18,213.31,314.8,914.314,3.0477,-166.8156,False,True
+3,Reflex Agent,1.0,0.4,0.8,100,300,64,17,0.64,0.6845,0.78,0.17,204.2,298.34,441.442,1.4715,14.0232,False,True
+4,Reflex Agent,1.0,0.4,0.8,100,300,65,13,0.65,0.7111,0.83,0.13,197.21,277.32,477.752,1.5925,-4.2908,False,True
+5,Reflex Agent,1.0,0.4,0.8,100,300,68,13,0.68,0.7326,0.86,0.13,208.95,285.23,771.78,2.5726,-110.162,False,True
+6,Reflex Agent,1.0,0.4,0.8,100,300,58,18,0.58,0.6592,0.8,0.18,195.46,296.52,727.56,2.4252,-109.964,False,True
+7,Reflex Agent,1.0,0.4,0.8,100,300,63,15,0.63,0.714,0.81,0.15,207.15,290.14,603.434,2.0114,-46.2236,False,True
+8,Reflex Agent,1.0,0.4,0.8,100,300,68,13,0.68,0.7516,0.84,0.13,235.57,313.41,1081.748,3.6058,-207.5292,False,True
+9,Reflex Agent,1.0,0.4,0.8,100,300,59,22,0.59,0.6201,0.73,0.22,191.1,308.18,863.882,2.8796,-172.0528,False,True
+0,Utility-Based Agent (Non-Learning Baseline),1.0,0.4,0.8,100,300,60,19,0.6,0.6632,0.75,0.19,210.79,317.82,363.224,1.2107,50.3004,False,True
+1,Utility-Based Agent (Non-Learning Baseline),1.0,0.4,0.8,100,300,62,14,0.62,0.6964,0.79,0.14,206.38,296.36,627.374,2.0912,-55.7696,False,True
+2,Utility-Based Agent (Non-Learning Baseline),1.0,0.4,0.8,100,300,49,12,0.49,0.563,0.78,0.12,177.24,314.8,567.662,1.8922,-59.4248,False,True
+3,Utility-Based Agent (Non-Learning Baseline),1.0,0.4,0.8,100,300,59,18,0.59,0.6781,0.8,0.18,202.3,298.34,494.506,1.6484,-9.9024,False,True
+4,Utility-Based Agent (Non-Learning Baseline),1.0,0.4,0.8,100,300,51,16,0.51,0.589,0.75,0.16,163.34,277.32,431.164,1.4372,-21.9256,False,True
+5,Utility-Based Agent (Non-Learning Baseline),1.0,0.4,0.8,100,300,40,14,0.4,0.4856,0.79,0.14,138.51,285.23,582.61,1.942,-105.734,False,True
+6,Utility-Based Agent (Non-Learning Baseline),1.0,0.4,0.8,100,300,31,15,0.31,0.3829,0.72,0.15,113.55,296.52,575.96,1.9199,-128.834,False,True
+7,Utility-Based Agent (Non-Learning Baseline),1.0,0.4,0.8,100,300,59,17,0.59,0.6631,0.81,0.17,192.39,290.14,410.138,1.3671,14.7348,False,True
+8,Utility-Based Agent (Non-Learning Baseline),1.0,0.4,0.8,100,300,52,11,0.52,0.6041,0.82,0.11,189.34,313.41,659.702,2.199,-83.3408,False,True
+9,Utility-Based Agent (Non-Learning Baseline),1.0,0.4,0.8,100,300,49,20,0.49,0.5137,0.69,0.2,158.32,308.18,641.588,2.1386,-114.3152,False,True

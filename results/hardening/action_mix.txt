@@ -1,0 +1,31 @@
+Action mix of each learned policy, greedy argmax, held-out seeds 200-209 (% of steps)
+default              REINFORCE rl_seed11                        Execute_Ready_Job=100.0
+default              REINFORCE rl_seed13                        Execute_Ready_Job=100.0
+default              REINFORCE rl_seed7                         Execute_Ready_Job=100.0
+default              PPO       ppo_benign_seed11                Execute_Ready_Job=99.7 Reprioritize_Queue=0.3
+default              PPO       ppo_benign_seed13                Execute_Ready_Job=99.7 Reprioritize_Queue=0.1 Defer_Job=0.1
+default              PPO       ppo_benign_seed7                 Execute_Ready_Job=99.9 Reprioritize_Queue=0.1
+env_tight_fixedrisk  REINFORCE reinforce_tight_seed11           Execute_Ready_Job=100.0
+env_tight_fixedrisk  REINFORCE reinforce_tight_seed13           Execute_Ready_Job=100.0
+env_tight_fixedrisk  REINFORCE rl_tight_fixedrisk_seed7         Execute_Ready_Job=100.0
+env_tight_fixedrisk  PPO       ppo_tight_seed11                 Execute_Ready_Job=92.6 Scale_Up=7.4
+env_tight_fixedrisk  PPO       ppo_tight_seed13                 Execute_Ready_Job=92.3 Scale_Up=7.7
+env_tight_fixedrisk  PPO       ppo_tight_seed7                  Execute_Ready_Job=92.8 Scale_Up=7.2
+env_cascade          REINFORCE reinforce_cascade_seed11         Execute_Ready_Job=72.4 Scale_Up=27.6
+env_cascade          REINFORCE reinforce_cascade_seed13         Execute_Ready_Job=69.9 Scale_Up=30.1
+env_cascade          REINFORCE reinforce_cascade_seed7          Execute_Ready_Job=88.9 Scale_Up=11.1
+env_cascade          PPO       ppo_cascade_seed11               Execute_Ready_Job=87.6 Scale_Up=12.4
+env_cascade          PPO       ppo_cascade_seed13               Execute_Ready_Job=88.8 Scale_Up=11.2
+env_cascade          PPO       ppo_cascade_seed7                Execute_Ready_Job=89.3 Scale_Up=10.7
+env_cascade_broken   REINFORCE reinforce_cascade_broken_seed11  Execute_Ready_Job=94.8 Scale_Up=5.2
+env_cascade_broken   REINFORCE reinforce_cascade_broken_seed13  Execute_Ready_Job=100.0
+env_cascade_broken   REINFORCE reinforce_cascade_broken_seed7   Execute_Ready_Job=100.0
+env_cascade_broken   PPO       ppo_cascade_broken_seed11        Execute_Ready_Job=89.4 Scale_Up=10.6
+env_cascade_broken   PPO       ppo_cascade_broken_seed13        Execute_Ready_Job=93.8 Scale_Up=6.2
+env_cascade_broken   PPO       ppo_cascade_broken_seed7         Execute_Ready_Job=96.0 Scale_Up=4.0
+env_heavytail_tight  REINFORCE reinforce_heavytail_seed11       Execute_Ready_Job=100.0
+env_heavytail_tight  REINFORCE reinforce_heavytail_seed13       Execute_Ready_Job=100.0
+env_heavytail_tight  REINFORCE reinforce_heavytail_seed7        Execute_Ready_Job=100.0
+env_heavytail_tight  PPO       ppo_heavytail_seed11             Execute_Ready_Job=88.9 Scale_Up=11.1
+env_heavytail_tight  PPO       ppo_heavytail_seed13             Execute_Ready_Job=92.9 Scale_Up=7.1
+env_heavytail_tight  PPO       ppo_heavytail_seed7              Execute_Ready_Job=93.5 Defer_Job=4.6 Pause_LowPriority_Job=1.9

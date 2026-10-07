@@ -1,0 +1,401 @@
+variant,alpha,beta,gamma,seed,description,steps_executed,completed_jobs,failed_jobs,completion_rate,value_weighted_completion_rate,total_compute_cost,forced_execute_steps,action_count_Execute_Ready_Job,action_count_Defer_Job,action_count_Scale_Up,action_count_Scale_Down,action_count_Reprioritize_Queue,action_count_Pause_LowPriority_Job
+reference_phase1,1.0,0.1,1.0,100,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,56,17,0.56,0.6600978706520301,587.674,0,249,0,23,0,0,28
+reference_phase1,1.0,0.1,1.0,101,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,57,21,0.57,0.631960623461854,755.75,0,274,0,21,0,0,5
+reference_phase1,1.0,0.1,1.0,102,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,58,18,0.58,0.6250197991573478,579.454,0,263,0,32,0,0,5
+reference_phase1,1.0,0.1,1.0,103,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,68,16,0.68,0.7221839713577527,396.792,0,278,0,22,0,0,0
+reference_phase1,1.0,0.1,1.0,104,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,59,10,0.59,0.6719961704164671,721.95,0,246,0,28,0,0,26
+reference_phase1,1.0,0.1,1.0,105,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,29,8,0.29,0.3519968157091681,415.088,0,128,0,8,0,0,164
+reference_phase1,1.0,0.1,1.0,106,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,63,11,0.63,0.7218628313026002,524.688,0,270,0,29,0,0,1
+reference_phase1,1.0,0.1,1.0,107,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,48,8,0.48,0.5821107094762208,531.738,0,203,0,18,0,0,79
+reference_phase1,1.0,0.1,1.0,108,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,58,9,0.58,0.6234393100785173,714.438,0,237,0,23,0,0,40
+reference_phase1,1.0,0.1,1.0,109,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,48,20,0.48,0.566701717490361,629.366,0,227,0,31,0,0,42
+reference_phase1,1.0,0.1,1.0,110,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,56,15,0.56,0.6661017523641664,769.63,0,249,0,25,0,0,26
+reference_phase1,1.0,0.1,1.0,111,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,45,9,0.45,0.5333382833382833,587.258,0,187,0,29,0,0,84
+reference_phase1,1.0,0.1,1.0,112,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,46,11,0.46,0.5462513130252101,441.846,0,199,0,17,0,0,84
+reference_phase1,1.0,0.1,1.0,113,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,61,18,0.61,0.6544182273003853,324.922,0,264,0,35,0,0,1
+reference_phase1,1.0,0.1,1.0,114,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,64,15,0.64,0.6850971780669266,429.658,0,275,0,25,0,0,0
+reference_phase1,1.0,0.1,1.0,115,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,38,10,0.38,0.4947068124011824,558.382,0,169,0,16,0,0,115
+reference_phase1,1.0,0.1,1.0,116,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,58,15,0.58,0.6475274528098758,717.018,0,259,0,30,0,0,11
+reference_phase1,1.0,0.1,1.0,117,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,56,13,0.56,0.6579441954604597,368.954,0,238,0,25,0,0,37
+reference_phase1,1.0,0.1,1.0,118,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,58,22,0.58,0.6376899287347048,413.83,0,268,0,32,0,0,0
+reference_phase1,1.0,0.1,1.0,119,"Phase-1 default: (alpha, beta, gamma) = (1.0, 0.1, 1.0).",300,57,22,0.57,0.614982690088473,503.294,0,269,0,31,0,0,0
+midterm_weights,1.0,0.4,0.8,100,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,56,17,0.56,0.6600978706520301,587.674,0,249,0,23,0,0,28
+midterm_weights,1.0,0.4,0.8,101,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,57,21,0.57,0.631960623461854,755.75,0,274,0,21,0,0,5
+midterm_weights,1.0,0.4,0.8,102,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,58,18,0.58,0.6250197991573478,579.454,0,263,0,32,0,0,5
+midterm_weights,1.0,0.4,0.8,103,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,68,16,0.68,0.7221839713577527,396.792,0,278,0,22,0,0,0
+midterm_weights,1.0,0.4,0.8,104,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,59,10,0.59,0.6719961704164671,721.95,0,246,0,28,0,0,26
+midterm_weights,1.0,0.4,0.8,105,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,29,8,0.29,0.3519968157091681,415.088,0,128,0,8,0,0,164
+midterm_weights,1.0,0.4,0.8,106,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,63,11,0.63,0.7218628313026002,524.688,0,270,0,29,0,0,1
+midterm_weights,1.0,0.4,0.8,107,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,48,8,0.48,0.5821107094762208,531.738,0,203,0,18,0,0,79
+midterm_weights,1.0,0.4,0.8,108,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,58,9,0.58,0.6234393100785173,714.438,0,237,0,23,0,0,40
+midterm_weights,1.0,0.4,0.8,109,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,48,20,0.48,0.566701717490361,629.366,0,227,0,31,0,0,42
+midterm_weights,1.0,0.4,0.8,110,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,56,15,0.56,0.6661017523641664,769.63,0,249,0,25,0,0,26
+midterm_weights,1.0,0.4,0.8,111,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,45,9,0.45,0.5333382833382833,587.258,0,187,0,29,0,0,84
+midterm_weights,1.0,0.4,0.8,112,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,46,11,0.46,0.5462513130252101,441.846,0,199,0,17,0,0,84
+midterm_weights,1.0,0.4,0.8,113,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,61,18,0.61,0.6544182273003853,324.922,0,264,0,35,0,0,1
+midterm_weights,1.0,0.4,0.8,114,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,64,15,0.64,0.6850971780669266,429.658,0,275,0,25,0,0,0
+midterm_weights,1.0,0.4,0.8,115,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,38,10,0.38,0.4947068124011824,558.382,0,169,0,16,0,0,115
+midterm_weights,1.0,0.4,0.8,116,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,58,15,0.58,0.6475274528098758,717.018,0,259,0,30,0,0,11
+midterm_weights,1.0,0.4,0.8,117,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,56,13,0.56,0.6579441954604597,368.954,0,238,0,25,0,0,37
+midterm_weights,1.0,0.4,0.8,118,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,58,22,0.58,0.6376899287347048,413.83,0,268,0,32,0,0,0
+midterm_weights,1.0,0.4,0.8,119,"Midterm weights (1.0, 0.4, 0.8) — same equivalence class as reference?",300,57,22,0.57,0.614982690088473,503.294,0,269,0,31,0,0,0
+alpha_0,0.0,0.1,1.0,100,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,101,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,102,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,103,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,104,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,105,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,106,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,107,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,108,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,109,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,110,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,111,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,112,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,113,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,114,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,115,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,116,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,117,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,118,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_0,0.0,0.1,1.0,119,Zero out alpha only.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_0,1.0,0.0,1.0,100,Zero out beta only.,300,56,17,0.56,0.6600978706520301,587.674,0,249,0,23,0,0,28
+beta_0,1.0,0.0,1.0,101,Zero out beta only.,300,57,21,0.57,0.631960623461854,755.75,0,274,0,21,0,0,5
+beta_0,1.0,0.0,1.0,102,Zero out beta only.,300,58,18,0.58,0.6250197991573478,579.454,0,263,0,32,0,0,5
+beta_0,1.0,0.0,1.0,103,Zero out beta only.,300,68,16,0.68,0.7221839713577527,396.792,0,278,0,22,0,0,0
+beta_0,1.0,0.0,1.0,104,Zero out beta only.,300,59,10,0.59,0.6719961704164671,721.95,0,246,0,28,0,0,26
+beta_0,1.0,0.0,1.0,105,Zero out beta only.,300,29,8,0.29,0.3519968157091681,415.088,0,128,0,8,0,0,164
+beta_0,1.0,0.0,1.0,106,Zero out beta only.,300,63,11,0.63,0.7218628313026002,524.688,0,270,0,29,0,0,1
+beta_0,1.0,0.0,1.0,107,Zero out beta only.,300,48,8,0.48,0.5821107094762208,531.738,0,203,0,18,0,0,79
+beta_0,1.0,0.0,1.0,108,Zero out beta only.,300,58,9,0.58,0.6234393100785173,714.438,0,237,0,23,0,0,40
+beta_0,1.0,0.0,1.0,109,Zero out beta only.,300,48,20,0.48,0.566701717490361,629.366,0,227,0,31,0,0,42
+beta_0,1.0,0.0,1.0,110,Zero out beta only.,300,56,15,0.56,0.6661017523641664,769.63,0,249,0,25,0,0,26
+beta_0,1.0,0.0,1.0,111,Zero out beta only.,300,45,9,0.45,0.5333382833382833,587.258,0,187,0,29,0,0,84
+beta_0,1.0,0.0,1.0,112,Zero out beta only.,300,46,11,0.46,0.5462513130252101,441.846,0,199,0,17,0,0,84
+beta_0,1.0,0.0,1.0,113,Zero out beta only.,300,61,18,0.61,0.6544182273003853,324.922,0,264,0,35,0,0,1
+beta_0,1.0,0.0,1.0,114,Zero out beta only.,300,64,15,0.64,0.6850971780669266,429.658,0,275,0,25,0,0,0
+beta_0,1.0,0.0,1.0,115,Zero out beta only.,300,38,10,0.38,0.4947068124011824,558.382,0,169,0,16,0,0,115
+beta_0,1.0,0.0,1.0,116,Zero out beta only.,300,58,15,0.58,0.6475274528098758,717.018,0,259,0,30,0,0,11
+beta_0,1.0,0.0,1.0,117,Zero out beta only.,300,56,13,0.56,0.6579441954604597,368.954,0,238,0,25,0,0,37
+beta_0,1.0,0.0,1.0,118,Zero out beta only.,300,58,22,0.58,0.6376899287347048,413.83,0,268,0,32,0,0,0
+beta_0,1.0,0.0,1.0,119,Zero out beta only.,300,57,22,0.57,0.614982690088473,503.294,0,269,0,31,0,0,0
+gamma_0,1.0,0.1,0.0,100,Zero out gamma only.,300,56,17,0.56,0.6600978706520301,587.674,0,249,0,23,0,0,28
+gamma_0,1.0,0.1,0.0,101,Zero out gamma only.,300,57,21,0.57,0.631960623461854,755.75,0,274,0,21,0,0,5
+gamma_0,1.0,0.1,0.0,102,Zero out gamma only.,300,58,18,0.58,0.6250197991573478,579.454,0,263,0,32,0,0,5
+gamma_0,1.0,0.1,0.0,103,Zero out gamma only.,300,68,16,0.68,0.7221839713577527,396.792,0,278,0,22,0,0,0
+gamma_0,1.0,0.1,0.0,104,Zero out gamma only.,300,59,10,0.59,0.6719961704164671,721.95,0,246,0,28,0,0,26
+gamma_0,1.0,0.1,0.0,105,Zero out gamma only.,300,29,8,0.29,0.3519968157091681,415.088,0,128,0,8,0,0,164
+gamma_0,1.0,0.1,0.0,106,Zero out gamma only.,300,63,11,0.63,0.7218628313026002,524.688,0,270,0,29,0,0,1
+gamma_0,1.0,0.1,0.0,107,Zero out gamma only.,300,48,8,0.48,0.5821107094762208,531.738,0,203,0,18,0,0,79
+gamma_0,1.0,0.1,0.0,108,Zero out gamma only.,300,58,9,0.58,0.6234393100785173,714.438,0,237,0,23,0,0,40
+gamma_0,1.0,0.1,0.0,109,Zero out gamma only.,300,48,20,0.48,0.566701717490361,629.366,0,227,0,31,0,0,42
+gamma_0,1.0,0.1,0.0,110,Zero out gamma only.,300,56,15,0.56,0.6661017523641664,769.63,0,249,0,25,0,0,26
+gamma_0,1.0,0.1,0.0,111,Zero out gamma only.,300,45,9,0.45,0.5333382833382833,587.258,0,187,0,29,0,0,84
+gamma_0,1.0,0.1,0.0,112,Zero out gamma only.,300,46,11,0.46,0.5462513130252101,441.846,0,199,0,17,0,0,84
+gamma_0,1.0,0.1,0.0,113,Zero out gamma only.,300,61,18,0.61,0.6544182273003853,324.922,0,264,0,35,0,0,1
+gamma_0,1.0,0.1,0.0,114,Zero out gamma only.,300,64,15,0.64,0.6850971780669266,429.658,0,275,0,25,0,0,0
+gamma_0,1.0,0.1,0.0,115,Zero out gamma only.,300,38,10,0.38,0.4947068124011824,558.382,0,169,0,16,0,0,115
+gamma_0,1.0,0.1,0.0,116,Zero out gamma only.,300,58,15,0.58,0.6475274528098758,717.018,0,259,0,30,0,0,11
+gamma_0,1.0,0.1,0.0,117,Zero out gamma only.,300,56,13,0.56,0.6579441954604597,368.954,0,238,0,25,0,0,37
+gamma_0,1.0,0.1,0.0,118,Zero out gamma only.,300,58,22,0.58,0.6376899287347048,413.83,0,268,0,32,0,0,0
+gamma_0,1.0,0.1,0.0,119,Zero out gamma only.,300,57,22,0.57,0.614982690088473,503.294,0,269,0,31,0,0,0
+all_zero,0.0,0.0,0.0,100,Zero out all three utility weights (extreme ablation).,300,56,17,0.56,0.6600978706520301,587.674,0,249,0,23,0,0,28
+all_zero,0.0,0.0,0.0,101,Zero out all three utility weights (extreme ablation).,300,57,21,0.57,0.631960623461854,755.75,0,274,0,21,0,0,5
+all_zero,0.0,0.0,0.0,102,Zero out all three utility weights (extreme ablation).,300,58,18,0.58,0.6250197991573478,579.454,0,263,0,32,0,0,5
+all_zero,0.0,0.0,0.0,103,Zero out all three utility weights (extreme ablation).,300,68,16,0.68,0.7221839713577527,396.792,0,278,0,22,0,0,0
+all_zero,0.0,0.0,0.0,104,Zero out all three utility weights (extreme ablation).,300,59,10,0.59,0.6719961704164671,721.95,0,246,0,28,0,0,26
+all_zero,0.0,0.0,0.0,105,Zero out all three utility weights (extreme ablation).,300,29,8,0.29,0.3519968157091681,415.088,0,128,0,8,0,0,164
+all_zero,0.0,0.0,0.0,106,Zero out all three utility weights (extreme ablation).,300,63,11,0.63,0.7218628313026002,524.688,0,270,0,29,0,0,1
+all_zero,0.0,0.0,0.0,107,Zero out all three utility weights (extreme ablation).,300,48,8,0.48,0.5821107094762208,531.738,0,203,0,18,0,0,79
+all_zero,0.0,0.0,0.0,108,Zero out all three utility weights (extreme ablation).,300,58,9,0.58,0.6234393100785173,714.438,0,237,0,23,0,0,40
+all_zero,0.0,0.0,0.0,109,Zero out all three utility weights (extreme ablation).,300,48,20,0.48,0.566701717490361,629.366,0,227,0,31,0,0,42
+all_zero,0.0,0.0,0.0,110,Zero out all three utility weights (extreme ablation).,300,56,15,0.56,0.6661017523641664,769.63,0,249,0,25,0,0,26
+all_zero,0.0,0.0,0.0,111,Zero out all three utility weights (extreme ablation).,300,45,9,0.45,0.5333382833382833,587.258,0,187,0,29,0,0,84
+all_zero,0.0,0.0,0.0,112,Zero out all three utility weights (extreme ablation).,300,46,11,0.46,0.5462513130252101,441.846,0,199,0,17,0,0,84
+all_zero,0.0,0.0,0.0,113,Zero out all three utility weights (extreme ablation).,300,61,18,0.61,0.6544182273003853,324.922,0,264,0,35,0,0,1
+all_zero,0.0,0.0,0.0,114,Zero out all three utility weights (extreme ablation).,300,64,15,0.64,0.6850971780669266,429.658,0,275,0,25,0,0,0
+all_zero,0.0,0.0,0.0,115,Zero out all three utility weights (extreme ablation).,300,38,10,0.38,0.4947068124011824,558.382,0,169,0,16,0,0,115
+all_zero,0.0,0.0,0.0,116,Zero out all three utility weights (extreme ablation).,300,58,15,0.58,0.6475274528098758,717.018,0,259,0,30,0,0,11
+all_zero,0.0,0.0,0.0,117,Zero out all three utility weights (extreme ablation).,300,56,13,0.56,0.6579441954604597,368.954,0,238,0,25,0,0,37
+all_zero,0.0,0.0,0.0,118,Zero out all three utility weights (extreme ablation).,300,58,22,0.58,0.6376899287347048,413.83,0,268,0,32,0,0,0
+all_zero,0.0,0.0,0.0,119,Zero out all three utility weights (extreme ablation).,300,57,22,0.57,0.614982690088473,503.294,0,269,0,31,0,0,0
+alpha_100,100.0,0.1,1.0,100,alpha=100 (should strongly prefer execute).,300,63,17,0.63,0.7185557465943658,655.928,0,295,0,5,0,0,0
+alpha_100,100.0,0.1,1.0,101,alpha=100 (should strongly prefer execute).,300,61,23,0.61,0.6635274815422477,464.398,0,295,0,5,0,0,0
+alpha_100,100.0,0.1,1.0,102,alpha=100 (should strongly prefer execute).,300,59,24,0.59,0.6397186935724015,820.988,0,295,0,5,0,0,0
+alpha_100,100.0,0.1,1.0,103,alpha=100 (should strongly prefer execute).,300,65,17,0.65,0.6870696777747177,305.876,0,294,0,6,0,0,0
+alpha_100,100.0,0.1,1.0,104,alpha=100 (should strongly prefer execute).,300,63,11,0.63,0.7306207116642731,810.834,0,295,0,5,0,0,0
+alpha_100,100.0,0.1,1.0,105,alpha=100 (should strongly prefer execute).,300,63,18,0.63,0.6861151651850869,739.148,0,296,0,4,0,0,0
+alpha_100,100.0,0.1,1.0,106,alpha=100 (should strongly prefer execute).,300,65,9,0.65,0.7366850898128376,563.434,0,297,0,3,0,0,0
+alpha_100,100.0,0.1,1.0,107,alpha=100 (should strongly prefer execute).,300,65,15,0.65,0.7226947338578212,572.746,0,298,0,2,0,0,0
+alpha_100,100.0,0.1,1.0,108,alpha=100 (should strongly prefer execute).,300,68,13,0.68,0.7322370961513709,633.634,0,291,0,9,0,0,0
+alpha_100,100.0,0.1,1.0,109,alpha=100 (should strongly prefer execute).,300,63,21,0.63,0.6717840869260427,636.306,0,299,0,1,0,0,0
+alpha_100,100.0,0.1,1.0,110,alpha=100 (should strongly prefer execute).,300,67,12,0.67,0.7149781378164931,959.382,0,295,0,5,0,0,0
+alpha_100,100.0,0.1,1.0,111,alpha=100 (should strongly prefer execute).,300,63,15,0.63,0.6860706860706861,800.206,0,293,0,7,0,0,0
+alpha_100,100.0,0.1,1.0,112,alpha=100 (should strongly prefer execute).,300,67,11,0.67,0.7065388655462186,844.01,0,296,0,4,0,0,0
+alpha_100,100.0,0.1,1.0,113,alpha=100 (should strongly prefer execute).,300,61,21,0.61,0.6608072476505983,465.546,0,297,0,3,0,0,0
+alpha_100,100.0,0.1,1.0,114,alpha=100 (should strongly prefer execute).,300,65,14,0.65,0.7160368391727573,554.01,0,294,0,6,0,0,0
+alpha_100,100.0,0.1,1.0,115,alpha=100 (should strongly prefer execute).,300,66,15,0.66,0.7343094796177907,1024.32,0,296,0,4,0,0,0
+alpha_100,100.0,0.1,1.0,116,alpha=100 (should strongly prefer execute).,300,62,14,0.62,0.6844541735448215,964.582,0,292,0,8,0,0,0
+alpha_100,100.0,0.1,1.0,117,alpha=100 (should strongly prefer execute).,300,67,13,0.67,0.7425907185195895,458.496,0,295,0,5,0,0,0
+alpha_100,100.0,0.1,1.0,118,alpha=100 (should strongly prefer execute).,300,60,25,0.6,0.6515059835955358,407.726,0,296,0,4,0,0,0
+alpha_100,100.0,0.1,1.0,119,alpha=100 (should strongly prefer execute).,300,59,24,0.59,0.6456276445698167,635.538,0,295,0,5,0,0,0
+beta_100,1.0,100.0,1.0,100,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,101,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,102,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,103,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,104,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,105,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,106,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,107,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,108,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,109,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,110,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,111,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,112,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,113,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,114,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,115,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,116,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,117,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,118,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+beta_100,1.0,100.0,1.0,119,beta=100 (cost dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,100,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,101,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,102,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,103,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,104,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,105,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,106,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,107,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,108,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,109,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,110,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,111,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,112,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,113,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,114,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,115,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,116,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,117,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,118,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+gamma_100,1.0,0.1,100.0,119,gamma=100 (risk dominates; should avoid execute).,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,100,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,101,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,102,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,103,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,104,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,105,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,106,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,107,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,108,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,109,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,110,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,111,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,112,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,113,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,114,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,115,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,116,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,117,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,118,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+alpha_beta_gamma_extreme_neg_execute,0.0,100.0,100.0,119,Should punish execute very hard; only stress-guard forces it.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+best_task_cost_off,1.0,0.1,1.0,100,Turn off the task-ranking cost weight.,300,56,17,0.56,0.6600978706520301,587.674,0,249,0,23,0,0,28
+best_task_cost_off,1.0,0.1,1.0,101,Turn off the task-ranking cost weight.,300,57,21,0.57,0.631960623461854,755.75,0,274,0,21,0,0,5
+best_task_cost_off,1.0,0.1,1.0,102,Turn off the task-ranking cost weight.,300,58,18,0.58,0.6250197991573478,579.454,0,263,0,32,0,0,5
+best_task_cost_off,1.0,0.1,1.0,103,Turn off the task-ranking cost weight.,300,68,16,0.68,0.7221839713577527,396.792,0,278,0,22,0,0,0
+best_task_cost_off,1.0,0.1,1.0,104,Turn off the task-ranking cost weight.,300,59,10,0.59,0.6719961704164671,721.95,0,246,0,28,0,0,26
+best_task_cost_off,1.0,0.1,1.0,105,Turn off the task-ranking cost weight.,300,29,8,0.29,0.3519968157091681,415.088,0,128,0,8,0,0,164
+best_task_cost_off,1.0,0.1,1.0,106,Turn off the task-ranking cost weight.,300,63,11,0.63,0.7218628313026002,524.688,0,270,0,29,0,0,1
+best_task_cost_off,1.0,0.1,1.0,107,Turn off the task-ranking cost weight.,300,48,8,0.48,0.5821107094762208,531.738,0,203,0,18,0,0,79
+best_task_cost_off,1.0,0.1,1.0,108,Turn off the task-ranking cost weight.,300,58,9,0.58,0.6234393100785173,714.438,0,237,0,23,0,0,40
+best_task_cost_off,1.0,0.1,1.0,109,Turn off the task-ranking cost weight.,300,48,20,0.48,0.566701717490361,629.366,0,227,0,31,0,0,42
+best_task_cost_off,1.0,0.1,1.0,110,Turn off the task-ranking cost weight.,300,56,15,0.56,0.6661017523641664,769.63,0,249,0,25,0,0,26
+best_task_cost_off,1.0,0.1,1.0,111,Turn off the task-ranking cost weight.,300,45,9,0.45,0.5333382833382833,587.258,0,187,0,29,0,0,84
+best_task_cost_off,1.0,0.1,1.0,112,Turn off the task-ranking cost weight.,300,46,11,0.46,0.5462513130252101,441.846,0,199,0,17,0,0,84
+best_task_cost_off,1.0,0.1,1.0,113,Turn off the task-ranking cost weight.,300,61,18,0.61,0.6544182273003853,324.922,0,264,0,35,0,0,1
+best_task_cost_off,1.0,0.1,1.0,114,Turn off the task-ranking cost weight.,300,64,15,0.64,0.6850971780669266,429.658,0,275,0,25,0,0,0
+best_task_cost_off,1.0,0.1,1.0,115,Turn off the task-ranking cost weight.,300,38,10,0.38,0.4947068124011824,558.382,0,169,0,16,0,0,115
+best_task_cost_off,1.0,0.1,1.0,116,Turn off the task-ranking cost weight.,300,58,15,0.58,0.6475274528098758,717.018,0,259,0,30,0,0,11
+best_task_cost_off,1.0,0.1,1.0,117,Turn off the task-ranking cost weight.,300,56,13,0.56,0.6579441954604597,368.954,0,238,0,25,0,0,37
+best_task_cost_off,1.0,0.1,1.0,118,Turn off the task-ranking cost weight.,300,58,22,0.58,0.6376899287347048,413.83,0,268,0,32,0,0,0
+best_task_cost_off,1.0,0.1,1.0,119,Turn off the task-ranking cost weight.,300,57,22,0.57,0.614982690088473,503.294,0,269,0,31,0,0,0
+stress_guard_disabled,1.0,0.1,1.0,100,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,101,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,102,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,103,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,104,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,105,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,106,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,107,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,108,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,109,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,110,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,111,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,112,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,113,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,114,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,115,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,116,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,117,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,118,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled,1.0,0.1,1.0,119,Effectively disables _should_force_execution so alpha/beta/gamma have to win on their own.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,100,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,101,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,102,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,103,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,104,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,105,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,106,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,107,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,108,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,109,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,110,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,111,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,112,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,113,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,114,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,115,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,116,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,117,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,118,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+stress_guard_disabled_plus_alpha_0,0.0,0.1,1.0,119,Disable the stress guard AND zero alpha. Only deviates from the reference trace if the utility coefficients are actually doing work.,300,0,0,0.0,0.0,0.0,0,0,0,0,0,0,300
+urgency_weight_off,1.0,0.1,1.0,100,Drop execute's urgency bonus; tests one hand constant.,300,56,17,0.56,0.6600978706520301,587.674,0,249,0,23,0,0,28
+urgency_weight_off,1.0,0.1,1.0,101,Drop execute's urgency bonus; tests one hand constant.,300,57,21,0.57,0.631960623461854,755.75,0,274,0,21,0,0,5
+urgency_weight_off,1.0,0.1,1.0,102,Drop execute's urgency bonus; tests one hand constant.,300,58,18,0.58,0.6250197991573478,579.454,0,263,0,32,0,0,5
+urgency_weight_off,1.0,0.1,1.0,103,Drop execute's urgency bonus; tests one hand constant.,300,68,16,0.68,0.7221839713577527,396.792,0,278,0,22,0,0,0
+urgency_weight_off,1.0,0.1,1.0,104,Drop execute's urgency bonus; tests one hand constant.,300,59,10,0.59,0.6719961704164671,721.95,0,246,0,28,0,0,26
+urgency_weight_off,1.0,0.1,1.0,105,Drop execute's urgency bonus; tests one hand constant.,300,29,8,0.29,0.3519968157091681,415.088,0,128,0,8,0,0,164
+urgency_weight_off,1.0,0.1,1.0,106,Drop execute's urgency bonus; tests one hand constant.,300,63,11,0.63,0.7218628313026002,524.688,0,270,0,29,0,0,1
+urgency_weight_off,1.0,0.1,1.0,107,Drop execute's urgency bonus; tests one hand constant.,300,48,8,0.48,0.5821107094762208,531.738,0,203,0,18,0,0,79
+urgency_weight_off,1.0,0.1,1.0,108,Drop execute's urgency bonus; tests one hand constant.,300,58,9,0.58,0.6234393100785173,714.438,0,237,0,23,0,0,40
+urgency_weight_off,1.0,0.1,1.0,109,Drop execute's urgency bonus; tests one hand constant.,300,48,20,0.48,0.566701717490361,629.366,0,227,0,31,0,0,42
+urgency_weight_off,1.0,0.1,1.0,110,Drop execute's urgency bonus; tests one hand constant.,300,56,15,0.56,0.6661017523641664,769.63,0,249,0,25,0,0,26
+urgency_weight_off,1.0,0.1,1.0,111,Drop execute's urgency bonus; tests one hand constant.,300,45,9,0.45,0.5333382833382833,587.258,0,187,0,29,0,0,84
+urgency_weight_off,1.0,0.1,1.0,112,Drop execute's urgency bonus; tests one hand constant.,300,46,11,0.46,0.5462513130252101,441.846,0,199,0,17,0,0,84
+urgency_weight_off,1.0,0.1,1.0,113,Drop execute's urgency bonus; tests one hand constant.,300,61,18,0.61,0.6544182273003853,324.922,0,264,0,35,0,0,1
+urgency_weight_off,1.0,0.1,1.0,114,Drop execute's urgency bonus; tests one hand constant.,300,64,15,0.64,0.6850971780669266,429.658,0,275,0,25,0,0,0
+urgency_weight_off,1.0,0.1,1.0,115,Drop execute's urgency bonus; tests one hand constant.,300,38,10,0.38,0.4947068124011824,558.382,0,169,0,16,0,0,115
+urgency_weight_off,1.0,0.1,1.0,116,Drop execute's urgency bonus; tests one hand constant.,300,58,15,0.58,0.6475274528098758,717.018,0,259,0,30,0,0,11
+urgency_weight_off,1.0,0.1,1.0,117,Drop execute's urgency bonus; tests one hand constant.,300,56,13,0.56,0.6579441954604597,368.954,0,238,0,25,0,0,37
+urgency_weight_off,1.0,0.1,1.0,118,Drop execute's urgency bonus; tests one hand constant.,300,58,22,0.58,0.6376899287347048,413.83,0,268,0,32,0,0,0
+urgency_weight_off,1.0,0.1,1.0,119,Drop execute's urgency bonus; tests one hand constant.,300,57,22,0.57,0.614982690088473,503.294,0,269,0,31,0,0,0
+stress_guard_price_1_1,1.0,0.1,1.0,100,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,63,18,0.63,0.7181920380901997,731.286,0,275,0,25,0,0,0
+stress_guard_price_1_1,1.0,0.1,1.0,101,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,57,22,0.57,0.6445611156685809,909.308,0,270,0,30,0,0,0
+stress_guard_price_1_1,1.0,0.1,1.0,102,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,58,20,0.58,0.6176386732980644,676.4,0,270,0,30,0,0,0
+stress_guard_price_1_1,1.0,0.1,1.0,103,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,68,16,0.68,0.7221839713577527,396.792,0,278,0,22,0,0,0
+stress_guard_price_1_1,1.0,0.1,1.0,104,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,59,14,0.59,0.6824636987394287,726.186,0,256,0,43,0,0,1
+stress_guard_price_1_1,1.0,0.1,1.0,105,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,63,19,0.63,0.670989783733581,834.178,0,273,0,26,0,0,1
+stress_guard_price_1_1,1.0,0.1,1.0,106,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,62,11,0.62,0.712159276472805,935.664,0,266,0,34,0,0,0
+stress_guard_price_1_1,1.0,0.1,1.0,107,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,65,10,0.65,0.7381458643419093,752.858,0,270,0,30,0,0,0
+stress_guard_price_1_1,1.0,0.1,1.0,108,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,58,16,0.58,0.6566160381001417,473.074,0,265,0,35,0,0,0
+stress_guard_price_1_1,1.0,0.1,1.0,109,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,58,20,0.58,0.6527865404837013,686.842,0,272,0,28,0,0,0
+stress_guard_price_1_1,1.0,0.1,1.0,110,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,66,13,0.66,0.7337219943734534,1041.856,0,275,0,25,0,0,0
+stress_guard_price_1_1,1.0,0.1,1.0,111,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,65,10,0.65,0.7025170775170775,816.206,0,257,0,42,0,0,1
+stress_guard_price_1_1,1.0,0.1,1.0,112,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,62,13,0.62,0.6762079831932774,794.428,0,269,0,31,0,0,0
+stress_guard_price_1_1,1.0,0.1,1.0,113,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,61,18,0.61,0.6544182273003853,324.922,0,264,0,35,0,0,1
+stress_guard_price_1_1,1.0,0.1,1.0,114,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,64,15,0.64,0.6850971780669266,429.658,0,275,0,25,0,0,0
+stress_guard_price_1_1,1.0,0.1,1.0,115,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,61,16,0.61,0.6772186705162576,1097.508,0,271,0,29,0,0,0
+stress_guard_price_1_1,1.0,0.1,1.0,116,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,59,15,0.59,0.6607335103710614,928.048,0,261,0,38,0,0,1
+stress_guard_price_1_1,1.0,0.1,1.0,117,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,65,14,0.65,0.7025444556888825,506.618,0,272,0,28,0,0,0
+stress_guard_price_1_1,1.0,0.1,1.0,118,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,58,22,0.58,0.6376899287347048,413.83,0,268,0,32,0,0,0
+stress_guard_price_1_1,1.0,0.1,1.0,119,Make the stress guard always pass on price (>= any spot). Tests whether the price side of the guard is binding.,300,57,22,0.57,0.614982690088473,503.294,0,269,0,31,0,0,0
+stress_guard_failure_2,1.0,0.1,1.0,100,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,56,17,0.56,0.6600978706520301,587.674,0,249,0,23,0,0,28
+stress_guard_failure_2,1.0,0.1,1.0,101,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,57,21,0.57,0.631960623461854,755.75,0,274,0,21,0,0,5
+stress_guard_failure_2,1.0,0.1,1.0,102,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,58,18,0.58,0.6250197991573478,579.454,0,263,0,32,0,0,5
+stress_guard_failure_2,1.0,0.1,1.0,103,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,68,16,0.68,0.7221839713577527,396.792,0,278,0,22,0,0,0
+stress_guard_failure_2,1.0,0.1,1.0,104,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,59,10,0.59,0.6719961704164671,721.95,0,246,0,28,0,0,26
+stress_guard_failure_2,1.0,0.1,1.0,105,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,29,8,0.29,0.3519968157091681,415.088,0,128,0,8,0,0,164
+stress_guard_failure_2,1.0,0.1,1.0,106,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,63,11,0.63,0.7218628313026002,524.688,0,270,0,29,0,0,1
+stress_guard_failure_2,1.0,0.1,1.0,107,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,48,8,0.48,0.5821107094762208,531.738,0,203,0,18,0,0,79
+stress_guard_failure_2,1.0,0.1,1.0,108,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,58,9,0.58,0.6234393100785173,714.438,0,237,0,23,0,0,40
+stress_guard_failure_2,1.0,0.1,1.0,109,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,48,20,0.48,0.566701717490361,629.366,0,227,0,31,0,0,42
+stress_guard_failure_2,1.0,0.1,1.0,110,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,56,15,0.56,0.6661017523641664,769.63,0,249,0,25,0,0,26
+stress_guard_failure_2,1.0,0.1,1.0,111,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,45,9,0.45,0.5333382833382833,587.258,0,187,0,29,0,0,84
+stress_guard_failure_2,1.0,0.1,1.0,112,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,46,11,0.46,0.5462513130252101,441.846,0,199,0,17,0,0,84
+stress_guard_failure_2,1.0,0.1,1.0,113,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,61,18,0.61,0.6544182273003853,324.922,0,264,0,35,0,0,1
+stress_guard_failure_2,1.0,0.1,1.0,114,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,64,15,0.64,0.6850971780669266,429.658,0,275,0,25,0,0,0
+stress_guard_failure_2,1.0,0.1,1.0,115,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,38,10,0.38,0.4947068124011824,558.382,0,169,0,16,0,0,115
+stress_guard_failure_2,1.0,0.1,1.0,116,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,58,15,0.58,0.6475274528098758,717.018,0,259,0,30,0,0,11
+stress_guard_failure_2,1.0,0.1,1.0,117,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,56,13,0.56,0.6579441954604597,368.954,0,238,0,25,0,0,37
+stress_guard_failure_2,1.0,0.1,1.0,118,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,58,22,0.58,0.6376899287347048,413.83,0,268,0,32,0,0,0
+stress_guard_failure_2,1.0,0.1,1.0,119,Make the stress guard always pass on failure pressure. Tests whether the failure side of the guard is binding.,300,57,22,0.57,0.614982690088473,503.294,0,269,0,31,0,0,0
+no_executable_off,1.0,0.1,1.0,100,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,56,17,0.56,0.6600978706520301,587.674,0,249,0,23,0,0,28
+no_executable_off,1.0,0.1,1.0,101,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,57,21,0.57,0.631960623461854,755.75,0,274,0,21,0,0,5
+no_executable_off,1.0,0.1,1.0,102,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,58,18,0.58,0.6250197991573478,579.454,0,263,0,32,0,0,5
+no_executable_off,1.0,0.1,1.0,103,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,68,16,0.68,0.7221839713577527,396.792,0,278,0,22,0,0,0
+no_executable_off,1.0,0.1,1.0,104,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,59,10,0.59,0.6719961704164671,721.95,0,246,0,28,0,0,26
+no_executable_off,1.0,0.1,1.0,105,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,29,8,0.29,0.3519968157091681,415.088,0,128,0,8,0,0,164
+no_executable_off,1.0,0.1,1.0,106,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,63,11,0.63,0.7218628313026002,524.688,0,270,0,29,0,0,1
+no_executable_off,1.0,0.1,1.0,107,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,48,8,0.48,0.5821107094762208,531.738,0,203,0,18,0,0,79
+no_executable_off,1.0,0.1,1.0,108,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,58,9,0.58,0.6234393100785173,714.438,0,237,0,23,0,0,40
+no_executable_off,1.0,0.1,1.0,109,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,48,20,0.48,0.566701717490361,629.366,0,227,0,31,0,0,42
+no_executable_off,1.0,0.1,1.0,110,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,56,15,0.56,0.6661017523641664,769.63,0,249,0,25,0,0,26
+no_executable_off,1.0,0.1,1.0,111,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,45,9,0.45,0.5333382833382833,587.258,0,187,0,29,0,0,84
+no_executable_off,1.0,0.1,1.0,112,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,46,11,0.46,0.5462513130252101,441.846,0,199,0,17,0,0,84
+no_executable_off,1.0,0.1,1.0,113,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,61,18,0.61,0.6544182273003853,324.922,0,264,0,35,0,0,1
+no_executable_off,1.0,0.1,1.0,114,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,64,15,0.64,0.6850971780669266,429.658,0,275,0,25,0,0,0
+no_executable_off,1.0,0.1,1.0,115,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,38,10,0.38,0.4947068124011824,558.382,0,169,0,16,0,0,115
+no_executable_off,1.0,0.1,1.0,116,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,58,15,0.58,0.6475274528098758,717.018,0,259,0,30,0,0,11
+no_executable_off,1.0,0.1,1.0,117,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,56,13,0.56,0.6579441954604597,368.954,0,238,0,25,0,0,37
+no_executable_off,1.0,0.1,1.0,118,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,58,22,0.58,0.6376899287347048,413.83,0,268,0,32,0,0,0
+no_executable_off,1.0,0.1,1.0,119,Treat 'no ready task fits' as 0 rather than -10000. Changes which action wins when the queue is blocked.,300,57,22,0.57,0.614982690088473,503.294,0,269,0,31,0,0,0
+scale_up_cheaper,1.0,0.1,1.0,100,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,56,17,0.56,0.6600978706520301,587.674,0,249,0,23,0,0,28
+scale_up_cheaper,1.0,0.1,1.0,101,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,57,21,0.57,0.631960623461854,755.75,0,274,0,21,0,0,5
+scale_up_cheaper,1.0,0.1,1.0,102,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,58,18,0.58,0.6250197991573478,579.454,0,263,0,32,0,0,5
+scale_up_cheaper,1.0,0.1,1.0,103,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,68,16,0.68,0.7221839713577527,396.792,0,278,0,22,0,0,0
+scale_up_cheaper,1.0,0.1,1.0,104,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,59,10,0.59,0.6719961704164671,721.95,0,246,0,28,0,0,26
+scale_up_cheaper,1.0,0.1,1.0,105,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,29,8,0.29,0.3519968157091681,415.088,0,128,0,8,0,0,164
+scale_up_cheaper,1.0,0.1,1.0,106,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,63,11,0.63,0.7218628313026002,524.688,0,270,0,29,0,0,1
+scale_up_cheaper,1.0,0.1,1.0,107,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,48,8,0.48,0.5821107094762208,531.738,0,203,0,18,0,0,79
+scale_up_cheaper,1.0,0.1,1.0,108,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,58,9,0.58,0.6234393100785173,714.438,0,237,0,23,0,0,40
+scale_up_cheaper,1.0,0.1,1.0,109,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,48,20,0.48,0.566701717490361,629.366,0,227,0,31,0,0,42
+scale_up_cheaper,1.0,0.1,1.0,110,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,56,15,0.56,0.6661017523641664,769.63,0,249,0,25,0,0,26
+scale_up_cheaper,1.0,0.1,1.0,111,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,45,9,0.45,0.5333382833382833,587.258,0,187,0,29,0,0,84
+scale_up_cheaper,1.0,0.1,1.0,112,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,46,11,0.46,0.5462513130252101,441.846,0,199,0,17,0,0,84
+scale_up_cheaper,1.0,0.1,1.0,113,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,61,18,0.61,0.6544182273003853,324.922,0,264,0,35,0,0,1
+scale_up_cheaper,1.0,0.1,1.0,114,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,64,15,0.64,0.6850971780669266,429.658,0,275,0,25,0,0,0
+scale_up_cheaper,1.0,0.1,1.0,115,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,38,10,0.38,0.4947068124011824,558.382,0,169,0,16,0,0,115
+scale_up_cheaper,1.0,0.1,1.0,116,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,58,15,0.58,0.6475274528098758,717.018,0,259,0,30,0,0,11
+scale_up_cheaper,1.0,0.1,1.0,117,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,56,13,0.56,0.6579441954604597,368.954,0,238,0,25,0,0,37
+scale_up_cheaper,1.0,0.1,1.0,118,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,58,22,0.58,0.6376899287347048,413.83,0,268,0,32,0,0,0
+scale_up_cheaper,1.0,0.1,1.0,119,Cut scale_up_price_weight from 8 to 1: Scale_Up should win much more often when not forced.,300,57,22,0.57,0.614982690088473,503.294,0,269,0,31,0,0,0
+pause_disabled,1.0,0.1,1.0,100,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,63,18,0.63,0.7181920380901997,731.286,0,275,0,25,0,0,0
+pause_disabled,1.0,0.1,1.0,101,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,57,22,0.57,0.6445611156685809,909.308,0,270,0,30,0,0,0
+pause_disabled,1.0,0.1,1.0,102,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,58,20,0.58,0.6176386732980644,676.4,0,270,0,30,0,0,0
+pause_disabled,1.0,0.1,1.0,103,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,68,16,0.68,0.7221839713577527,396.792,0,278,0,22,0,0,0
+pause_disabled,1.0,0.1,1.0,104,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,61,11,0.61,0.6980373384394446,685.35,0,251,0,48,0,1,0
+pause_disabled,1.0,0.1,1.0,105,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,63,19,0.63,0.670989783733581,834.178,0,273,0,26,0,1,0
+pause_disabled,1.0,0.1,1.0,106,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,62,11,0.62,0.712159276472805,935.664,0,266,0,34,0,0,0
+pause_disabled,1.0,0.1,1.0,107,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,65,10,0.65,0.7381458643419093,752.858,0,270,0,30,0,0,0
+pause_disabled,1.0,0.1,1.0,108,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,58,16,0.58,0.6566160381001417,473.074,0,265,0,35,0,0,0
+pause_disabled,1.0,0.1,1.0,109,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,58,20,0.58,0.6527865404837013,686.842,0,272,0,28,0,0,0
+pause_disabled,1.0,0.1,1.0,110,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,66,13,0.66,0.7337219943734534,1041.856,0,275,0,25,0,0,0
+pause_disabled,1.0,0.1,1.0,111,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,61,12,0.61,0.6867389367389367,679.096,0,259,0,40,0,1,0
+pause_disabled,1.0,0.1,1.0,112,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,62,13,0.62,0.6762079831932774,794.428,0,269,0,31,0,0,0
+pause_disabled,1.0,0.1,1.0,113,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,60,18,0.6,0.6516462713812454,384.698,0,263,0,36,0,1,0
+pause_disabled,1.0,0.1,1.0,114,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,64,15,0.64,0.6850971780669266,429.658,0,275,0,25,0,0,0
+pause_disabled,1.0,0.1,1.0,115,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,61,16,0.61,0.6772186705162576,1097.508,0,271,0,29,0,0,0
+pause_disabled,1.0,0.1,1.0,116,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,62,12,0.62,0.7077800904327853,961.502,0,264,0,34,0,2,0
+pause_disabled,1.0,0.1,1.0,117,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,65,14,0.65,0.7025444556888825,506.618,0,272,0,28,0,0,0
+pause_disabled,1.0,0.1,1.0,118,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,58,22,0.58,0.6376899287347048,413.83,0,268,0,32,0,0,0
+pause_disabled,1.0,0.1,1.0,119,Disable Pause_LowPriority_Job entirely by making its score extremely negative. Isolates the role of pause in non-forced steps.,300,57,22,0.57,0.614982690088473,503.294,0,269,0,31,0,0,0
+alpha_only_with_guard_off,5.0,0.0,0.0,100,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,63,18,0.63,0.7181920380901997,731.286,0,275,0,25,0,0,0
+alpha_only_with_guard_off,5.0,0.0,0.0,101,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,57,22,0.57,0.6445611156685809,909.308,0,270,0,30,0,0,0
+alpha_only_with_guard_off,5.0,0.0,0.0,102,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,58,20,0.58,0.6176386732980644,676.4,0,270,0,30,0,0,0
+alpha_only_with_guard_off,5.0,0.0,0.0,103,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,68,16,0.68,0.7221839713577527,396.792,0,278,0,22,0,0,0
+alpha_only_with_guard_off,5.0,0.0,0.0,104,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,60,11,0.6,0.6837083133875858,731.72,0,247,0,39,0,0,14
+alpha_only_with_guard_off,5.0,0.0,0.0,105,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,63,19,0.63,0.670989783733581,834.178,0,273,0,26,0,0,1
+alpha_only_with_guard_off,5.0,0.0,0.0,106,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,61,10,0.61,0.6828915965330988,849.644,0,266,0,33,0,0,1
+alpha_only_with_guard_off,5.0,0.0,0.0,107,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,65,10,0.65,0.7381458643419093,752.858,0,270,0,30,0,0,0
+alpha_only_with_guard_off,5.0,0.0,0.0,108,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,58,16,0.58,0.6566160381001417,473.074,0,265,0,35,0,0,0
+alpha_only_with_guard_off,5.0,0.0,0.0,109,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,58,20,0.58,0.6527865404837013,686.842,0,272,0,28,0,0,0
+alpha_only_with_guard_off,5.0,0.0,0.0,110,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,66,13,0.66,0.7337219943734534,1041.856,0,275,0,25,0,0,0
+alpha_only_with_guard_off,5.0,0.0,0.0,111,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,65,10,0.65,0.7025170775170775,816.206,0,257,0,42,0,0,1
+alpha_only_with_guard_off,5.0,0.0,0.0,112,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,62,13,0.62,0.6762079831932774,794.428,0,269,0,31,0,0,0
+alpha_only_with_guard_off,5.0,0.0,0.0,113,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,61,18,0.61,0.6544182273003853,324.922,0,264,0,35,0,0,1
+alpha_only_with_guard_off,5.0,0.0,0.0,114,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,64,15,0.64,0.6850971780669266,429.658,0,275,0,25,0,0,0
+alpha_only_with_guard_off,5.0,0.0,0.0,115,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,61,16,0.61,0.6772186705162576,1097.508,0,271,0,29,0,0,0
+alpha_only_with_guard_off,5.0,0.0,0.0,116,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,53,12,0.53,0.5927294911361515,721.146,0,237,0,45,0,0,18
+alpha_only_with_guard_off,5.0,0.0,0.0,117,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,65,14,0.65,0.7025444556888825,506.618,0,272,0,28,0,0,0
+alpha_only_with_guard_off,5.0,0.0,0.0,118,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,58,22,0.58,0.6376899287347048,413.83,0,268,0,32,0,0,0
+alpha_only_with_guard_off,5.0,0.0,0.0,119,Only alpha is on. This is the cleanest test of whether alpha alone (times value_term) is enough to keep execute winning.,300,57,22,0.57,0.614982690088473,503.294,0,269,0,31,0,0,0

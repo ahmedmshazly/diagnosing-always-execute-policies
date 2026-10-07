@@ -1,0 +1,14 @@
+Phase-5 full-training run: results/hardening/reinforce_heavytail_seed13
+  init_seed=13  batch_size=16
+  curriculum: [(100, 300, 150)]
+  validation pool: 20 seeds (every 25 updates)
+  [update    0] stage=0 mean_return=+255.872  loss= +0.2578  entropy=1.7814  steps=5130
+    [val @ update   25] mean=+388.877 (std 114.326, n=20) best-so-far=+388.877 *
+  [update   25] stage=0 mean_return=+196.887  loss= -0.1530  entropy=1.7632  steps=130357
+    [val @ update   50] mean=+388.877 (std 114.326, n=20) best-so-far=+388.877  
+  [update   50] stage=0 mean_return=+428.427  loss= -0.7951  entropy=1.6047  steps=248923
+    [val @ update   75] mean=+388.877 (std 114.326, n=20) best-so-far=+388.877  
+  [update   75] stage=0 mean_return=+306.327  loss= -0.2778  entropy=1.3765  steps=365375
+    [val @ update  100] mean=+388.877 (std 114.326, n=20) best-so-far=+388.877  
+  [update  100] stage=0 mean_return=+582.941  loss= +0.6364  entropy=1.0648  steps=473613
+    [val @ update  125] mean=+388.877 (std 114.326, n=20) best-so-far=+388.877  

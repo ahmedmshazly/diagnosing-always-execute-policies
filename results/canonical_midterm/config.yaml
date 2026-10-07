@@ -1,0 +1,286 @@
+experiment:
+  max_steps: 300
+  num_jobs: 100
+  out_root: results
+  run_id: null
+  uncapped_max_steps: 3000
+meta:
+  config_name: default
+  schema_version: 1
+reflex_agent:
+  scale_down_spot_price_threshold: 0.8
+  scale_up_queue_depth_threshold: 3
+  scale_up_spot_price_threshold: 0.7
+rl:
+  algorithm: reinforce_with_baseline
+  batch_size: 16
+  checkpoint_every_updates: 50
+  curriculum:
+    enabled: true
+    stages:
+    - max_steps: 120
+      num_jobs: 20
+      num_updates: 80
+    - max_steps: 200
+      num_jobs: 50
+      num_updates: 120
+    - max_steps: 300
+      num_jobs: 100
+      num_updates: 200
+  entropy_coef: 0.01
+  eval_every_updates: 25
+  gamma_discount: 0.99
+  grad_clip_norm: 1.0
+  learning_rate: 0.0003
+  memoryless_termination: true
+  network:
+    activation: tanh
+    hidden_sizes:
+    - 64
+    - 64
+    type: mlp
+  num_updates: 400
+  optimizer: adam
+  reward: shared_episode_utility
+  sequence_specific_baseline: true
+  steps_per_episode_cap: 300
+  training_seed_list:
+  - 100
+  - 101
+  - 102
+  value_loss_coef: 0.5
+seeds:
+  midterm_baseline:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  test:
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  train:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+simulator:
+  actions:
+  - Execute_Ready_Job
+  - Defer_Job
+  - Scale_Up
+  - Scale_Down
+  - Reprioritize_Queue
+  - Pause_LowPriority_Job
+  actions_config:
+    execute_ranking: value_times_priority
+    pause_max_jobs: 2
+    pause_priority_threshold: 0.4
+    reprioritize_bump: 0.05
+    reprioritize_cap: 1.0
+  cluster:
+    base_cpu_capacity: 10
+    base_ram_capacity: 16
+    initial_spot_price_high: 0.7
+    initial_spot_price_low: 0.3
+    max_recent_failures: 10
+    min_cpu_capacity: 6
+    min_ram_capacity: 8
+    scale_boost_duration: 3
+    scale_down_cpu_step: 2
+    scale_down_ram_step: 2
+    scale_up_cpu_boost: 3
+    scale_up_ram_boost: 4
+  cost:
+    cpu_weight: 0.6
+    ram_weight: 0.4
+  dag_templates:
+  - name: chain
+    tasks:
+    - - extract
+      - []
+      - 2
+      - 2
+      - 2
+    - - transform
+      - - extract
+      - 3
+      - 3
+      - 3
+    - - load
+      - - transform
+      - 2
+      - 2
+      - 2
+  - name: fork_join
+    tasks:
+    - - ingest
+      - []
+      - 2
+      - 2
+      - 2
+    - - feature_a
+      - - ingest
+      - 3
+      - 2
+      - 2
+    - - feature_b
+      - - ingest
+      - 3
+      - 2
+      - 2
+    - - merge
+      - - feature_a
+        - feature_b
+      - 2
+      - 3
+      - 3
+  - name: two_stage_batch
+    tasks:
+    - - ingest_a
+      - []
+      - 2
+      - 1
+      - 2
+    - - ingest_b
+      - []
+      - 2
+      - 1
+      - 2
+    - - ingest_c
+      - []
+      - 2
+      - 1
+      - 2
+    - - aggregate
+      - - ingest_a
+        - ingest_b
+        - ingest_c
+      - 4
+      - 4
+      - 4
+  events:
+    data_spike_cpu_bump: 1
+    data_spike_cpu_cap: 6
+    data_spike_duration_bump: 1
+    data_spike_max_tasks: 3
+    data_spike_min_tasks: 1
+    data_spike_prob: 0.08
+    node_failure_prob: 0.05
+    spot_price_max: 1.0
+    spot_price_min: 0.1
+    spot_price_walk_high: 0.08
+    spot_price_walk_low: -0.08
+  state_vector:
+    queue_depth_norm: 20.0
+    ready_nodes_norm: 20.0
+    recent_failures_norm: 5.0
+  workload:
+    cpu_factors:
+    - 1.0
+    - 1.0
+    - 1.5
+    deadline_steps_high: 120
+    deadline_steps_low: 30
+    duration_factors:
+    - 0.8
+    - 1.0
+    - 1.2
+    - 1.5
+    job_value_high: 5.0
+    job_value_low: 1.0
+    priority_high: 1.0
+    priority_low: 0.2
+    ram_factors:
+    - 1.0
+    - 1.0
+    - 1.5
+sweep:
+  alpha_grid:
+  - 0.5
+  - 1.0
+  - 1.5
+  - 2.0
+  beta_grid:
+  - 0.1
+  - 0.2
+  - 0.4
+  - 0.8
+  gamma_grid:
+  - 0.2
+  - 0.4
+  - 0.8
+  - 1.6
+  seeds:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+utility:
+  alpha: 1.0
+  beta: 0.4
+  gamma: 0.8
+utility_agent:
+  active_scale_up_penalty: -25.0
+  best_task_resource_cost_weight: 0.35
+  blocked_task_benefit_weight: 2.0
+  defer_base_penalty: -0.5
+  empty_queue_scale_up_penalty: -15.0
+  execution_urgency_weight: 0.25
+  failure_history_risk_weight: 1.5
+  failure_relief_weight: 0.8
+  invalid_scale_down_penalty: -20.0
+  job_priority_weight: 0.6
+  job_urgency_weight: 0.4
+  job_value_base: 0.7
+  load_risk_threshold: 0.8
+  load_risk_weight: 3.0
+  low_value_reprioritize_penalty: -8.0
+  no_executable_task_score: -10000.0
+  no_low_priority_work_penalty: -12.0
+  pause_active_low_weight: 1.2
+  pause_base_penalty: 5.0
+  pause_failure_weight: 4.0
+  pause_min_failure_pressure: 0.4
+  pause_min_queue_pressure: 0.5
+  pause_price_threshold: 0.8
+  pause_price_weight: 6.0
+  pause_queue_weight: 2.0
+  price_relief_threshold: 0.8
+  price_relief_weight: 1.2
+  queue_penalty_weight: 4.0
+  queue_pressure_risk_weight: 0.4
+  ready_children_bonus_weight: 0.15
+  reprioritize_base_penalty: 2.5
+  reprioritize_failure_weight: 1.0
+  reprioritize_min_queue_depth: 4
+  reprioritize_min_urgency: 0.6
+  reprioritize_queue_weight: 2.0
+  reprioritize_urgency_weight: 2.0
+  scale_down_base_bonus: 1.5
+  scale_down_price_weight: 6.0
+  scale_down_queue_weight: 0.5
+  scale_up_failure_weight: 2.0
+  scale_up_price_weight: 8.0
+  scale_up_urgency_weight: 4.0
+  stress_guard_failure_limit: 0.6
+  stress_guard_price_limit: 0.9
+  unnecessary_pause_penalty: -10.0
+  unnecessary_scale_up_penalty: -6.0
+  urgency_penalty_weight: 4.0

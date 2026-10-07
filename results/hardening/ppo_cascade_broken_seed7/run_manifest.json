@@ -1,0 +1,48 @@
+{
+  "commit_sha": "d840807751f33f62478ebfd788338470167dd31d",
+  "config_hash": "7b15f52e0edaf679491c46a08676d9e41e9fce7a44f3c06fbb5acfcd42f50d22",
+  "extra": {
+    "best_val": 83.50876999999997,
+    "entrypoint": "train_ppo",
+    "iterations": 150
+  },
+  "git_dirty": true,
+  "hostname": "pop-os",
+  "library_versions": {
+    "matplotlib": "3.11.0",
+    "numpy": "2.1.3",
+    "pytest": "9.1.1",
+    "python": "3.12.3",
+    "scipy": "1.18.0",
+    "yaml": "6.0.3"
+  },
+  "platform": "Linux-6.18.7-76061807-generic-x86_64-with-glibc2.39",
+  "run_id": "ppo_cascade_broken_seed7",
+  "seed_list": [
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269
+  ],
+  "wall_clock": {
+    "elapsed_seconds": 2743.496,
+    "end": "2026-06-28T10:13:40.323446+00:00",
+    "start": "2026-06-28T09:27:56.947448+00:00"
+  }
+}

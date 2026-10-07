@@ -1,0 +1,18 @@
+PPO: results/hardening/ppo_heavytail_seed7 | config=env_heavytail_tight risk_mode=failed_jobs_delta | iters=150 N=100 | seed=7
+[ppo it   0] ret=+370.56 pl=-0.047 vl=807.87 ent=1.780 kl=-0.0014 clip=0.14 val=+0.00 best=+0.00
+[ppo it  10] ret=+443.59 pl=-0.111 vl=1846.19 ent=1.314 kl=-0.0025 clip=0.07 val=+388.88 best=+388.88
+[ppo it  20] ret=+430.86 pl=+0.055 vl=1295.71 ent=1.201 kl=+0.0132 clip=0.21 val=+388.88 best=+388.88
+[ppo it  30] ret=+435.28 pl=+0.039 vl=1298.59 ent=1.427 kl=+0.0125 clip=0.05 val=+388.51 best=+388.88
+[ppo it  40] ret=+410.52 pl=-0.032 vl=1238.60 ent=1.296 kl=-0.0019 clip=0.00 val=+388.88 best=+388.88
+[ppo it  50] ret=+462.76 pl=+0.021 vl=1006.11 ent=1.248 kl=-0.0048 clip=0.02 val=+388.88 best=+388.88
+[ppo it  60] ret=+392.41 pl=+0.008 vl=726.63 ent=1.233 kl=+0.0135 clip=0.21 val=+388.88 best=+388.88
+[ppo it  70] ret=+496.18 pl=-0.039 vl=1193.82 ent=1.262 kl=+0.0209 clip=0.06 val=+389.18 best=+389.18
+[ppo it  80] ret=+450.80 pl=+0.054 vl=990.53 ent=1.290 kl=+0.0024 clip=0.29 val=+388.70 best=+389.18
+[ppo it  90] ret=+418.14 pl=-0.137 vl=980.58 ent=1.211 kl=+0.0124 clip=0.06 val=+388.73 best=+389.18
+[ppo it 100] ret=+411.64 pl=+0.027 vl=958.35 ent=1.347 kl=+0.0001 clip=0.12 val=+389.52 best=+389.52
+[ppo it 110] ret=+400.79 pl=-0.023 vl=661.22 ent=1.344 kl=-0.0011 clip=0.00 val=+387.49 best=+389.52
+[ppo it 120] ret=+439.02 pl=-0.094 vl=607.71 ent=1.425 kl=+0.0171 clip=0.08 val=+388.08 best=+389.52
+[ppo it 130] ret=+423.79 pl=-0.066 vl=358.09 ent=1.256 kl=+0.0121 clip=0.02 val=+389.44 best=+389.52
+[ppo it 140] ret=+413.56 pl=-0.062 vl=293.98 ent=1.355 kl=+0.0159 clip=0.00 val=+388.67 best=+389.52
+[ppo it 149] ret=+456.09 pl=-0.011 vl=205.12 ent=1.250 kl=+0.0161 clip=0.15 val=+384.43 best=+389.52
+Done. best_val=+389.517  (1791.9s)

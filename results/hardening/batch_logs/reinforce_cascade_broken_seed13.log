@@ -1,0 +1,27 @@
+Phase-5 full-training run: results/hardening/reinforce_cascade_broken_seed13
+  init_seed=13  batch_size=16
+  curriculum: [(100, 300, 150)]
+  validation pool: 50 seeds (every 25 updates)
+  [update    0] stage=0 mean_return=+22.480  loss= -0.0061  entropy=1.7806  steps=5130
+  [update   10] stage=0 mean_return=+31.808  loss= -0.0136  entropy=1.7835  steps=62564
+  [update   20] stage=0 mean_return=+33.952  loss= -0.0235  entropy=1.7720  steps=106828
+    [val @ update   25] mean= +74.874 (std 23.379, n=50) best-so-far= +74.874 *
+  [update   30] stage=0 mean_return=+60.892  loss= -0.0710  entropy=1.7375  steps=154111
+  [update   40] stage=0 mean_return=+84.036  loss= -0.0770  entropy=1.6843  steps=203292
+    [val @ update   50] mean= +74.874 (std 23.379, n=50) best-so-far= +74.874  
+  [update   50] stage=0 mean_return=+58.801  loss= -0.1573  entropy=1.5743  steps=248923
+  [update   60] stage=0 mean_return=+58.143  loss= -0.1669  entropy=1.4379  steps=294758
+  [update   70] stage=0 mean_return=+87.569  loss= -0.0542  entropy=1.3806  steps=340128
+    [val @ update   75] mean= +74.874 (std 23.379, n=50) best-so-far= +74.874  
+  [update   80] stage=0 mean_return=+96.220  loss= -0.0239  entropy=1.2555  steps=388328
+  [update   90] stage=0 mean_return=+73.081  loss= +0.0535  entropy=1.2379  steps=435979
+    [val @ update  100] mean= +74.874 (std 23.379, n=50) best-so-far= +74.874  
+  [update  100] stage=0 mean_return=+97.263  loss= -0.2191  entropy=1.0622  steps=473146
+  [update  110] stage=0 mean_return=+82.656  loss= +0.2775  entropy=1.0108  steps=517526
+  [update  120] stage=0 mean_return=+96.569  loss= +0.2671  entropy=1.0207  steps=567397
+    [val @ update  125] mean= +74.874 (std 23.379, n=50) best-so-far= +74.874  
+  [update  130] stage=0 mean_return=+107.998  loss= -0.0763  entropy=1.0429  steps=618506
+  [update  140] stage=0 mean_return=+104.864  loss= -0.4574  entropy=1.0010  steps=664962
+    [val @ update  150] mean= +74.874 (std 23.379, n=50) best-so-far= +74.874  
+---
+Done. 150 updates, 703079 env steps, best val=+74.874 @ update 25  (2711.0 s wall-clock)
